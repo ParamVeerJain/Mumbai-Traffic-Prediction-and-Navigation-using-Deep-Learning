@@ -183,3 +183,4 @@ logs/
 
 Dataset/
 Synthetic Data Generation/cache/
+Model Training/data_chunks
