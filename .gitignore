@@ -170,8 +170,8 @@ datasets/
 
 # Model weights
 *.pt
-*.pth
-*.ckpt
+# *.pth
+# *.ckpt
 checkpoints/
 
 # TensorBoard logs
