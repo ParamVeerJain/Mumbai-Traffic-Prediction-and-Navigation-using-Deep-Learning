@@ -162,7 +162,7 @@ Thumbs.db
 # My additions for ML projects (important for YOU)
 # =========================
 # Large datasets
-data/
+# data/
 datasets/
 *.csv
 *.parquet
@@ -170,8 +170,8 @@ datasets/
 
 # Model weights
 *.pt
-# *.pth
-# *.ckpt
+*.pth
+*.ckpt
 checkpoints/
 
 # TensorBoard logs
