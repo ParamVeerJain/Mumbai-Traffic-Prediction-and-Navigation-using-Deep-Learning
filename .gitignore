@@ -165,7 +165,7 @@ Thumbs.db
 # data/
 datasets/
 *.csv
-*.parquet
+# *.parquet
 *.h5
 
 # Model weights
