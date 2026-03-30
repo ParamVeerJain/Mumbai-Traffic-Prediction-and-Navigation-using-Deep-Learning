@@ -181,6 +181,4 @@ logs/
 # Cache
 .cache/
 
-Dataset/
-Synthetic Data Generation/cache/
-Model Training/data_chunks
+backend/data generation/data/graph_adj
