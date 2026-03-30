@@ -1,17 +1,17 @@
-# --extra-index-url https://download.pytorch.org/whl/cu121
+--extra-index-url https://download.pytorch.org/whl/cu121
 
-# torch
-# torchvision
-# torchaudio
-# osmnx
-# networkx 
-# pandas 
-# numpy
-# pyarrow
-# fastparquet
-# matplotlib
-# seaborn
-# geopy
+torch
+torchvision
+torchaudio
+osmnx
+networkx 
+pandas 
+numpy
+pyarrow
+fastparquet
+matplotlib
+seaborn
+geopy
 
 networkx>=3.0
 geopy>=2.4.0
