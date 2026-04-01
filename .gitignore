@@ -5,6 +5,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+backend/data generation/data/graph_adj 
+/backend/data generation/data/graph_adj 
+./backend/data generation/data/graph_adj 
+
+
 # =========================
 # C extensions
 # =========================
@@ -181,4 +187,6 @@ logs/
 # Cache
 .cache/
 
-backend/data generation/data/graph_adj
+Dataset/
+Synthetic Data Generation/cache/
+Model Training/data_chunks
