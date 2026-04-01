@@ -175,7 +175,7 @@ datasets/
 *.h5
 
 # Model weights
-*.pt
+# *.pt
 *.pth
 *.ckpt
 checkpoints/
