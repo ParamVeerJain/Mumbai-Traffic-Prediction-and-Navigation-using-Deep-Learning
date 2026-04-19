@@ -1,0 +1,3509 @@
+[
+  {
+    "timestamp": "2024-07-01T01:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_0100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_0100.png",
+    "actual_stats": {
+      "congestion_mean": 0.04293385148048401,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 52,
+      "jam_edges": 52,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.0440257266163826,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-01T02:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_0200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_0200.png",
+    "actual_stats": {
+      "congestion_mean": 0.04999445751309395,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 59,
+      "jam_edges": 59,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.044636406004428864,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-01T03:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_0300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_0300.png",
+    "actual_stats": {
+      "congestion_mean": 0.04482575133442879,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 53,
+      "jam_edges": 57,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.05196743831038475,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-01T04:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_0400.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_0400.png",
+    "actual_stats": {
+      "congestion_mean": 0.04511040821671486,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 51,
+      "jam_edges": 52,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.046635616570711136,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-01T05:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_0500.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_0500.png",
+    "actual_stats": {
+      "congestion_mean": 0.05992680415511131,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 59,
+      "jam_edges": 58,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.046824004501104355,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-01T06:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_0600.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_0600.png",
+    "actual_stats": {
+      "congestion_mean": 0.08352898061275482,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 58,
+      "jam_edges": 57,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.06204378232359886,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-01T07:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_0700.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_0700.png",
+    "actual_stats": {
+      "congestion_mean": 0.13312090933322906,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 54,
+      "jam_edges": 106,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.08593767881393433,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-01T08:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_0800.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_0800.png",
+    "actual_stats": {
+      "congestion_mean": 0.19711454212665558,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 73,
+      "jam_edges": 131,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.13676868379116058,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-01T09:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_0900.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_0900.png",
+    "actual_stats": {
+      "congestion_mean": 0.23897041380405426,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 69,
+      "jam_edges": 143,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.20206455886363983,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-01T10:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_1000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_1000.png",
+    "actual_stats": {
+      "congestion_mean": 0.244084894657135,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 77,
+      "jam_edges": 163,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.24475431442260742,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-01T11:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_1100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_1100.png",
+    "actual_stats": {
+      "congestion_mean": 0.23704707622528076,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 97,
+      "jam_edges": 112,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2501690685749054,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-01T12:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_1200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_1200.png",
+    "actual_stats": {
+      "congestion_mean": 0.2749064266681671,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 90,
+      "jam_edges": 107,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.24270573258399963,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-01T13:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_1300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_1300.png",
+    "actual_stats": {
+      "congestion_mean": 0.3878355324268341,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 71,
+      "jam_edges": 178,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.3063071370124817,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-01T14:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_1400.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_1400.png",
+    "actual_stats": {
+      "congestion_mean": 0.5131884813308716,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 73,
+      "jam_edges": 248,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.5111172795295715,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 24,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-01T15:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_1500.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_1500.png",
+    "actual_stats": {
+      "congestion_mean": 0.4501797556877136,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 74,
+      "jam_edges": 194,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.7021732330322266,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 2542,
+      "closure_edges": 743
+    }
+  },
+  {
+    "timestamp": "2024-07-01T16:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_1600.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_1600.png",
+    "actual_stats": {
+      "congestion_mean": 0.3533618450164795,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 99,
+      "jam_edges": 138,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.6002474427223206,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 1235,
+      "closure_edges": 6
+    }
+  },
+  {
+    "timestamp": "2024-07-01T17:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_1700.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_1700.png",
+    "actual_stats": {
+      "congestion_mean": 0.343661904335022,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 80,
+      "jam_edges": 145,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.4366557002067566,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-01T18:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_1800.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_1800.png",
+    "actual_stats": {
+      "congestion_mean": 0.31647175550460815,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 95,
+      "jam_edges": 160,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.3826791048049927,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-01T19:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_1900.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_1900.png",
+    "actual_stats": {
+      "congestion_mean": 0.3180447518825531,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 104,
+      "jam_edges": 156,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.3237895965576172,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-01T20:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_2000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_2000.png",
+    "actual_stats": {
+      "congestion_mean": 0.29511013627052307,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 87,
+      "jam_edges": 149,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.32543686032295227,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-01T21:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_2100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_2100.png",
+    "actual_stats": {
+      "congestion_mean": 0.27239811420440674,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 124,
+      "jam_edges": 115,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.3018898665904999,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-01T22:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_2200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_2200.png",
+    "actual_stats": {
+      "congestion_mean": 0.23264184594154358,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 88,
+      "jam_edges": 95,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2788645327091217,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-01T23:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240701_2300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240701_2300.png",
+    "actual_stats": {
+      "congestion_mean": 0.1857490986585617,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 91,
+      "jam_edges": 90,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.23804248869419098,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-02T00:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_0000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_0000.png",
+    "actual_stats": {
+      "congestion_mean": 0.13924744725227356,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 81,
+      "jam_edges": 62,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.19038239121437073,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-02T01:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_0100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_0100.png",
+    "actual_stats": {
+      "congestion_mean": 0.09982819855213165,
+      "congestion_max": 0.20569999516010284,
+      "rain_edges": 0,
+      "accident_edges": 63,
+      "jam_edges": 72,
+      "closure_edges": 0
+    },
+    "pred_stats": {
+      "congestion_mean": 0.14279353618621826,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-02T02:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_0200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_0200.png",
+    "actual_stats": {
+      "congestion_mean": 0.07711480557918549,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 62,
+      "jam_edges": 64,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.10269658267498016,
+      "congestion_max": 0.2623955011367798,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 0,
+      "closure_edges": 0
+    }
+  },
+  {
+    "timestamp": "2024-07-02T03:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_0300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_0300.png",
+    "actual_stats": {
+      "congestion_mean": 0.06020625680685043,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 43,
+      "jam_edges": 46,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.079556904733181,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-02T04:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_0400.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_0400.png",
+    "actual_stats": {
+      "congestion_mean": 0.0585370734333992,
+      "congestion_max": 0.15129999816417694,
+      "rain_edges": 0,
+      "accident_edges": 47,
+      "jam_edges": 50,
+      "closure_edges": 0
+    },
+    "pred_stats": {
+      "congestion_mean": 0.06203493848443031,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-02T05:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_0500.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_0500.png",
+    "actual_stats": {
+      "congestion_mean": 0.06368640065193176,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 60,
+      "jam_edges": 67,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.06043877825140953,
+      "congestion_max": 0.2100214958190918,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 0,
+      "closure_edges": 0
+    }
+  },
+  {
+    "timestamp": "2024-07-02T06:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_0600.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_0600.png",
+    "actual_stats": {
+      "congestion_mean": 0.09254369139671326,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 66,
+      "jam_edges": 75,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.06589467078447342,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-02T07:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_0700.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_0700.png",
+    "actual_stats": {
+      "congestion_mean": 0.14804881811141968,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 56,
+      "jam_edges": 107,
+      "closure_edges": 8
+    },
+    "pred_stats": {
+      "congestion_mean": 0.09527039527893066,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-02T08:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_0800.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_0800.png",
+    "actual_stats": {
+      "congestion_mean": 0.2113393098115921,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 66,
+      "jam_edges": 129,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.1518922746181488,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 8,
+      "closure_edges": 8
+    }
+  },
+  {
+    "timestamp": "2024-07-02T09:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_0900.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_0900.png",
+    "actual_stats": {
+      "congestion_mean": 0.25703978538513184,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 82,
+      "jam_edges": 150,
+      "closure_edges": 6
+    },
+    "pred_stats": {
+      "congestion_mean": 0.21651683747768402,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-02T10:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_1000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_1000.png",
+    "actual_stats": {
+      "congestion_mean": 0.25402259826660156,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 101,
+      "jam_edges": 157,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2631794512271881,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 6,
+      "closure_edges": 6
+    }
+  },
+  {
+    "timestamp": "2024-07-02T11:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_1100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_1100.png",
+    "actual_stats": {
+      "congestion_mean": 0.24901632964611053,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 86,
+      "jam_edges": 104,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2603704631328583,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-02T12:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_1200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_1200.png",
+    "actual_stats": {
+      "congestion_mean": 0.23236536979675293,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 103,
+      "jam_edges": 84,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.25466591119766235,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-02T13:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_1300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_1300.png",
+    "actual_stats": {
+      "congestion_mean": 0.22361400723457336,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 97,
+      "jam_edges": 84,
+      "closure_edges": 7
+    },
+    "pred_stats": {
+      "congestion_mean": 0.23779591917991638,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-02T14:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_1400.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_1400.png",
+    "actual_stats": {
+      "congestion_mean": 0.2706126272678375,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 66,
+      "jam_edges": 105,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.22882108390331268,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 7,
+      "closure_edges": 7
+    }
+  },
+  {
+    "timestamp": "2024-07-02T15:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_1500.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_1500.png",
+    "actual_stats": {
+      "congestion_mean": 0.32005879282951355,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 91,
+      "jam_edges": 186,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2954353094100952,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-02T16:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_1600.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_1600.png",
+    "actual_stats": {
+      "congestion_mean": 0.31066402792930603,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 76,
+      "jam_edges": 146,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.3781684339046478,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-02T17:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_1700.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_1700.png",
+    "actual_stats": {
+      "congestion_mean": 0.2931269109249115,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 99,
+      "jam_edges": 147,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.34923720359802246,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-02T18:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_1800.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_1800.png",
+    "actual_stats": {
+      "congestion_mean": 0.3135586082935333,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 120,
+      "jam_edges": 152,
+      "closure_edges": 6
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2999773919582367,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-02T19:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_1900.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_1900.png",
+    "actual_stats": {
+      "congestion_mean": 0.32952558994293213,
+      "congestion_max": 0.5605000257492065,
+      "rain_edges": 0,
+      "accident_edges": 114,
+      "jam_edges": 175,
+      "closure_edges": 0
+    },
+    "pred_stats": {
+      "congestion_mean": 0.3209482729434967,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 6,
+      "closure_edges": 6
+    }
+  },
+  {
+    "timestamp": "2024-07-02T20:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_2000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_2000.png",
+    "actual_stats": {
+      "congestion_mean": 0.30883723497390747,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 99,
+      "jam_edges": 167,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.3374388813972473,
+      "congestion_max": 0.6052624583244324,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 0,
+      "closure_edges": 0
+    }
+  },
+  {
+    "timestamp": "2024-07-02T21:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_2100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_2100.png",
+    "actual_stats": {
+      "congestion_mean": 0.27962997555732727,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 112,
+      "jam_edges": 109,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.3163164258003235,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-02T22:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_2200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_2200.png",
+    "actual_stats": {
+      "congestion_mean": 0.23873907327651978,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 103,
+      "jam_edges": 75,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.286040335893631,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-02T23:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240702_2300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240702_2300.png",
+    "actual_stats": {
+      "congestion_mean": 0.18995368480682373,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 79,
+      "jam_edges": 92,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2441098839044571,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-03T00:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_0000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_0000.png",
+    "actual_stats": {
+      "congestion_mean": 0.13472847640514374,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 61,
+      "jam_edges": 73,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.19456364214420319,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-03T01:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_0100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_0100.png",
+    "actual_stats": {
+      "congestion_mean": 0.10048127174377441,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 72,
+      "jam_edges": 85,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.1381319761276245,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-03T02:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_0200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_0200.png",
+    "actual_stats": {
+      "congestion_mean": 0.07998668402433395,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 53,
+      "jam_edges": 64,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.10357215255498886,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-03T03:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_0300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_0300.png",
+    "actual_stats": {
+      "congestion_mean": 0.07421807199716568,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 78,
+      "jam_edges": 46,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.0823788046836853,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-03T04:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_0400.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_0400.png",
+    "actual_stats": {
+      "congestion_mean": 0.06849326938390732,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 59,
+      "jam_edges": 59,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.0766366571187973,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-03T05:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_0500.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_0500.png",
+    "actual_stats": {
+      "congestion_mean": 0.06499790400266647,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 62,
+      "jam_edges": 62,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.07075121253728867,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-03T06:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_0600.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_0600.png",
+    "actual_stats": {
+      "congestion_mean": 0.08143230527639389,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 58,
+      "jam_edges": 69,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.06717266142368317,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-03T07:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_0700.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_0700.png",
+    "actual_stats": {
+      "congestion_mean": 0.1393273025751114,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 68,
+      "jam_edges": 116,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.08395744860172272,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-03T08:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_0800.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_0800.png",
+    "actual_stats": {
+      "congestion_mean": 0.2802075743675232,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 180,
+      "jam_edges": 342,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.14331494271755219,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-03T09:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_0900.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_0900.png",
+    "actual_stats": {
+      "congestion_mean": 0.31653326749801636,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 224,
+      "jam_edges": 355,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2897324860095978,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-03T10:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_1000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_1000.png",
+    "actual_stats": {
+      "congestion_mean": 0.3215313255786896,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 207,
+      "jam_edges": 333,
+      "closure_edges": 6
+    },
+    "pred_stats": {
+      "congestion_mean": 0.32718637585639954,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-03T11:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_1100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_1100.png",
+    "actual_stats": {
+      "congestion_mean": 0.2346602827310562,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 88,
+      "jam_edges": 104,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.33180075883865356,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 6,
+      "closure_edges": 6
+    }
+  },
+  {
+    "timestamp": "2024-07-03T12:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_1200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_1200.png",
+    "actual_stats": {
+      "congestion_mean": 0.2874027490615845,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 72,
+      "jam_edges": 131,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.24012194573879242,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-03T13:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_1300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_1300.png",
+    "actual_stats": {
+      "congestion_mean": 0.4273360073566437,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 47,
+      "jam_edges": 198,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.3253292441368103,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-03T14:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_1400.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_1400.png",
+    "actual_stats": {
+      "congestion_mean": 0.5748769044876099,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 95,
+      "jam_edges": 266,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.563929557800293,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 331,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-03T15:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_1500.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_1500.png",
+    "actual_stats": {
+      "congestion_mean": 0.5715237855911255,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 91,
+      "jam_edges": 267,
+      "closure_edges": 7
+    },
+    "pred_stats": {
+      "congestion_mean": 0.7905654311180115,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 5761,
+      "closure_edges": 1713
+    }
+  },
+  {
+    "timestamp": "2024-07-03T16:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_1600.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_1600.png",
+    "actual_stats": {
+      "congestion_mean": 0.5088740587234497,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 81,
+      "jam_edges": 192,
+      "closure_edges": 6
+    },
+    "pred_stats": {
+      "congestion_mean": 0.7884272336959839,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 5692,
+      "closure_edges": 1702
+    }
+  },
+  {
+    "timestamp": "2024-07-03T17:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_1700.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_1700.png",
+    "actual_stats": {
+      "congestion_mean": 0.4550824761390686,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 77,
+      "jam_edges": 193,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.6789544820785522,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 2346,
+      "closure_edges": 330
+    }
+  },
+  {
+    "timestamp": "2024-07-03T18:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_1800.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_1800.png",
+    "actual_stats": {
+      "congestion_mean": 0.3992876410484314,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 98,
+      "jam_edges": 207,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.579937756061554,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 665,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-03T19:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_1900.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_1900.png",
+    "actual_stats": {
+      "congestion_mean": 0.36902058124542236,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 78,
+      "jam_edges": 130,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.47136104106903076,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-03T20:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_2000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_2000.png",
+    "actual_stats": {
+      "congestion_mean": 0.30519190430641174,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 102,
+      "jam_edges": 165,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.4144851267337799,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-03T21:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_2100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_2100.png",
+    "actual_stats": {
+      "congestion_mean": 0.2765067219734192,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 119,
+      "jam_edges": 98,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.31234222650527954,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-03T22:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_2200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_2200.png",
+    "actual_stats": {
+      "congestion_mean": 0.24097278714179993,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 90,
+      "jam_edges": 82,
+      "closure_edges": 8
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2828395664691925,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-03T23:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240703_2300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240703_2300.png",
+    "actual_stats": {
+      "congestion_mean": 0.1984494924545288,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 95,
+      "jam_edges": 81,
+      "closure_edges": 6
+    },
+    "pred_stats": {
+      "congestion_mean": 0.24640201032161713,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 8,
+      "closure_edges": 8
+    }
+  },
+  {
+    "timestamp": "2024-07-04T00:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_0000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_0000.png",
+    "actual_stats": {
+      "congestion_mean": 0.14250028133392334,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 73,
+      "jam_edges": 89,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.20323505997657776,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 6,
+      "closure_edges": 6
+    }
+  },
+  {
+    "timestamp": "2024-07-04T01:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_0100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_0100.png",
+    "actual_stats": {
+      "congestion_mean": 0.09232116490602493,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 67,
+      "jam_edges": 70,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.14627793431282043,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-04T02:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_0200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_0200.png",
+    "actual_stats": {
+      "congestion_mean": 0.0718221515417099,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 57,
+      "jam_edges": 64,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.09514506161212921,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-04T03:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_0300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_0300.png",
+    "actual_stats": {
+      "congestion_mean": 0.06512949615716934,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 62,
+      "jam_edges": 60,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.07414497435092926,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-04T04:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_0400.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_0400.png",
+    "actual_stats": {
+      "congestion_mean": 0.06413860619068146,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 64,
+      "jam_edges": 45,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.06734280288219452,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-04T05:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_0500.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_0500.png",
+    "actual_stats": {
+      "congestion_mean": 0.06477225571870804,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 49,
+      "jam_edges": 51,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.06623982638120651,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-04T06:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_0600.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_0600.png",
+    "actual_stats": {
+      "congestion_mean": 0.09455923736095428,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 64,
+      "jam_edges": 62,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.06676998734474182,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-04T07:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_0700.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_0700.png",
+    "actual_stats": {
+      "congestion_mean": 0.14904186129570007,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 87,
+      "jam_edges": 111,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.0972488671541214,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-04T08:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_0800.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_0800.png",
+    "actual_stats": {
+      "congestion_mean": 0.21595600247383118,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 86,
+      "jam_edges": 138,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.15321342647075653,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-04T09:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_0900.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_0900.png",
+    "actual_stats": {
+      "congestion_mean": 0.25467804074287415,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 75,
+      "jam_edges": 155,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2213747352361679,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-04T10:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_1000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_1000.png",
+    "actual_stats": {
+      "congestion_mean": 0.25942400097846985,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 86,
+      "jam_edges": 162,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2608911693096161,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-04T11:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_1100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_1100.png",
+    "actual_stats": {
+      "congestion_mean": 0.25459539890289307,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 109,
+      "jam_edges": 106,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2658545672893524,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-04T12:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_1200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_1200.png",
+    "actual_stats": {
+      "congestion_mean": 0.2441009283065796,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 123,
+      "jam_edges": 102,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2605372667312622,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-04T13:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_1300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_1300.png",
+    "actual_stats": {
+      "congestion_mean": 0.2350436896085739,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 99,
+      "jam_edges": 115,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.25002411007881165,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-04T14:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_1400.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_1400.png",
+    "actual_stats": {
+      "congestion_mean": 0.2935868501663208,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 71,
+      "jam_edges": 131,
+      "closure_edges": 7
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2407047003507614,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-04T15:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_1500.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_1500.png",
+    "actual_stats": {
+      "congestion_mean": 0.34230032563209534,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 98,
+      "jam_edges": 176,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.33787497878074646,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 7,
+      "closure_edges": 7
+    }
+  },
+  {
+    "timestamp": "2024-07-04T16:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_1600.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_1600.png",
+    "actual_stats": {
+      "congestion_mean": 0.3356209099292755,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 82,
+      "jam_edges": 155,
+      "closure_edges": 6
+    },
+    "pred_stats": {
+      "congestion_mean": 0.42584070563316345,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-04T17:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_1700.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_1700.png",
+    "actual_stats": {
+      "congestion_mean": 0.3369235694408417,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 80,
+      "jam_edges": 126,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.3997918963432312,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 6,
+      "closure_edges": 6
+    }
+  },
+  {
+    "timestamp": "2024-07-04T18:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_1800.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_1800.png",
+    "actual_stats": {
+      "congestion_mean": 0.3074851930141449,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 93,
+      "jam_edges": 166,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.3693779408931732,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-04T19:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_1900.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_1900.png",
+    "actual_stats": {
+      "congestion_mean": 0.3267788887023926,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 103,
+      "jam_edges": 163,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.31462419033050537,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-04T20:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_2000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_2000.png",
+    "actual_stats": {
+      "congestion_mean": 0.30769771337509155,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 95,
+      "jam_edges": 152,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.3342970311641693,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-04T21:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_2100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_2100.png",
+    "actual_stats": {
+      "congestion_mean": 0.27941519021987915,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 107,
+      "jam_edges": 108,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.3147593140602112,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-04T22:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_2200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_2200.png",
+    "actual_stats": {
+      "congestion_mean": 0.25174689292907715,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 96,
+      "jam_edges": 89,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.28577500581741333,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-04T23:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240704_2300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240704_2300.png",
+    "actual_stats": {
+      "congestion_mean": 0.20159703493118286,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 86,
+      "jam_edges": 92,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2573826313018799,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-05T00:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_0000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_0000.png",
+    "actual_stats": {
+      "congestion_mean": 0.1565917581319809,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 94,
+      "jam_edges": 84,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.20645473897457123,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-05T01:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_0100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_0100.png",
+    "actual_stats": {
+      "congestion_mean": 0.12616851925849915,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 62,
+      "jam_edges": 71,
+      "closure_edges": 6
+    },
+    "pred_stats": {
+      "congestion_mean": 0.1607162356376648,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-05T02:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_0200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_0200.png",
+    "actual_stats": {
+      "congestion_mean": 0.09568971395492554,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 68,
+      "jam_edges": 67,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.12942203879356384,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 6,
+      "closure_edges": 6
+    }
+  },
+  {
+    "timestamp": "2024-07-05T03:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_0300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_0300.png",
+    "actual_stats": {
+      "congestion_mean": 0.07223200052976608,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 57,
+      "jam_edges": 57,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.09849103540182114,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-05T04:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_0400.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_0400.png",
+    "actual_stats": {
+      "congestion_mean": 0.06187785044312477,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 58,
+      "jam_edges": 50,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.07451361417770386,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-05T05:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_0500.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_0500.png",
+    "actual_stats": {
+      "congestion_mean": 0.06433401256799698,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 78,
+      "jam_edges": 62,
+      "closure_edges": 6
+    },
+    "pred_stats": {
+      "congestion_mean": 0.0639127567410469,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-05T06:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_0600.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_0600.png",
+    "actual_stats": {
+      "congestion_mean": 0.0839066430926323,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 61,
+      "jam_edges": 81,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.06667828559875488,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 6,
+      "closure_edges": 6
+    }
+  },
+  {
+    "timestamp": "2024-07-05T07:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_0700.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_0700.png",
+    "actual_stats": {
+      "congestion_mean": 0.13984443247318268,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 56,
+      "jam_edges": 107,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.08660265803337097,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-05T08:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_0800.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_0800.png",
+    "actual_stats": {
+      "congestion_mean": 0.20849603414535522,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 88,
+      "jam_edges": 138,
+      "closure_edges": 6
+    },
+    "pred_stats": {
+      "congestion_mean": 0.14360222220420837,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-05T09:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_0900.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_0900.png",
+    "actual_stats": {
+      "congestion_mean": 0.24112001061439514,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 86,
+      "jam_edges": 134,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.21387101709842682,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 6,
+      "closure_edges": 6
+    }
+  },
+  {
+    "timestamp": "2024-07-05T10:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_1000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_1000.png",
+    "actual_stats": {
+      "congestion_mean": 0.2465093433856964,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 85,
+      "jam_edges": 148,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2470076084136963,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-05T11:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_1100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_1100.png",
+    "actual_stats": {
+      "congestion_mean": 0.23941978812217712,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 103,
+      "jam_edges": 102,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2525085508823395,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-05T12:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_1200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_1200.png",
+    "actual_stats": {
+      "congestion_mean": 0.23749296367168427,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 119,
+      "jam_edges": 67,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.24508081376552582,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-05T13:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_1300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_1300.png",
+    "actual_stats": {
+      "congestion_mean": 0.3186807632446289,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 82,
+      "jam_edges": 155,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.24293313920497894,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-05T14:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_1400.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_1400.png",
+    "actual_stats": {
+      "congestion_mean": 0.45583975315093994,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 76,
+      "jam_edges": 193,
+      "closure_edges": 7
+    },
+    "pred_stats": {
+      "congestion_mean": 0.37633103132247925,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-05T15:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_1500.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_1500.png",
+    "actual_stats": {
+      "congestion_mean": 0.5635615587234497,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 80,
+      "jam_edges": 273,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.6061236262321472,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 1401,
+      "closure_edges": 11
+    }
+  },
+  {
+    "timestamp": "2024-07-05T16:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_1600.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_1600.png",
+    "actual_stats": {
+      "congestion_mean": 0.45556992292404175,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 82,
+      "jam_edges": 189,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.769556999206543,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 4613,
+      "closure_edges": 1656
+    }
+  },
+  {
+    "timestamp": "2024-07-05T17:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_1700.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_1700.png",
+    "actual_stats": {
+      "congestion_mean": 0.4010746479034424,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 103,
+      "jam_edges": 187,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.5933045148849487,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 1028,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-05T18:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_1800.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_1800.png",
+    "actual_stats": {
+      "congestion_mean": 0.4489283263683319,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 159,
+      "jam_edges": 259,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.4857308268547058,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 16,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-05T19:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_1900.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_1900.png",
+    "actual_stats": {
+      "congestion_mean": 0.4068151116371155,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 196,
+      "jam_edges": 359,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.4915482699871063,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 31,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-05T20:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_2000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_2000.png",
+    "actual_stats": {
+      "congestion_mean": 0.391107976436615,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 184,
+      "jam_edges": 344,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.41858646273612976,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-05T21:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_2100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_2100.png",
+    "actual_stats": {
+      "congestion_mean": 0.27376124262809753,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 104,
+      "jam_edges": 100,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.4022889733314514,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-05T22:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_2200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_2200.png",
+    "actual_stats": {
+      "congestion_mean": 0.2317582666873932,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 104,
+      "jam_edges": 87,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.27987006306648254,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-05T23:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240705_2300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240705_2300.png",
+    "actual_stats": {
+      "congestion_mean": 0.18429124355316162,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 78,
+      "jam_edges": 53,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2371141016483307,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-06T00:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_0000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_0000.png",
+    "actual_stats": {
+      "congestion_mean": 0.13839396834373474,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 75,
+      "jam_edges": 68,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.18839748203754425,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-06T01:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_0100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_0100.png",
+    "actual_stats": {
+      "congestion_mean": 0.09933796525001526,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 74,
+      "jam_edges": 78,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.14195466041564941,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-06T02:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_0200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_0200.png",
+    "actual_stats": {
+      "congestion_mean": 0.07225068658590317,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 54,
+      "jam_edges": 61,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.10239507257938385,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-06T03:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_0300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_0300.png",
+    "actual_stats": {
+      "congestion_mean": 0.06760802119970322,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 52,
+      "jam_edges": 63,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.07450849562883377,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-06T04:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_0400.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_0400.png",
+    "actual_stats": {
+      "congestion_mean": 0.051731523126363754,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 52,
+      "jam_edges": 66,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.06981279700994492,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-06T05:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_0500.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_0500.png",
+    "actual_stats": {
+      "congestion_mean": 0.05316254124045372,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 64,
+      "jam_edges": 60,
+      "closure_edges": 6
+    },
+    "pred_stats": {
+      "congestion_mean": 0.05368734896183014,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-06T06:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_0600.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_0600.png",
+    "actual_stats": {
+      "congestion_mean": 0.066059909760952,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 69,
+      "jam_edges": 66,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.055183861404657364,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 6,
+      "closure_edges": 6
+    }
+  },
+  {
+    "timestamp": "2024-07-06T07:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_0700.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_0700.png",
+    "actual_stats": {
+      "congestion_mean": 0.08852358162403107,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 72,
+      "jam_edges": 59,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.06843671947717667,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-06T08:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_0800.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_0800.png",
+    "actual_stats": {
+      "congestion_mean": 0.18263155221939087,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 63,
+      "jam_edges": 119,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.09118998795747757,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-06T09:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_0900.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_0900.png",
+    "actual_stats": {
+      "congestion_mean": 0.22997035086154938,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 73,
+      "jam_edges": 114,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.21869540214538574,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-06T10:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_1000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_1000.png",
+    "actual_stats": {
+      "congestion_mean": 0.23682276904582977,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 66,
+      "jam_edges": 124,
+      "closure_edges": 6
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2856941521167755,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-06T11:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_1100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_1100.png",
+    "actual_stats": {
+      "congestion_mean": 0.20103642344474792,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 65,
+      "jam_edges": 126,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.273846834897995,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 6,
+      "closure_edges": 6
+    }
+  },
+  {
+    "timestamp": "2024-07-06T12:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_1200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_1200.png",
+    "actual_stats": {
+      "congestion_mean": 0.2109224498271942,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 85,
+      "jam_edges": 125,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.20595386624336243,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-06T13:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_1300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_1300.png",
+    "actual_stats": {
+      "congestion_mean": 0.22354727983474731,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 93,
+      "jam_edges": 148,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.21619591116905212,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-06T14:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_1400.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_1400.png",
+    "actual_stats": {
+      "congestion_mean": 0.22626781463623047,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 105,
+      "jam_edges": 88,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.22924605011940002,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-06T15:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_1500.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_1500.png",
+    "actual_stats": {
+      "congestion_mean": 0.3281853497028351,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 101,
+      "jam_edges": 138,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2315869927406311,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-06T16:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_1600.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_1600.png",
+    "actual_stats": {
+      "congestion_mean": 0.4024741053581238,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 71,
+      "jam_edges": 166,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.39858901500701904,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-06T17:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_1700.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_1700.png",
+    "actual_stats": {
+      "congestion_mean": 0.3562479019165039,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 120,
+      "jam_edges": 192,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.5260613560676575,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 8753,
+      "accident_edges": 0,
+      "jam_edges": 67,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-06T18:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_1800.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_1800.png",
+    "actual_stats": {
+      "congestion_mean": 0.3003824055194855,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 86,
+      "jam_edges": 141,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.45288586616516113,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-06T19:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_1900.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_1900.png",
+    "actual_stats": {
+      "congestion_mean": 0.22580035030841827,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 99,
+      "jam_edges": 102,
+      "closure_edges": 6
+    },
+    "pred_stats": {
+      "congestion_mean": 0.35762110352516174,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-06T20:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_2000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_2000.png",
+    "actual_stats": {
+      "congestion_mean": 0.20930293202400208,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 99,
+      "jam_edges": 78,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.2311607003211975,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 6,
+      "closure_edges": 6
+    }
+  },
+  {
+    "timestamp": "2024-07-06T21:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_2100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_2100.png",
+    "actual_stats": {
+      "congestion_mean": 0.19194838404655457,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 82,
+      "jam_edges": 84,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.214268758893013,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-06T22:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_2200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_2200.png",
+    "actual_stats": {
+      "congestion_mean": 0.17570774257183075,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 74,
+      "jam_edges": 84,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.19655336439609528,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-06T23:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240706_2300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240706_2300.png",
+    "actual_stats": {
+      "congestion_mean": 0.14465241134166718,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 76,
+      "jam_edges": 73,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.1799619346857071,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-07T00:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_0000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_0000.png",
+    "actual_stats": {
+      "congestion_mean": 0.11093216389417648,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 61,
+      "jam_edges": 74,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.14831779897212982,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-07T01:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_0100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_0100.png",
+    "actual_stats": {
+      "congestion_mean": 0.07521353662014008,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 54,
+      "jam_edges": 59,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.1139637902379036,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-07T02:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_0200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_0200.png",
+    "actual_stats": {
+      "congestion_mean": 0.0579213947057724,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 81,
+      "jam_edges": 64,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.07745180279016495,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-07T03:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_0300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_0300.png",
+    "actual_stats": {
+      "congestion_mean": 0.05058983340859413,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 54,
+      "jam_edges": 62,
+      "closure_edges": 3
+    },
+    "pred_stats": {
+      "congestion_mean": 0.060275010764598846,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-07T04:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_0400.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_0400.png",
+    "actual_stats": {
+      "congestion_mean": 0.04570205509662628,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 53,
+      "jam_edges": 52,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.05248615890741348,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 3,
+      "closure_edges": 3
+    }
+  },
+  {
+    "timestamp": "2024-07-07T05:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_0500.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_0500.png",
+    "actual_stats": {
+      "congestion_mean": 0.040907036513090134,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 53,
+      "jam_edges": 58,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.047453608363866806,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-07T06:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_0600.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_0600.png",
+    "actual_stats": {
+      "congestion_mean": 0.047835130244493484,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 66,
+      "jam_edges": 51,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.042627375572919846,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-07T07:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_0700.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_0700.png",
+    "actual_stats": {
+      "congestion_mean": 0.05821847543120384,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 62,
+      "jam_edges": 67,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.0497208833694458,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-07T08:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_0800.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_0800.png",
+    "actual_stats": {
+      "congestion_mean": 0.06479974091053009,
+      "congestion_max": 0.17219999432563782,
+      "rain_edges": 0,
+      "accident_edges": 89,
+      "jam_edges": 62,
+      "closure_edges": 0
+    },
+    "pred_stats": {
+      "congestion_mean": 0.060382939875125885,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-07T09:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_0900.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_0900.png",
+    "actual_stats": {
+      "congestion_mean": 0.09886199235916138,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 64,
+      "jam_edges": 62,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.06726150959730148,
+      "congestion_max": 0.21682199835777283,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 0,
+      "closure_edges": 0
+    }
+  },
+  {
+    "timestamp": "2024-07-07T10:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_1000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_1000.png",
+    "actual_stats": {
+      "congestion_mean": 0.12190332263708115,
+      "congestion_max": 0.22939999401569366,
+      "rain_edges": 0,
+      "accident_edges": 78,
+      "jam_edges": 77,
+      "closure_edges": 0
+    },
+    "pred_stats": {
+      "congestion_mean": 0.10162531584501266,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-07T11:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_1100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_1100.png",
+    "actual_stats": {
+      "congestion_mean": 0.1416424810886383,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 66,
+      "jam_edges": 92,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.1252947598695755,
+      "congestion_max": 0.2956875264644623,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 0,
+      "closure_edges": 0
+    }
+  },
+  {
+    "timestamp": "2024-07-07T12:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_1200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_1200.png",
+    "actual_stats": {
+      "congestion_mean": 0.1644049733877182,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 73,
+      "jam_edges": 80,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.14549702405929565,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-07T13:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_1300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_1300.png",
+    "actual_stats": {
+      "congestion_mean": 0.1710241436958313,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 78,
+      "jam_edges": 61,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.16841815412044525,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-07T14:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_1400.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_1400.png",
+    "actual_stats": {
+      "congestion_mean": 0.22379851341247559,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 49,
+      "jam_edges": 103,
+      "closure_edges": 7
+    },
+    "pred_stats": {
+      "congestion_mean": 0.1750410795211792,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-07T15:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_1500.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_1500.png",
+    "actual_stats": {
+      "congestion_mean": 0.25029614567756653,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 91,
+      "jam_edges": 125,
+      "closure_edges": 7
+    },
+    "pred_stats": {
+      "congestion_mean": 0.25388431549072266,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 7,
+      "closure_edges": 7
+    }
+  },
+  {
+    "timestamp": "2024-07-07T16:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_1600.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_1600.png",
+    "actual_stats": {
+      "congestion_mean": 0.23090341687202454,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 73,
+      "jam_edges": 125,
+      "closure_edges": 5
+    },
+    "pred_stats": {
+      "congestion_mean": 0.300307035446167,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 7,
+      "closure_edges": 7
+    }
+  },
+  {
+    "timestamp": "2024-07-07T17:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_1700.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_1700.png",
+    "actual_stats": {
+      "congestion_mean": 0.18580199778079987,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 102,
+      "jam_edges": 95,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.26152530312538147,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 5,
+      "closure_edges": 5
+    }
+  },
+  {
+    "timestamp": "2024-07-07T18:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_1800.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_1800.png",
+    "actual_stats": {
+      "congestion_mean": 0.185507133603096,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 74,
+      "jam_edges": 81,
+      "closure_edges": 4
+    },
+    "pred_stats": {
+      "congestion_mean": 0.19062387943267822,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  },
+  {
+    "timestamp": "2024-07-07T19:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_1900.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_1900.png",
+    "actual_stats": {
+      "congestion_mean": 0.17919018864631653,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 93,
+      "jam_edges": 83,
+      "closure_edges": 10
+    },
+    "pred_stats": {
+      "congestion_mean": 0.18989168107509613,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 4,
+      "closure_edges": 4
+    }
+  },
+  {
+    "timestamp": "2024-07-07T20:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_2000.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_2000.png",
+    "actual_stats": {
+      "congestion_mean": 0.16284272074699402,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 85,
+      "jam_edges": 78,
+      "closure_edges": 1
+    },
+    "pred_stats": {
+      "congestion_mean": 0.18359796702861786,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 10,
+      "closure_edges": 10
+    }
+  },
+  {
+    "timestamp": "2024-07-07T21:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_2100.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_2100.png",
+    "actual_stats": {
+      "congestion_mean": 0.14849412441253662,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 78,
+      "jam_edges": 94,
+      "closure_edges": 6
+    },
+    "pred_stats": {
+      "congestion_mean": 0.16692885756492615,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 1,
+      "closure_edges": 1
+    }
+  },
+  {
+    "timestamp": "2024-07-07T22:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_2200.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_2200.png",
+    "actual_stats": {
+      "congestion_mean": 0.13173353672027588,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 82,
+      "jam_edges": 74,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.15242980420589447,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 6,
+      "closure_edges": 6
+    }
+  },
+  {
+    "timestamp": "2024-07-07T23:00:00",
+    "actual_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/actual/20240707_2300.png",
+    "pred_png": "E:/Projects/Major 2.0/Mumbai-Traffic-Prediction-and-Navigation-using-Deep-Learning/backend/data generation/data/pngs/tplus_01/goregaon/pred/20240707_2300.png",
+    "actual_stats": {
+      "congestion_mean": 0.11115904152393341,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 66,
+      "jam_edges": 68,
+      "closure_edges": 2
+    },
+    "pred_stats": {
+      "congestion_mean": 0.13529649376869202,
+      "congestion_max": 0.9700000286102295,
+      "rain_edges": 0,
+      "accident_edges": 0,
+      "jam_edges": 2,
+      "closure_edges": 2
+    }
+  }
+]
