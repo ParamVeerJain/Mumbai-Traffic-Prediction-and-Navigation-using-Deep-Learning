@@ -10,7 +10,16 @@ backend/data generation/data/graph_adj
 /backend/data generation/data/graph_adj 
 ./backend/data generation/data/graph_adj 
 
+backend/data generation/data
+/backend/data generation/data
+./backend/data generation/data
 
+backend/data generation/data
+/backend/data generation/data
+./backend/data generation/data
+backend/data generation/data/corridor_tensors
+/backend/data generation/data/corridor_tensors
+./backend/data generation/data/corridor_tensors
 # =========================
 # C extensions
 # =========================
@@ -186,7 +195,6 @@ logs/
 
 # Cache
 .cache/
-
 Dataset/
 Synthetic Data Generation/cache/
 Model Training/data_chunks
