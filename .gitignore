@@ -10,13 +10,15 @@ backend/data generation/data/graph_adj
 /backend/data generation/data/graph_adj 
 ./backend/data generation/data/graph_adj 
 
-backend/data generation/data
-/backend/data generation/data
-./backend/data generation/data
+# backend/data generation/data
 
-backend/data generation/data
-/backend/data generation/data
-./backend/data generation/data
+/backend/data generation/data/predictions
+./backend/data generation/data/predictions
+/backend/data generation/data/cache
+
+# backend/data generation/data
+# /backend/data generation/data
+# ./backend/data generation/data
 backend/data generation/data/corridor_tensors
 /backend/data generation/data/corridor_tensors
 ./backend/data generation/data/corridor_tensors
