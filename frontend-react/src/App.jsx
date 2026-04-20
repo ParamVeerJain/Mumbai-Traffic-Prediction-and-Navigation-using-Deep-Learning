@@ -25,23 +25,23 @@ function FitMapToRoute({ bounds }) {
 }
 
 function MapView({ path = [] }) {
-  const segmentLines = useMemo(
-    () =>
-      path.map((seg) => [
+  const segmentLines = useMemo(() => {
+    return path.map((seg) => {
+      if (Array.isArray(seg.geometry) && seg.geometry.length > 1) {
+        return seg.geometry;
+      }
+      return [
         [seg.u_lat, seg.u_lon],
         [seg.v_lat, seg.v_lon]
-      ]),
-    [path]
-  );
+      ];
+    });
+  }, [path]);
 
   const bounds = useMemo(() => {
-    if (!path.length) return null;
-    const pts = [];
-    for (const seg of path) {
-      pts.push([seg.u_lat, seg.u_lon], [seg.v_lat, seg.v_lon]);
-    }
+    if (!segmentLines.length) return null;
+    const pts = segmentLines.flat();
     return pts;
-  }, [path]);
+  }, [segmentLines]);
 
   const sourcePoint = path.length ? [path[0].u_lat, path[0].u_lon] : null;
   const destinationPoint = path.length ? [path[path.length - 1].v_lat, path[path.length - 1].v_lon] : null;
@@ -62,10 +62,7 @@ function MapView({ path = [] }) {
           {path.map((seg, i) => (
             <Polyline
               key={`${seg.road_name}-${seg.edge_key}-${i}`}
-              positions={[
-                [seg.u_lat, seg.u_lon],
-                [seg.v_lat, seg.v_lon]
-              ]}
+              positions={segmentLines[i]}
               pathOptions={{ color: "#38bdf8", weight: 10, opacity: 0 }}
             >
               <Tooltip sticky>

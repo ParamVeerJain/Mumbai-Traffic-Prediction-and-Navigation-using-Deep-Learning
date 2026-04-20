@@ -1,7 +1,7 @@
 import os
 import sys
 from functools import lru_cache
-from typing import List
+from typing import Any, List
 
 import numpy as np
 import pandas as pd
@@ -82,6 +82,19 @@ def _nearest_area_name(g, named_nodes, x, y) -> str:
     return nearest_name
 
 
+def _edge_geometry_latlon(g: Any, u: int, v: int, k: int) -> List[List[float]]:
+    data = g.get_edge_data(u, v, k) or {}
+    geom = data.get("geometry")
+    if geom is not None and hasattr(geom, "coords"):
+        coords = list(geom.coords)
+        if coords:
+            return [[float(lat), float(lon)] for lon, lat in coords]
+    return [
+        [float(g.nodes[u]["y"]), float(g.nodes[u]["x"])],
+        [float(g.nodes[v]["y"]), float(g.nodes[v]["x"])],
+    ]
+
+
 @lru_cache(maxsize=1)
 def _assets():
     g, ctx, _ = tda.load_goregaon_graph_and_context(gwn_path=None)
@@ -147,6 +160,7 @@ def route(req: RouteRequest):
                 "u_lon": float(g.nodes[u]["x"]),
                 "v_lat": float(g.nodes[v]["y"]),
                 "v_lon": float(g.nodes[v]["x"]),
+                "geometry": _edge_geometry_latlon(g, u, v, k),
                 "road_name": road_name,
                 "near_area": near_area,
                 "edge_key": int(k),
