@@ -407,7 +407,7 @@ def update_router(_, src_name, dst_name, start_dt):
                 y=[g.nodes[node_id]["y"]],
                 mode="text",
                 text=[area_name],
-                textfont={"size": 10, "color": "#fcd34d", "family": "Arial Black"},
+                textfont={"size": 9, "color": "#93c5fd", "family": "Arial"},
                 hoverinfo="skip",
                 showlegend=False,
             )
@@ -456,7 +456,7 @@ def update_router(_, src_name, dst_name, start_dt):
     summary = (
         f"Trip: {src_name} -> {dst_name}\n"
         f"Start time: {start_dt}\n"
-        f"### EST. TIME: **{total_sec / 60.0:.1f} min**  |  EST. DISTANCE: **{total_distance_km:.2f} km**\n"
+        f"Est. time: {total_sec / 60.0:.1f} min  |  Est. distance: {total_distance_km:.2f} km\n"
         f"Road segments used: {len(path)}\n\n"
         f"Road names causing most delay:\n"
         f"{bottleneck_text}\n\n"
