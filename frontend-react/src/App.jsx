@@ -24,64 +24,24 @@ function FitMapToRoute({ bounds }) {
   return null;
 }
 
-function MapView({ path = [], areaLabels = [] }) {
-  const routePoints = useMemo(() => {
-    if (!path.length) return [];
-    return [
-      [path[0].u_lat, path[0].u_lon],
-      ...path.map((seg) => [seg.v_lat, seg.v_lon])
-    ];
-  }, [path]);
+function MapView({ path = [] }) {
+  const segmentLines = useMemo(
+    () =>
+      path.map((seg) => [
+        [seg.u_lat, seg.u_lon],
+        [seg.v_lat, seg.v_lon]
+      ]),
+    [path]
+  );
 
   const bounds = useMemo(() => {
-    const pts = [...routePoints, ...areaLabels.map((a) => [a.lat, a.lon])];
-    if (!pts.length) return null;
-    return pts;
-  }, [routePoints, areaLabels]);
-
-  const visibleLabels = useMemo(() => {
-    if (!areaLabels.length) return [];
-
-    const allPoints = routePoints.length ? routePoints : areaLabels.map((a) => [a.lat, a.lon]);
-    const lats = allPoints.map((p) => p[0]);
-    const lons = allPoints.map((p) => p[1]);
-    const padLat = Math.max(0.002, (Math.max(...lats) - Math.min(...lats)) * 0.3 || 0.002);
-    const padLon = Math.max(0.002, (Math.max(...lons) - Math.min(...lons)) * 0.3 || 0.002);
-    const minLat = Math.min(...lats) - padLat;
-    const maxLat = Math.max(...lats) + padLat;
-    const minLon = Math.min(...lons) - padLon;
-    const maxLon = Math.max(...lons) + padLon;
-    const minGap = 0.004;
-
-    const labelsInView = areaLabels
-      .filter((label) => label.lat >= minLat && label.lat <= maxLat && label.lon >= minLon && label.lon <= maxLon)
-      .map((label) => {
-        const routeDistance = routePoints.length
-          ? Math.min(
-              ...routePoints.map(([lat, lon]) => {
-                const dLat = label.lat - lat;
-                const dLon = label.lon - lon;
-                return dLat * dLat + dLon * dLon;
-              })
-            )
-          : 0;
-        return { ...label, routeDistance };
-      })
-      .sort((a, b) => a.routeDistance - b.routeDistance);
-
-    const picked = [];
-    for (const label of labelsInView) {
-      const overlaps = picked.some((chosen) => {
-        const dLat = label.lat - chosen.lat;
-        const dLon = label.lon - chosen.lon;
-        return dLat * dLat + dLon * dLon < minGap * minGap;
-      });
-      if (!overlaps) picked.push(label);
-      if (picked.length >= 10) break;
+    if (!path.length) return null;
+    const pts = [];
+    for (const seg of path) {
+      pts.push([seg.u_lat, seg.u_lon], [seg.v_lat, seg.v_lon]);
     }
-
-    return picked;
-  }, [areaLabels, routePoints]);
+    return pts;
+  }, [path]);
 
   const sourcePoint = path.length ? [path[0].u_lat, path[0].u_lon] : null;
   const destinationPoint = path.length ? [path[path.length - 1].v_lat, path[path.length - 1].v_lon] : null;
@@ -89,13 +49,15 @@ function MapView({ path = [], areaLabels = [] }) {
   return (
     <div className="mapWrap">
       {path.length ? (
-        <MapContainer className="leafletMap" zoom={13} center={routePoints[0]} scrollWheelZoom>
+        <MapContainer className="leafletMap" zoom={13} center={sourcePoint || [19.1663, 72.8526]} scrollWheelZoom>
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
           <FitMapToRoute bounds={bounds} />
-          <Polyline positions={routePoints} pathOptions={{ color: "#22d3ee", weight: 6, opacity: 0.9 }} />
+          {segmentLines.map((positions, i) => (
+            <Polyline key={`route-main-${i}`} positions={positions} pathOptions={{ color: "#22d3ee", weight: 6, opacity: 0.92 }} />
+          ))}
 
           {path.map((seg, i) => (
             <Polyline
@@ -112,19 +74,6 @@ function MapView({ path = [], areaLabels = [] }) {
                 Near {seg.near_area}
               </Tooltip>
             </Polyline>
-          ))}
-
-          {visibleLabels.map((label) => (
-            <CircleMarker
-              key={label.name}
-              center={[label.lat, label.lon]}
-              radius={3}
-              pathOptions={{ color: "#f8fafc", fillColor: "#0f172a", fillOpacity: 0.95, weight: 1 }}
-            >
-              <Tooltip permanent direction="top" offset={[0, -6]} className="areaTooltip">
-                {label.name}
-              </Tooltip>
-            </CircleMarker>
           ))}
 
           {sourcePoint ? (
@@ -252,7 +201,7 @@ export default function App() {
               <strong>{result ? result.segments_used : "--"}</strong>
             </div>
           </div>
-          <MapView path={result?.path || []} areaLabels={result?.area_labels || []} />
+          <MapView path={result?.path || []} />
         </section>
       </div>
 

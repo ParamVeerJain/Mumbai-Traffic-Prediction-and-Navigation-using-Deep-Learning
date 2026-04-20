@@ -138,24 +138,14 @@ button:disabled {
   color: #93c5fd !important;
 }
 
-.areaTooltip .leaflet-tooltip-content,
 .poiTooltip .leaflet-tooltip-content {
   margin: 0;
 }
 
-.areaTooltip,
 .poiTooltip {
   border: 1px solid #334155;
   border-radius: 999px;
   box-shadow: 0 8px 24px rgba(2, 6, 23, 0.45);
-}
-
-.areaTooltip {
-  background: rgba(15, 23, 42, 0.95);
-  color: #e2e8f0;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 4px 8px;
 }
 
 .poiTooltip {
@@ -166,7 +156,6 @@ button:disabled {
   padding: 4px 8px;
 }
 
-.areaTooltip::before,
 .poiTooltip::before {
   display: none;
 }
