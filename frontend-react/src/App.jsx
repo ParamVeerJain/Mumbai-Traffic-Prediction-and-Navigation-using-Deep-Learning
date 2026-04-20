@@ -24,7 +24,7 @@ function FitMapToRoute({ bounds }) {
   return null;
 }
 
-function MapView({ path = [] }) {
+function MapView({ path = [], sourceMarker = null, destinationMarker = null }) {
   const segmentLines = useMemo(() => {
     return path.map((seg) => {
       if (Array.isArray(seg.geometry) && seg.geometry.length > 1) {
@@ -43,8 +43,12 @@ function MapView({ path = [] }) {
     return pts;
   }, [segmentLines]);
 
-  const sourcePoint = path.length ? [path[0].u_lat, path[0].u_lon] : null;
-  const destinationPoint = path.length ? [path[path.length - 1].v_lat, path[path.length - 1].v_lon] : null;
+  const sourcePoint = sourceMarker ? [sourceMarker.lat, sourceMarker.lon] : path.length ? [path[0].u_lat, path[0].u_lon] : null;
+  const destinationPoint = destinationMarker
+    ? [destinationMarker.lat, destinationMarker.lon]
+    : path.length
+      ? [path[path.length - 1].v_lat, path[path.length - 1].v_lon]
+      : null;
 
   return (
     <div className="mapWrap">
@@ -80,7 +84,7 @@ function MapView({ path = [] }) {
               pathOptions={{ color: "#f59e0b", fillColor: "#f59e0b", fillOpacity: 1, weight: 2 }}
             >
               <Tooltip permanent direction="top" offset={[0, -8]} className="poiTooltip">
-                Source
+                {sourceMarker?.name || "Source"}
               </Tooltip>
             </CircleMarker>
           ) : null}
@@ -92,7 +96,7 @@ function MapView({ path = [] }) {
               pathOptions={{ color: "#ef4444", fillColor: "#ef4444", fillOpacity: 1, weight: 2 }}
             >
               <Tooltip permanent direction="top" offset={[0, -8]} className="poiTooltip">
-                Destination
+                {destinationMarker?.name || "Destination"}
               </Tooltip>
             </CircleMarker>
           ) : null}
@@ -198,7 +202,11 @@ export default function App() {
               <strong>{result ? result.segments_used : "--"}</strong>
             </div>
           </div>
-          <MapView path={result?.path || []} />
+          <MapView
+            path={result?.path || []}
+            sourceMarker={result?.source_marker || null}
+            destinationMarker={result?.destination_marker || null}
+          />
         </section>
       </div>
 

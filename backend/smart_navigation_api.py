@@ -31,6 +31,12 @@ class DelayItem(BaseModel):
     traffic_factor: float
 
 
+class MarkerPoint(BaseModel):
+    name: str
+    lat: float
+    lon: float
+
+
 class RouteResponse(BaseModel):
     source: str
     destination: str
@@ -41,6 +47,8 @@ class RouteResponse(BaseModel):
     delays: List[DelayItem]
     path: List[dict]
     area_labels: List[dict]
+    source_marker: MarkerPoint
+    destination_marker: MarkerPoint
 
 
 app = FastAPI(title="Mumbai Smart Navigation API")
@@ -127,6 +135,9 @@ def route(req: RouteRequest):
     start_hour = _datetime_to_hour_of_week(req.start_datetime)
     src = named_nodes[req.source]
     dst = named_nodes[req.destination]
+    location_lookup = {name: (float(lat), float(lon)) for name, lat, lon in tda.NAMED_LOCATIONS}
+    src_lat, src_lon = location_lookup[req.source]
+    dst_lat, dst_lon = location_lookup[req.destination]
     path, total_sec = tda.tda_star(g, ctx, src, dst, start_hour=start_hour, start_elapsed_sec=0.0)
     if path is None:
         raise HTTPException(status_code=404, detail="No route found in Goregaon bounded graph.")
@@ -182,5 +193,7 @@ def route(req: RouteRequest):
         delays=delays,
         path=path_points,
         area_labels=area_labels,
+        source_marker=MarkerPoint(name=req.source, lat=src_lat, lon=src_lon),
+        destination_marker=MarkerPoint(name=req.destination, lat=dst_lat, lon=dst_lon),
     )
 
