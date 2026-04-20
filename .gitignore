@@ -200,3 +200,6 @@ logs/
 Dataset/
 Synthetic Data Generation/cache/
 Model Training/data_chunks
+node_modules/
+frontend-react/node_modules/
+frontend-react/dist/
