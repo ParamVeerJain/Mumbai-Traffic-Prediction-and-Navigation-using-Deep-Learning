@@ -211,19 +211,6 @@ export default function AppPage() {
              <input type="datetime-local" value={startDatetime} onChange={(e) => setStartDatetime(e.target.value)} />
           </div>
 
-          <div className="input-group">
-             <label>Routing Algorithm</label>
-             <CustomSelect 
-               value={algorithm} 
-               onChange={setAlgorithm} 
-               options={[
-                 { label: "Standard A* (Historical)", value: "astar" },
-                 { label: "SAC Deep RL (Optimized)", value: "sac" }
-               ]} 
-               placeholder="Select Algorithm"
-               icon={BrainCircuit}
-             />
-          </div>
 
           <button className="btn btn-primary w-full mt-4" onClick={runRoute} disabled={loading || !source || !destination}>
             {loading ? "Analyzing Traffic..." : "Find Best Route"}
