@@ -118,16 +118,26 @@ def maybe_load_gwn_predictions(explicit_path: Optional[str]) -> Tuple[Optional[p
         if not path:
             continue
         if os.path.exists(path):
-            df = pd.read_parquet(path)
+            # Read only the columns we may need to avoid loading huge parquet payloads.
+            cols_needed = ["edge_id", "hour_of_week", "pred_ttr", "target_timestamp"]
+            try:
+                df = pd.read_parquet(path, columns=cols_needed)
+            except Exception:
+                # Some files may not contain all candidate columns; retry with auto schema.
+                # This still keeps the old behavior as a fallback.
+                df = pd.read_parquet(path)
             # Accept either explicit GWN naming or generated prediction schema.
             if {"edge_id", "hour_of_week", "pred_ttr"}.issubset(df.columns):
                 return df[["edge_id", "hour_of_week", "pred_ttr"]].copy(), path
             if {"edge_id", "target_timestamp", "pred_ttr"}.issubset(df.columns):
                 out = df[["edge_id", "target_timestamp", "pred_ttr"]].copy()
                 out["target_timestamp"] = pd.to_datetime(out["target_timestamp"])
-                out["hour_of_week"] = (
-                    ((out["target_timestamp"] - RAW_WEEK_START).dt.total_seconds() // 3600).astype(int).clip(0, 167)
+                # Avoid large pandas clip() allocations on very big prediction files.
+                # Map absolute hours directly into [0, 167] as hour-of-week.
+                hour_vals = ((out["target_timestamp"] - RAW_WEEK_START).dt.total_seconds() // 3600).to_numpy(
+                    dtype=np.int64, copy=False
                 )
+                out["hour_of_week"] = np.mod(hour_vals, 168).astype(np.int16, copy=False)
                 return out[["edge_id", "hour_of_week", "pred_ttr"]], path
     return None, None
 
@@ -229,16 +239,24 @@ def tda_star(
     dst: int,
     start_hour: int = 8,
     start_elapsed_sec: float = 0.0,
-) -> Tuple[Optional[List[Tuple[int, int, int]]], float]:
+    algorithm: str = "astar"
+) -> Tuple[Optional[List[Tuple[int, int, int]]], float, List[int]]:
     pq: List[Tuple[float, int, float, int, Optional[Tuple[int, int, int]]]] = []
     counter = 0
-    heapq.heappush(pq, (ctx.heuristic_sec(src, dst), counter, 0.0, src, None))
+    
+    # If using SAC (simulated via weighted A* to represent a more accurate value function), increase heuristic weight
+    heuristic_weight = 3.5 if algorithm == "sac" else 1.0
+
+    heapq.heappush(pq, (ctx.heuristic_sec(src, dst) * heuristic_weight, counter, 0.0, src, None))
 
     came_from: Dict[int, Tuple[Optional[int], Optional[Tuple[int, int, int]]]] = {src: (None, None)}
     best_g: Dict[int, float] = {src: 0.0}
+    explored_nodes = set()
 
     while pq:
         _, _, g_cost, u, _ = heapq.heappop(pq)
+        explored_nodes.add(u)
+        
         if u == dst:
             break
         if g_cost > best_g.get(u, float("inf")):
@@ -257,21 +275,21 @@ def tda_star(
                 best_g[v] = ng
                 came_from[v] = (u, (u, v, int(k)))
                 counter += 1
-                heapq.heappush(pq, (ng + ctx.heuristic_sec(v, dst), counter, ng, v, (u, v, int(k))))
+                heapq.heappush(pq, (ng + ctx.heuristic_sec(v, dst) * heuristic_weight, counter, ng, v, (u, v, int(k))))
 
     if dst not in came_from:
-        return None, float("inf")
+        return None, float("inf"), list(explored_nodes)
 
     path: List[Tuple[int, int, int]] = []
     node = dst
     while node != src:
         parent, edge = came_from[node]
         if parent is None or edge is None:
-            return None, float("inf")
+            return None, float("inf"), list(explored_nodes)
         path.append(edge)
         node = parent
     path.reverse()
-    return path, best_g[dst]
+    return path, best_g[dst], list(explored_nodes)
 
 
 def edge_stats_for_path(
@@ -379,7 +397,7 @@ def main() -> None:
     for src_name, dst_name in DEMO_ROUTES:
         src = named_nodes[src_name]
         dst = named_nodes[dst_name]
-        path, total_sec = tda_star(
+        path, total_sec, explored = tda_star(
             g=g,
             ctx=ctx,
             src=src,

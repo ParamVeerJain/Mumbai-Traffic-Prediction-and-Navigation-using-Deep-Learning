@@ -1,0 +1,1381 @@
+
+-- Epoch 1/50 --------------------------------------
+  ag0: Jawahar Nagar -> Pandurang Wadi  (1.33 km)  floodA*=9.9min
+  ag1: Vibgyor High School -> St Xaviers High School  (1.44 km)  floodA*=10.1min
+  ag2: Unnat Nagar -> Nirlon Knowledge Park  (2.68 km)  floodA*=7.6min
+  ag3: Goregaon East -> Unnat Nagar  (1.85 km)  floodA*=10.5min
+  ag4: Pandurang Wadi -> Motilal Nagar  (1.84 km)  floodA*=10.0min
+  ag5: Royal Palms Estate -> St Johns High School  (4.70 km)  floodA*=29.2min
+  ag6: Nesco IT Park -> Bangur Nagar  (2.88 km)  floodA*=12.7min
+  ag7: St Johns High School -> Goregaon East  (0.96 km)  floodA*=8.3min
+  ag8: Lifeline Medicare Hospital -> Vibgyor High School  (1.32 km)  floodA*=3.6min
+  Ep  1/60 (G0001) | pol=0.56 (5/9) | fb=0.44 | R= +243.6 | t=11.9min | buf=2272 step=296 nan=0 | 0.6s
+         reach(last20): ag0:100% ag1:100% ag2:0% ag3:0% ag4:100% ag5:0% ag6:100% ag7:0% ag8:100%
+  Ep  2/60 (G0002) | pol=0.44 (4/9) | fb=0.56 | R= +236.7 | t=13.4min | buf=2633 step=657 nan=0 | 1.3s
+         reach(last20): ag0:100% ag1:50% ag2:0% ag3:0% ag4:100% ag5:0% ag6:100% ag7:50% ag8:50%
+  Ep  3/60 (G0003) | pol=0.33 (3/9) | fb=0.67 | R= +227.3 | t=13.4min | buf=2894 step=918 nan=0 | 0.4s
+         reach(last20): ag0:67% ag1:33% ag2:0% ag3:0% ag4:100% ag5:0% ag6:67% ag7:67% ag8:67%
+  Ep  4/60 (G0004) | pol=0.33 (3/9) | fb=0.67 | R= +226.8 | t=13.2min | buf=3172 step=1196 nan=0 | 12.5s
+         reach(last20): ag0:75% ag1:25% ag2:0% ag3:0% ag4:100% ag5:0% ag6:50% ag7:50% ag8:75%
+  Ep  5/60 (G0005) | pol=0.22 (2/9) | fb=0.78 | R= +224.4 | t=14.9min | buf=3370 step=1394 nan=0 | 4.9s
+         reach(last20): ag0:60% ag1:20% ag2:0% ag3:0% ag4:80% ag5:20% ag6:40% ag7:40% ag8:80%
+  Ep  6/60 (G0006) | pol=0.33 (3/9) | fb=0.67 | R= +214.2 | t=14.7min | buf=3640 step=1664 nan=0 | 6.1s
+         reach(last20): ag0:50% ag1:33% ag2:0% ag3:0% ag4:83% ag5:17% ag6:33% ag7:33% ag8:83%
+  Ep  7/60 (G0007) | pol=0.33 (3/9) | fb=0.67 | R= +199.6 | t=15.1min | buf=3935 step=1959 nan=0 | 6.3s
+         reach(last20): ag0:43% ag1:29% ag2:14% ag3:0% ag4:86% ag5:14% ag6:29% ag7:29% ag8:86%
+  Ep  8/60 (G0008) | pol=0.33 (3/9) | fb=0.67 | R= +231.6 | t=13.7min | buf=4169 step=2193 nan=0 | 4.8s
+         reach(last20): ag0:38% ag1:25% ag2:25% ag3:0% ag4:75% ag5:25% ag6:25% ag7:25% ag8:88%
+  Ep  9/60 (G0009) | pol=0.11 (1/9) | fb=0.89 | R= +205.9 | t=14.9min | buf=4456 step=2480 nan=0 | 6.1s
+         reach(last20): ag0:33% ag1:22% ag2:22% ag3:0% ag4:67% ag5:22% ag6:22% ag7:22% ag8:89%
+  Ep 10/60 (G0010) | pol=0.11 (1/9) | fb=0.89 | R= +194.0 | t=15.2min | buf=4742 step=2766 nan=0 | 8.0s
+         reach(last20): ag0:30% ag1:20% ag2:20% ag3:0% ag4:60% ag5:20% ag6:20% ag7:20% ag8:90%
+  Ep 11/60 (G0011) | pol=0.22 (2/9) | fb=0.78 | R= +205.5 | t=13.9min | buf=5057 step=3081 nan=0 | 12.3s
+         reach(last20): ag0:27% ag1:18% ag2:18% ag3:9% ag4:55% ag5:18% ag6:18% ag7:18% ag8:91%
+  Ep 12/60 (G0012) | pol=0.22 (2/9) | fb=0.78 | R= +204.5 | t=14.5min | buf=5371 step=3395 nan=0 | 12.1s
+         reach(last20): ag0:25% ag1:17% ag2:17% ag3:8% ag4:58% ag5:17% ag6:17% ag7:17% ag8:92%
+  Ep 13/60 (G0013) | pol=0.44 (4/9) | fb=0.56 | R= +251.3 | t=13.2min | buf=5664 step=3688 nan=0 | 13.8s
+         reach(last20): ag0:23% ag1:15% ag2:23% ag3:8% ag4:62% ag5:23% ag6:15% ag7:15% ag8:92%
+  Ep 14/60 (G0014) | pol=0.89 (8/9) | fb=0.11 | R= +253.8 | t=12.1min | buf=5970 step=3994 nan=0 | 11.2s
+         reach(last20): ag0:21% ag1:21% ag2:29% ag3:14% ag4:64% ag5:29% ag6:21% ag7:21% ag8:93%
+  Ep 15/60 (G0015) | pol=0.78 (7/9) | fb=0.22 | R= +258.4 | t=11.6min | buf=6241 step=4265 nan=0 | 7.9s
+         reach(last20): ag0:20% ag1:27% ag2:33% ag3:20% ag4:67% ag5:33% ag6:27% ag7:20% ag8:93%
+  Ep 16/60 (G0016) | pol=0.67 (6/9) | fb=0.33 | R= +234.7 | t=12.9min | buf=6549 step=4573 nan=0 | 10.0s
+         reach(last20): ag0:19% ag1:31% ag2:38% ag3:25% ag4:69% ag5:38% ag6:25% ag7:19% ag8:94%
+  Ep 17/60 (G0017) | pol=0.78 (7/9) | fb=0.22 | R= +241.4 | t=12.2min | buf=6834 step=4858 nan=0 | 10.5s
+         reach(last20): ag0:18% ag1:35% ag2:41% ag3:29% ag4:71% ag5:41% ag6:29% ag7:18% ag8:94%
+  Ep 18/60 (G0018) | pol=0.78 (7/9) | fb=0.22 | R= +249.0 | t=11.9min | buf=7112 step=5136 nan=0 | 7.7s
+         reach(last20): ag0:17% ag1:39% ag2:44% ag3:33% ag4:72% ag5:44% ag6:33% ag7:17% ag8:94%
+  Ep 19/60 (G0019) | pol=0.67 (6/9) | fb=0.33 | R= +231.9 | t=12.6min | buf=7362 step=5386 nan=0 | 5.6s
+         reach(last20): ag0:16% ag1:37% ag2:47% ag3:37% ag4:74% ag5:47% ag6:37% ag7:16% ag8:95%
+  Ep 20/60 (G0020) | pol=0.78 (7/9) | fb=0.22 | R= +241.9 | t=12.2min | buf=7640 step=5664 nan=0 | 7.0s
+         reach(last20): ag0:15% ag1:40% ag2:50% ag3:40% ag4:75% ag5:50% ag6:40% ag7:15% ag8:95%
+  Ep 21/60 (G0021) | pol=0.89 (8/9) | fb=0.11 | R= +262.4 | t=11.0min | buf=7897 step=5921 nan=0 | 5.8s
+         reach(last20): ag0:15% ag1:40% ag2:55% ag3:45% ag4:75% ag5:55% ag6:40% ag7:15% ag8:95%
+  Ep 22/60 (G0022) | pol=0.89 (8/9) | fb=0.11 | R= +261.6 | t=11.0min | buf=8145 step=6169 nan=0 | 6.4s
+         reach(last20): ag0:15% ag1:45% ag2:60% ag3:50% ag4:75% ag5:60% ag6:40% ag7:10% ag8:100%
+  Ep 23/60 (G0023) | pol=0.67 (6/9) | fb=0.33 | R= +246.9 | t=11.9min | buf=8427 step=6451 nan=0 | 6.4s
+         reach(last20): ag0:20% ag1:50% ag2:65% ag3:55% ag4:70% ag5:65% ag6:40% ag7:5% ag8:100%
+  Ep 24/60 (G0024) | pol=0.56 (5/9) | fb=0.44 | R= +227.9 | t=12.7min | buf=8698 step=6722 nan=0 | 6.7s
+         reach(last20): ag0:15% ag1:55% ag2:70% ag3:60% ag4:65% ag5:70% ag6:40% ag7:5% ag8:100%
+  Ep 25/60 (G0025) | pol=0.78 (7/9) | fb=0.22 | R= +240.1 | t=12.9min | buf=9007 step=7031 nan=0 | 7.0s
+         reach(last20): ag0:15% ag1:60% ag2:75% ag3:65% ag4:70% ag5:70% ag6:40% ag7:10% ag8:100%
+  Ep 26/60 (G0026) | pol=0.89 (8/9) | fb=0.11 | R= +264.0 | t=10.9min | buf=9260 step=7284 nan=0 | 5.4s
+         reach(last20): ag0:20% ag1:60% ag2:80% ag3:70% ag4:70% ag5:75% ag6:40% ag7:15% ag8:100%
+  Ep 27/60 (G0027) | pol=0.89 (8/9) | fb=0.11 | R= +257.2 | t=11.7min | buf=9527 step=7551 nan=0 | 5.8s
+         reach(last20): ag0:20% ag1:65% ag2:80% ag3:75% ag4:70% ag5:80% ag6:45% ag7:20% ag8:100%
+  Ep 28/60 (G0028) | pol=0.89 (8/9) | fb=0.11 | R= +255.1 | t=11.6min | buf=9786 step=7810 nan=0 | 6.0s
+         reach(last20): ag0:20% ag1:70% ag2:80% ag3:80% ag4:75% ag5:80% ag6:50% ag7:25% ag8:100%
+  Ep 29/60 (G0029) | pol=1.00 (9/9) | fb=0.00 | R= +268.4 | t=10.8min | buf=10051 step=8075 nan=0 | 6.8s
+         reach(last20): ag0:25% ag1:75% ag2:85% ag3:85% ag4:80% ag5:85% ag6:55% ag7:30% ag8:100%
+  Ep 30/60 (G0030) | pol=1.00 (9/9) | fb=0.00 | R= +268.4 | t=10.8min | buf=10316 step=8340 nan=0 | 5.7s
+         reach(last20): ag0:30% ag1:80% ag2:90% ag3:90% ag4:85% ag5:90% ag6:60% ag7:35% ag8:100%
+  Ep 31/60 (G0031) | pol=1.00 (9/9) | fb=0.00 | R= +268.4 | t=10.8min | buf=10581 step=8605 nan=0 | 6.2s
+         reach(last20): ag0:35% ag1:85% ag2:95% ag3:90% ag4:90% ag5:95% ag6:65% ag7:40% ag8:100%
+  Ep 32/60 (G0032) | pol=0.89 (8/9) | fb=0.11 | R= +261.1 | t=11.0min | buf=10849 step=8873 nan=0 | 6.8s
+         reach(last20): ag0:40% ag1:85% ag2:100% ag3:95% ag4:90% ag5:100% ag6:70% ag7:45% ag8:100%
+  Ep 33/60 (G0033) | pol=0.89 (8/9) | fb=0.11 | R= +260.8 | t=11.0min | buf=11115 step=9139 nan=0 | 6.2s
+         reach(last20): ag0:45% ag1:85% ag2:100% ag3:100% ag4:90% ag5:100% ag6:75% ag7:50% ag8:100%
+  Ep 34/60 (G0034) | pol=0.89 (8/9) | fb=0.11 | R= +260.8 | t=11.0min | buf=11381 step=9405 nan=0 | 5.7s
+         reach(last20): ag0:50% ag1:80% ag2:100% ag3:100% ag4:90% ag5:100% ag6:75% ag7:50% ag8:100%
+  Ep 35/60 (G0035) | pol=0.89 (8/9) | fb=0.11 | R= +260.8 | t=11.0min | buf=11647 step=9671 nan=0 | 6.5s
+         reach(last20): ag0:55% ag1:75% ag2:100% ag3:100% ag4:90% ag5:100% ag6:75% ag7:55% ag8:100%
+  Ep 36/60 (G0036) | pol=0.89 (8/9) | fb=0.11 | R= +260.5 | t=11.0min | buf=11914 step=9938 nan=0 | 7.8s
+         reach(last20): ag0:60% ag1:70% ag2:100% ag3:100% ag4:90% ag5:100% ag6:80% ag7:60% ag8:100%
+  Ep 37/60 (G0037) | pol=0.89 (8/9) | fb=0.11 | R= +260.5 | t=11.0min | buf=12183 step=10207 nan=0 | 5.5s
+         reach(last20): ag0:65% ag1:65% ag2:100% ag3:100% ag4:90% ag5:100% ag6:80% ag7:65% ag8:100%
+  Ep 38/60 (G0038) | pol=0.89 (8/9) | fb=0.11 | R= +259.8 | t=11.3min | buf=12451 step=10475 nan=0 | 5.7s
+         reach(last20): ag0:70% ag1:60% ag2:100% ag3:100% ag4:90% ag5:100% ag6:80% ag7:70% ag8:100%
+  Ep 39/60 (G0039) | pol=0.89 (8/9) | fb=0.11 | R= +259.8 | t=11.3min | buf=12719 step=10743 nan=0 | 5.6s
+         reach(last20): ag0:75% ag1:60% ag2:100% ag3:100% ag4:90% ag5:100% ag6:80% ag7:75% ag8:100%
+  Ep 40/60 (G0040) | pol=0.89 (8/9) | fb=0.11 | R= +259.8 | t=11.3min | buf=12987 step=11011 nan=0 | 5.8s
+         reach(last20): ag0:80% ag1:55% ag2:100% ag3:100% ag4:90% ag5:100% ag6:80% ag7:80% ag8:100%
+  Ep 41/60 (G0041) | pol=0.89 (8/9) | fb=0.11 | R= +259.8 | t=11.3min | buf=13255 step=11279 nan=0 | 5.8s
+         reach(last20): ag0:80% ag1:50% ag2:100% ag3:100% ag4:90% ag5:100% ag6:80% ag7:85% ag8:100%
+  Ep 42/60 (G0042) | pol=0.89 (8/9) | fb=0.11 | R= +259.8 | t=11.3min | buf=13523 step=11547 nan=0 | 5.9s
+         reach(last20): ag0:80% ag1:45% ag2:100% ag3:100% ag4:90% ag5:100% ag6:80% ag7:90% ag8:100%
+  Ep 43/60 (G0043) | pol=0.89 (8/9) | fb=0.11 | R= +259.8 | t=11.3min | buf=13791 step=11815 nan=0 | 6.8s
+         reach(last20): ag0:80% ag1:40% ag2:100% ag3:100% ag4:95% ag5:100% ag6:85% ag7:95% ag8:100%
+  Ep 44/60 (G0044) | pol=0.89 (8/9) | fb=0.11 | R= +259.8 | t=11.3min | buf=14059 step=12083 nan=0 | 6.2s
+         reach(last20): ag0:85% ag1:35% ag2:100% ag3:100% ag4:100% ag5:100% ag6:90% ag7:100% ag8:100%
+  Ep 45/60 (G0045) | pol=0.89 (8/9) | fb=0.11 | R= +259.8 | t=11.3min | buf=14327 step=12351 nan=0 | 6.0s
+         reach(last20): ag0:90% ag1:30% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 46/60 (G0046) | pol=0.89 (8/9) | fb=0.11 | R= +259.8 | t=11.3min | buf=14595 step=12619 nan=0 | 7.2s
+         reach(last20): ag0:90% ag1:25% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 47/60 (G0047) | pol=0.89 (8/9) | fb=0.11 | R= +259.8 | t=11.3min | buf=14863 step=12887 nan=0 | 7.4s
+         reach(last20): ag0:95% ag1:20% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 48/60 (G0048) | pol=0.89 (8/9) | fb=0.11 | R= +259.8 | t=11.3min | buf=15131 step=13155 nan=0 | 6.6s
+         reach(last20): ag0:100% ag1:15% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 49/60 (G0049) | pol=0.89 (8/9) | fb=0.11 | R= +259.8 | t=11.3min | buf=15399 step=13423 nan=0 | 6.1s
+         reach(last20): ag0:100% ag1:10% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 50/60 (G0050) | pol=0.89 (8/9) | fb=0.11 | R= +260.8 | t=11.0min | buf=15665 step=13689 nan=0 | 5.5s
+         reach(last20): ag0:100% ag1:5% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 51/60 (G0051) | pol=0.89 (8/9) | fb=0.11 | R= +260.4 | t=11.1min | buf=15928 step=13952 nan=0 | 5.4s
+         reach(last20): ag0:100% ag1:0% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 52/60 (G0052) | pol=0.89 (8/9) | fb=0.11 | R= +260.4 | t=11.1min | buf=16191 step=14215 nan=0 | 5.4s
+         reach(last20): ag0:100% ag1:0% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 53/60 (G0053) | pol=0.89 (8/9) | fb=0.11 | R= +260.4 | t=11.1min | buf=16454 step=14478 nan=0 | 5.7s
+         reach(last20): ag0:100% ag1:0% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 54/60 (G0054) | pol=0.89 (8/9) | fb=0.11 | R= +260.4 | t=11.1min | buf=16717 step=14741 nan=0 | 6.3s
+         reach(last20): ag0:100% ag1:0% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 55/60 (G0055) | pol=0.89 (8/9) | fb=0.11 | R= +261.6 | t=11.1min | buf=16981 step=15005 nan=0 | 6.8s
+         reach(last20): ag0:100% ag1:0% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 56/60 (G0056) | pol=0.89 (8/9) | fb=0.11 | R= +260.3 | t=11.2min | buf=17245 step=15269 nan=0 | 8.7s
+         reach(last20): ag0:100% ag1:0% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 57/60 (G0057) | pol=1.00 (9/9) | fb=0.00 | R= +269.6 | t=10.8min | buf=17504 step=15528 nan=0 | 7.2s
+         reach(last20): ag0:100% ag1:5% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 58/60 (G0058) | pol=1.00 (9/9) | fb=0.00 | R= +270.3 | t=10.8min | buf=17764 step=15788 nan=0 | 6.7s
+         reach(last20): ag0:100% ag1:10% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 59/60 (G0059) | pol=1.00 (9/9) | fb=0.00 | R= +268.8 | t=10.9min | buf=18024 step=16048 nan=0 | 7.1s
+         reach(last20): ag0:100% ag1:15% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 60/60 (G0060) | pol=1.00 (9/9) | fb=0.00 | R= +270.3 | t=10.8min | buf=18283 step=16307 nan=0 | 5.6s
+         reach(last20): ag0:100% ag1:20% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+
+  -> Epoch 1/50 done | epoch_reach=0.75 | rolling40_reach=0.89 | global_eps=60 | buf=18283
+
+-- Epoch 2/50 --------------------------------------
+  ag0: Unnat Nagar -> Goregaon Railway Station  (1.42 km)  floodA*=4.2min
+  ag1: Goregaon Railway Station -> Bangur Nagar  (1.72 km)  floodA*=11.9min
+  ag2: Pandurang Wadi -> Nirlon Knowledge Park  (2.11 km)  floodA*=5.8min
+  ag3: Aarey Colony -> Goregaon West  (2.19 km)  floodA*=16.9min
+  ag4: St Xaviers High School -> Motilal Nagar  (1.36 km)  floodA*=6.7min
+  ag5: Vibgyor High School -> Goregaon East  (2.20 km)  floodA*=15.4min
+  ag6: Film City -> Royal Palms Estate  (1.30 km)  floodA*=12.8min
+  ag7: Nesco IT Park -> St Johns High School  (1.81 km)  floodA*=10.0min
+  ag8: SRV Hospital Goregaon -> Pandurang Wadi  (0.69 km)  floodA*=5.7min
+  Ep  1/60 (G0061) | pol=0.89 (8/9) | fb=0.11 | R= +251.9 | t=10.7min | buf=20147 step=16533 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:25% ag2:95% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  2/60 (G0062) | pol=0.89 (8/9) | fb=0.11 | R= +253.4 | t=10.6min | buf=20370 step=16756 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:30% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  3/60 (G0063) | pol=0.78 (7/9) | fb=0.22 | R= +238.4 | t=11.0min | buf=20610 step=16996 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:35% ag2:85% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  4/60 (G0064) | pol=0.89 (8/9) | fb=0.11 | R= +254.2 | t=10.6min | buf=20831 step=17217 nan=0 | 5.2s
+         reach(last20): ag0:100% ag1:40% ag2:80% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  5/60 (G0065) | pol=0.78 (7/9) | fb=0.22 | R= +245.1 | t=10.8min | buf=21048 step=17434 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:45% ag2:75% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep  6/60 (G0066) | pol=0.89 (8/9) | fb=0.11 | R= +264.4 | t=10.1min | buf=21247 step=17633 nan=0 | 5.5s
+         reach(last20): ag0:100% ag1:50% ag2:70% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep  7/60 (G0067) | pol=0.89 (8/9) | fb=0.11 | R= +264.4 | t=10.1min | buf=21446 step=17832 nan=0 | 4.4s
+         reach(last20): ag0:100% ag1:55% ag2:65% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep  8/60 (G0068) | pol=0.89 (8/9) | fb=0.11 | R= +263.9 | t=10.0min | buf=21650 step=18036 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:60% ag2:60% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep  9/60 (G0069) | pol=0.89 (8/9) | fb=0.11 | R= +264.4 | t=10.1min | buf=21849 step=18235 nan=0 | 4.4s
+         reach(last20): ag0:100% ag1:65% ag2:55% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 10/60 (G0070) | pol=0.89 (8/9) | fb=0.11 | R= +264.4 | t=10.1min | buf=22048 step=18434 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:70% ag2:50% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 11/60 (G0071) | pol=0.89 (8/9) | fb=0.11 | R= +264.4 | t=10.1min | buf=22247 step=18633 nan=0 | 4.4s
+         reach(last20): ag0:100% ag1:75% ag2:45% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 12/60 (G0072) | pol=0.89 (8/9) | fb=0.11 | R= +264.4 | t=10.1min | buf=22446 step=18832 nan=0 | 4.4s
+         reach(last20): ag0:100% ag1:80% ag2:40% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 13/60 (G0073) | pol=1.00 (9/9) | fb=0.00 | R= +270.1 | t=10.0min | buf=22656 step=19042 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:85% ag2:40% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 14/60 (G0074) | pol=0.89 (8/9) | fb=0.11 | R= +263.9 | t=10.1min | buf=22866 step=19252 nan=0 | 4.7s
+         reach(last20): ag0:95% ag1:90% ag2:40% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 15/60 (G0075) | pol=0.89 (8/9) | fb=0.11 | R= +263.9 | t=10.1min | buf=23076 step=19462 nan=0 | 4.6s
+         reach(last20): ag0:90% ag1:95% ag2:40% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 16/60 (G0076) | pol=0.89 (8/9) | fb=0.11 | R= +263.9 | t=10.1min | buf=23286 step=19672 nan=0 | 4.4s
+         reach(last20): ag0:85% ag1:100% ag2:40% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 17/60 (G0077) | pol=0.89 (8/9) | fb=0.11 | R= +264.2 | t=10.1min | buf=23498 step=19884 nan=0 | 5.3s
+         reach(last20): ag0:80% ag1:100% ag2:40% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 18/60 (G0078) | pol=0.89 (8/9) | fb=0.11 | R= +264.2 | t=10.1min | buf=23710 step=20096 nan=0 | 5.7s
+         reach(last20): ag0:75% ag1:100% ag2:40% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 19/60 (G0079) | pol=0.89 (8/9) | fb=0.11 | R= +264.2 | t=10.1min | buf=23922 step=20308 nan=0 | 5.4s
+         reach(last20): ag0:70% ag1:100% ag2:40% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 20/60 (G0080) | pol=0.89 (8/9) | fb=0.11 | R= +264.2 | t=10.1min | buf=24134 step=20520 nan=0 | 4.8s
+         reach(last20): ag0:65% ag1:100% ag2:40% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 21/60 (G0081) | pol=0.89 (8/9) | fb=0.11 | R= +264.2 | t=10.1min | buf=24346 step=20732 nan=0 | 6.3s
+         reach(last20): ag0:60% ag1:100% ag2:45% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 22/60 (G0082) | pol=0.89 (8/9) | fb=0.11 | R= +264.2 | t=10.1min | buf=24558 step=20944 nan=0 | 6.6s
+         reach(last20): ag0:55% ag1:100% ag2:50% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 23/60 (G0083) | pol=0.89 (8/9) | fb=0.11 | R= +264.2 | t=10.1min | buf=24770 step=21156 nan=0 | 5.8s
+         reach(last20): ag0:50% ag1:100% ag2:55% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 24/60 (G0084) | pol=0.89 (8/9) | fb=0.11 | R= +264.2 | t=10.1min | buf=24982 step=21368 nan=0 | 5.0s
+         reach(last20): ag0:45% ag1:100% ag2:60% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 25/60 (G0085) | pol=1.00 (9/9) | fb=0.00 | R= +270.1 | t=10.0min | buf=25192 step=21578 nan=0 | 8.6s
+         reach(last20): ag0:45% ag1:100% ag2:65% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 26/60 (G0086) | pol=0.78 (7/9) | fb=0.22 | R= +265.7 | t=10.0min | buf=25395 step=21781 nan=0 | 10.2s
+         reach(last20): ag0:45% ag1:100% ag2:70% ag3:100% ag4:95% ag5:95% ag6:100% ag7:100% ag8:100%
+  Ep 27/60 (G0087) | pol=0.78 (7/9) | fb=0.22 | R= +265.2 | t=10.0min | buf=25599 step=21985 nan=0 | 7.4s
+         reach(last20): ag0:45% ag1:100% ag2:75% ag3:100% ag4:90% ag5:90% ag6:100% ag7:100% ag8:100%
+  Ep 28/60 (G0088) | pol=0.78 (7/9) | fb=0.22 | R= +264.8 | t=10.0min | buf=25803 step=22189 nan=0 | 4.9s
+         reach(last20): ag0:45% ag1:100% ag2:80% ag3:100% ag4:85% ag5:85% ag6:100% ag7:100% ag8:100%
+  Ep 29/60 (G0089) | pol=0.78 (7/9) | fb=0.22 | R= +265.2 | t=10.0min | buf=26007 step=22393 nan=0 | 4.4s
+         reach(last20): ag0:45% ag1:100% ag2:85% ag3:100% ag4:80% ag5:80% ag6:100% ag7:100% ag8:100%
+  Ep 30/60 (G0090) | pol=0.89 (8/9) | fb=0.11 | R= +271.1 | t=10.0min | buf=26214 step=22600 nan=0 | 5.1s
+         reach(last20): ag0:45% ag1:100% ag2:90% ag3:100% ag4:80% ag5:75% ag6:100% ag7:100% ag8:100%
+  Ep 31/60 (G0091) | pol=0.89 (8/9) | fb=0.11 | R= +271.4 | t=10.0min | buf=26422 step=22808 nan=0 | 5.9s
+         reach(last20): ag0:45% ag1:100% ag2:95% ag3:100% ag4:80% ag5:70% ag6:100% ag7:100% ag8:100%
+  Ep 32/60 (G0092) | pol=0.89 (8/9) | fb=0.11 | R= +271.1 | t=10.0min | buf=26629 step=23015 nan=0 | 4.8s
+         reach(last20): ag0:45% ag1:100% ag2:100% ag3:100% ag4:80% ag5:65% ag6:100% ag7:100% ag8:100%
+  Ep 33/60 (G0093) | pol=0.89 (8/9) | fb=0.11 | R= +269.1 | t=10.1min | buf=26843 step=23229 nan=0 | 4.9s
+         reach(last20): ag0:45% ag1:100% ag2:100% ag3:100% ag4:80% ag5:60% ag6:100% ag7:100% ag8:100%
+  Ep 34/60 (G0094) | pol=0.89 (8/9) | fb=0.11 | R= +271.1 | t=10.0min | buf=27050 step=23436 nan=0 | 6.9s
+         reach(last20): ag0:50% ag1:100% ag2:100% ag3:100% ag4:80% ag5:55% ag6:100% ag7:100% ag8:100%
+  Ep 35/60 (G0095) | pol=0.89 (8/9) | fb=0.11 | R= +271.1 | t=10.0min | buf=27257 step=23643 nan=0 | 11.7s
+         reach(last20): ag0:55% ag1:100% ag2:100% ag3:100% ag4:80% ag5:50% ag6:100% ag7:100% ag8:100%
+  Ep 36/60 (G0096) | pol=1.00 (9/9) | fb=0.00 | R= +275.9 | t=9.8min | buf=27465 step=23851 nan=0 | 6.4s
+         reach(last20): ag0:60% ag1:100% ag2:100% ag3:100% ag4:80% ag5:50% ag6:100% ag7:100% ag8:100%
+  Ep 37/60 (G0097) | pol=1.00 (9/9) | fb=0.00 | R= +277.5 | t=9.7min | buf=27669 step=24055 nan=0 | 6.5s
+         reach(last20): ag0:65% ag1:100% ag2:100% ag3:100% ag4:80% ag5:50% ag6:100% ag7:100% ag8:100%
+  Ep 38/60 (G0098) | pol=1.00 (9/9) | fb=0.00 | R= +277.2 | t=9.7min | buf=27872 step=24258 nan=0 | 5.9s
+         reach(last20): ag0:70% ag1:100% ag2:100% ag3:100% ag4:80% ag5:50% ag6:100% ag7:100% ag8:100%
+  Ep 39/60 (G0099) | pol=1.00 (9/9) | fb=0.00 | R= +277.2 | t=9.7min | buf=28075 step=24461 nan=0 | 8.1s
+         reach(last20): ag0:75% ag1:100% ag2:100% ag3:100% ag4:80% ag5:50% ag6:100% ag7:100% ag8:100%
+  Ep 40/60 (G0100) | pol=1.00 (9/9) | fb=0.00 | R= +277.2 | t=9.7min | buf=28278 step=24664 nan=0 | 7.4s
+         reach(last20): ag0:80% ag1:100% ag2:100% ag3:100% ag4:80% ag5:50% ag6:100% ag7:100% ag8:100%
+  Ep 41/60 (G0101) | pol=1.00 (9/9) | fb=0.00 | R= +277.2 | t=9.7min | buf=28481 step=24867 nan=0 | 6.8s
+         reach(last20): ag0:85% ag1:100% ag2:100% ag3:100% ag4:80% ag5:50% ag6:100% ag7:100% ag8:100%
+  Ep 42/60 (G0102) | pol=1.00 (9/9) | fb=0.00 | R= +275.8 | t=9.8min | buf=28692 step=25078 nan=0 | 10.9s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:100% ag4:80% ag5:50% ag6:100% ag7:100% ag8:100%
+  Ep 43/60 (G0103) | pol=1.00 (9/9) | fb=0.00 | R= +277.9 | t=9.7min | buf=28897 step=25283 nan=0 | 11.9s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:100% ag4:80% ag5:50% ag6:100% ag7:100% ag8:100%
+  Ep 44/60 (G0104) | pol=1.00 (9/9) | fb=0.00 | R= +275.5 | t=9.8min | buf=29107 step=25493 nan=0 | 11.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:80% ag5:50% ag6:100% ag7:100% ag8:100%
+  Ep 45/60 (G0105) | pol=1.00 (9/9) | fb=0.00 | R= +275.8 | t=9.8min | buf=29318 step=25704 nan=0 | 12.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:80% ag5:50% ag6:100% ag7:100% ag8:100%
+  Ep 46/60 (G0106) | pol=1.00 (9/9) | fb=0.00 | R= +275.8 | t=9.8min | buf=29529 step=25915 nan=0 | 10.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:85% ag5:55% ag6:100% ag7:100% ag8:100%
+  Ep 47/60 (G0107) | pol=1.00 (9/9) | fb=0.00 | R= +275.8 | t=9.8min | buf=29740 step=26126 nan=0 | 10.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:90% ag5:60% ag6:100% ag7:100% ag8:100%
+  Ep 48/60 (G0108) | pol=1.00 (9/9) | fb=0.00 | R= +275.8 | t=9.8min | buf=29951 step=26337 nan=0 | 9.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:65% ag6:100% ag7:100% ag8:100%
+  Ep 49/60 (G0109) | pol=1.00 (9/9) | fb=0.00 | R= +277.2 | t=9.7min | buf=30154 step=26540 nan=0 | 9.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:70% ag6:100% ag7:100% ag8:100%
+  Ep 50/60 (G0110) | pol=1.00 (9/9) | fb=0.00 | R= +277.2 | t=9.7min | buf=30357 step=26743 nan=0 | 9.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:75% ag6:100% ag7:100% ag8:100%
+  Ep 51/60 (G0111) | pol=1.00 (9/9) | fb=0.00 | R= +277.2 | t=9.7min | buf=30560 step=26946 nan=0 | 9.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:80% ag6:100% ag7:100% ag8:100%
+  Ep 52/60 (G0112) | pol=1.00 (9/9) | fb=0.00 | R= +277.5 | t=9.7min | buf=30764 step=27150 nan=0 | 10.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:85% ag6:100% ag7:100% ag8:100%
+  Ep 53/60 (G0113) | pol=1.00 (9/9) | fb=0.00 | R= +277.2 | t=9.8min | buf=30970 step=27356 nan=0 | 10.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:90% ag6:100% ag7:100% ag8:100%
+  Ep 54/60 (G0114) | pol=1.00 (9/9) | fb=0.00 | R= +276.9 | t=9.8min | buf=31175 step=27561 nan=0 | 9.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:95% ag6:100% ag7:100% ag8:100%
+  Ep 55/60 (G0115) | pol=1.00 (9/9) | fb=0.00 | R= +277.2 | t=9.8min | buf=31381 step=27767 nan=0 | 10.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 56/60 (G0116) | pol=1.00 (9/9) | fb=0.00 | R= +277.3 | t=9.7min | buf=31587 step=27973 nan=0 | 11.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 57/60 (G0117) | pol=1.00 (9/9) | fb=0.00 | R= +277.2 | t=9.8min | buf=31793 step=28179 nan=0 | 12.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 58/60 (G0118) | pol=1.00 (9/9) | fb=0.00 | R= +277.2 | t=9.8min | buf=31999 step=28385 nan=0 | 11.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 59/60 (G0119) | pol=1.00 (9/9) | fb=0.00 | R= +277.5 | t=9.7min | buf=32203 step=28589 nan=0 | 9.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 60/60 (G0120) | pol=1.00 (9/9) | fb=0.00 | R= +277.5 | t=9.7min | buf=32407 step=28793 nan=0 | 11.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+
+  -> Epoch 2/50 done | epoch_reach=0.93 | rolling40_reach=0.95 | global_eps=120 | buf=32407
+
+-- Epoch 3/50 --------------------------------------
+  ag0: Lifeline Medicare Hospital -> Royal Palms Estate  (4.04 km)  floodA*=17.6min
+  ag1: Motilal Nagar -> Aarey Colony  (2.43 km)  floodA*=13.4min
+  ag2: Nesco IT Park -> Unnat Nagar  (2.72 km)  floodA*=16.1min
+  ag3: Jawahar Nagar -> Inorbit Mall Goregaon  (1.45 km)  floodA*=8.2min
+  ag4: Nirlon Knowledge Park -> Nesco IT Park  (0.05 km)  floodA*=1.5min
+  ag5: Unnat Nagar -> Dindoshi  (3.10 km)  floodA*=11.8min
+  ag6: Film City -> SRV Hospital Goregaon  (4.68 km)  floodA*=30.3min
+  ag7: Bangur Nagar -> Lifeline Medicare Hospital  (1.88 km)  floodA*=9.5min
+  ag8: Goregaon West -> St Johns High School  (0.64 km)  floodA*=3.3min
+  Ep  1/60 (G0121) | pol=0.67 (6/9) | fb=0.33 | R= +228.2 | t=13.8min | buf=34732 step=29095 nan=0 | 7.6s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep  2/60 (G0122) | pol=0.89 (8/9) | fb=0.11 | R= +242.9 | t=12.5min | buf=35003 step=29366 nan=0 | 8.8s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:90% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep  3/60 (G0123) | pol=0.89 (8/9) | fb=0.11 | R= +242.7 | t=12.5min | buf=35273 step=29636 nan=0 | 7.1s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:85% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep  4/60 (G0124) | pol=0.78 (7/9) | fb=0.22 | R= +239.7 | t=12.5min | buf=35542 step=29905 nan=0 | 7.5s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:80% ag4:100% ag5:100% ag6:100% ag7:100% ag8:90%
+  Ep  5/60 (G0125) | pol=0.67 (6/9) | fb=0.33 | R= +233.4 | t=12.8min | buf=35816 step=30179 nan=0 | 7.7s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:75% ag4:100% ag5:100% ag6:95% ag7:100% ag8:85%
+  Ep  6/60 (G0126) | pol=0.67 (6/9) | fb=0.33 | R= +233.4 | t=12.8min | buf=36090 step=30453 nan=0 | 7.5s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:70% ag4:100% ag5:100% ag6:90% ag7:100% ag8:80%
+  Ep  7/60 (G0127) | pol=0.67 (6/9) | fb=0.33 | R= +233.2 | t=13.0min | buf=36365 step=30728 nan=0 | 7.4s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:65% ag4:100% ag5:100% ag6:85% ag7:100% ag8:75%
+  Ep  8/60 (G0128) | pol=0.78 (7/9) | fb=0.22 | R= +234.0 | t=13.3min | buf=36661 step=31024 nan=0 | 9.0s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:60% ag4:100% ag5:100% ag6:85% ag7:100% ag8:70%
+  Ep  9/60 (G0129) | pol=0.78 (7/9) | fb=0.22 | R= +239.4 | t=12.5min | buf=36932 step=31295 nan=0 | 7.5s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:55% ag4:100% ag5:100% ag6:85% ag7:100% ag8:65%
+  Ep 10/60 (G0130) | pol=0.78 (7/9) | fb=0.22 | R= +236.7 | t=12.5min | buf=37198 step=31561 nan=0 | 7.0s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:50% ag4:100% ag5:100% ag6:85% ag7:100% ag8:60%
+  Ep 11/60 (G0131) | pol=0.78 (7/9) | fb=0.22 | R= +239.6 | t=12.5min | buf=37467 step=31830 nan=0 | 7.0s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:45% ag4:100% ag5:100% ag6:85% ag7:100% ag8:55%
+  Ep 12/60 (G0132) | pol=0.78 (7/9) | fb=0.22 | R= +239.2 | t=12.5min | buf=37737 step=32100 nan=0 | 7.0s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:40% ag4:100% ag5:100% ag6:85% ag7:100% ag8:50%
+  Ep 13/60 (G0133) | pol=0.78 (7/9) | fb=0.22 | R= +239.2 | t=12.5min | buf=38007 step=32370 nan=0 | 6.4s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:35% ag4:100% ag5:100% ag6:85% ag7:100% ag8:45%
+  Ep 14/60 (G0134) | pol=0.78 (7/9) | fb=0.22 | R= +239.6 | t=12.5min | buf=38276 step=32639 nan=0 | 6.5s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:30% ag4:100% ag5:100% ag6:85% ag7:100% ag8:40%
+  Ep 15/60 (G0135) | pol=0.78 (7/9) | fb=0.22 | R= +239.6 | t=12.5min | buf=38545 step=32908 nan=0 | 6.2s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:25% ag4:100% ag5:100% ag6:85% ag7:100% ag8:35%
+  Ep 16/60 (G0136) | pol=0.89 (8/9) | fb=0.11 | R= +245.1 | t=12.4min | buf=38812 step=33175 nan=0 | 6.8s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:20% ag4:100% ag5:100% ag6:85% ag7:100% ag8:35%
+  Ep 17/60 (G0137) | pol=0.89 (8/9) | fb=0.11 | R= +245.1 | t=12.4min | buf=39079 step=33442 nan=0 | 7.6s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:15% ag4:100% ag5:100% ag6:85% ag7:100% ag8:35%
+  Ep 18/60 (G0138) | pol=0.89 (8/9) | fb=0.11 | R= +245.1 | t=12.4min | buf=39346 step=33709 nan=0 | 8.2s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:10% ag4:100% ag5:100% ag6:85% ag7:100% ag8:35%
+  Ep 19/60 (G0139) | pol=0.78 (7/9) | fb=0.22 | R= +244.2 | t=12.2min | buf=39598 step=33961 nan=0 | 6.9s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:5% ag4:100% ag5:95% ag6:85% ag7:100% ag8:35%
+  Ep 20/60 (G0140) | pol=0.78 (7/9) | fb=0.22 | R= +244.2 | t=12.2min | buf=39850 step=34213 nan=0 | 6.2s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:0% ag4:100% ag5:90% ag6:85% ag7:100% ag8:35%
+  Ep 21/60 (G0141) | pol=0.78 (7/9) | fb=0.22 | R= +244.2 | t=12.2min | buf=40102 step=34465 nan=0 | 5.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:0% ag4:100% ag5:85% ag6:85% ag7:100% ag8:40%
+  Ep 22/60 (G0142) | pol=0.78 (7/9) | fb=0.22 | R= +241.7 | t=12.2min | buf=40350 step=34713 nan=0 | 5.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:0% ag4:100% ag5:80% ag6:85% ag7:100% ag8:40%
+  Ep 23/60 (G0143) | pol=0.78 (7/9) | fb=0.22 | R= +241.7 | t=12.2min | buf=40598 step=34961 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:0% ag4:100% ag5:75% ag6:85% ag7:100% ag8:40%
+  Ep 24/60 (G0144) | pol=0.78 (7/9) | fb=0.22 | R= +241.7 | t=12.2min | buf=40846 step=35209 nan=0 | 6.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:0% ag4:100% ag5:70% ag6:85% ag7:100% ag8:45%
+  Ep 25/60 (G0145) | pol=0.78 (7/9) | fb=0.22 | R= +244.7 | t=12.1min | buf=41097 step=35460 nan=0 | 5.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:0% ag4:100% ag5:65% ag6:90% ag7:100% ag8:50%
+  Ep 26/60 (G0146) | pol=0.89 (8/9) | fb=0.11 | R= +247.0 | t=12.1min | buf=41354 step=35717 nan=0 | 6.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:5% ag4:100% ag5:60% ag6:95% ag7:100% ag8:55%
+  Ep 27/60 (G0147) | pol=0.89 (8/9) | fb=0.11 | R= +247.0 | t=12.1min | buf=41611 step=35974 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:10% ag4:100% ag5:55% ag6:100% ag7:100% ag8:60%
+  Ep 28/60 (G0148) | pol=0.89 (8/9) | fb=0.11 | R= +247.0 | t=12.1min | buf=41868 step=36231 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:15% ag4:100% ag5:50% ag6:100% ag7:100% ag8:65%
+  Ep 29/60 (G0149) | pol=0.89 (8/9) | fb=0.11 | R= +247.0 | t=12.1min | buf=42125 step=36488 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:20% ag4:100% ag5:45% ag6:100% ag7:100% ag8:70%
+  Ep 30/60 (G0150) | pol=0.89 (8/9) | fb=0.11 | R= +246.8 | t=12.1min | buf=42375 step=36738 nan=0 | 5.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:25% ag4:100% ag5:40% ag6:100% ag7:100% ag8:75%
+  Ep 31/60 (G0151) | pol=0.89 (8/9) | fb=0.11 | R= +246.8 | t=12.1min | buf=42625 step=36988 nan=0 | 4.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:30% ag4:100% ag5:35% ag6:100% ag7:100% ag8:80%
+  Ep 32/60 (G0152) | pol=1.00 (9/9) | fb=0.00 | R= +252.4 | t=12.1min | buf=42887 step=37250 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:35% ag4:100% ag5:35% ag6:100% ag7:100% ag8:85%
+  Ep 33/60 (G0153) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=43146 step=37509 nan=0 | 5.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:40% ag4:100% ag5:35% ag6:100% ag7:100% ag8:90%
+  Ep 34/60 (G0154) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=43405 step=37768 nan=0 | 6.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:45% ag4:100% ag5:35% ag6:100% ag7:100% ag8:95%
+  Ep 35/60 (G0155) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=43664 step=38027 nan=0 | 5.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:50% ag4:100% ag5:35% ag6:100% ag7:100% ag8:100%
+  Ep 36/60 (G0156) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=43923 step=38286 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:55% ag4:100% ag5:35% ag6:100% ag7:100% ag8:100%
+  Ep 37/60 (G0157) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=44182 step=38545 nan=0 | 5.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:60% ag4:100% ag5:35% ag6:100% ag7:100% ag8:100%
+  Ep 38/60 (G0158) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=44441 step=38804 nan=0 | 5.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:65% ag4:100% ag5:35% ag6:100% ag7:100% ag8:100%
+  Ep 39/60 (G0159) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=44700 step=39063 nan=0 | 5.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:70% ag4:100% ag5:40% ag6:100% ag7:100% ag8:100%
+  Ep 40/60 (G0160) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=44959 step=39322 nan=0 | 5.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:75% ag4:100% ag5:45% ag6:100% ag7:100% ag8:100%
+  Ep 41/60 (G0161) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=45218 step=39581 nan=0 | 6.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:80% ag4:100% ag5:50% ag6:100% ag7:100% ag8:100%
+  Ep 42/60 (G0162) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=45477 step=39840 nan=0 | 5.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:85% ag4:100% ag5:55% ag6:100% ag7:100% ag8:100%
+  Ep 43/60 (G0163) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=45736 step=40099 nan=0 | 5.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:100% ag5:60% ag6:100% ag7:100% ag8:100%
+  Ep 44/60 (G0164) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=45995 step=40358 nan=0 | 6.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:95% ag4:100% ag5:65% ag6:100% ag7:100% ag8:100%
+  Ep 45/60 (G0165) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=46254 step=40617 nan=0 | 8.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:70% ag6:100% ag7:100% ag8:100%
+  Ep 46/60 (G0166) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=46513 step=40876 nan=0 | 7.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:75% ag6:100% ag7:100% ag8:100%
+  Ep 47/60 (G0167) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=46772 step=41135 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:80% ag6:100% ag7:100% ag8:100%
+  Ep 48/60 (G0168) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=47031 step=41394 nan=0 | 6.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:85% ag6:100% ag7:100% ag8:100%
+  Ep 49/60 (G0169) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=47290 step=41653 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:90% ag6:100% ag7:100% ag8:100%
+  Ep 50/60 (G0170) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=47549 step=41912 nan=0 | 6.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:95% ag6:100% ag7:100% ag8:100%
+  Ep 51/60 (G0171) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=47808 step=42171 nan=0 | 6.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 52/60 (G0172) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=48067 step=42430 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 53/60 (G0173) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=48326 step=42689 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 54/60 (G0174) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=48585 step=42948 nan=0 | 5.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 55/60 (G0175) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=48844 step=43207 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 56/60 (G0176) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=49103 step=43466 nan=0 | 5.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 57/60 (G0177) | pol=1.00 (9/9) | fb=0.00 | R= +252.6 | t=12.1min | buf=49362 step=43725 nan=0 | 5.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 58/60 (G0178) | pol=1.00 (9/9) | fb=0.00 | R= +253.5 | t=12.0min | buf=49622 step=43985 nan=0 | 4.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 59/60 (G0179) | pol=1.00 (9/9) | fb=0.00 | R= +253.5 | t=12.0min | buf=49882 step=44245 nan=0 | 5.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 60/60 (G0180) | pol=1.00 (9/9) | fb=0.00 | R= +248.8 | t=12.4min | buf=50155 step=44518 nan=0 | 6.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+
+  -> Epoch 3/50 done | epoch_reach=0.90 | rolling40_reach=0.96 | global_eps=180 | buf=50155
+
+-- Epoch 4/50 --------------------------------------
+  ag0: Goregaon West -> Bangur Nagar  (1.06 km)  floodA*=6.6min
+  ag1: Goregaon Railway Station -> Nirlon Knowledge Park  (1.46 km)  floodA*=5.8min
+  ag2: Goregaon East -> Inorbit Mall Goregaon  (1.96 km)  floodA*=9.3min
+  ag3: Oberoi Mall -> Vibgyor High School  (2.89 km)  floodA*=14.8min
+  ag4: Nesco IT Park -> Dindoshi  (2.76 km)  floodA*=12.5min
+  ag5: Aarey Colony -> St Johns High School  (1.69 km)  floodA*=12.8min
+  ag6: Vibgyor High School -> Jawahar Nagar  (0.79 km)  floodA*=7.1min
+  ag7: Bangur Nagar -> Film City  (5.94 km)  floodA*=21.1min
+  ag8: Motilal Nagar -> Oberoi Mall  (2.61 km)  floodA*=13.9min
+  Ep  1/60 (G0181) | pol=0.89 (8/9) | fb=0.11 | R= +258.0 | t=11.3min | buf=52366 step=44767 nan=0 | 7.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  2/60 (G0182) | pol=0.78 (7/9) | fb=0.22 | R= +244.1 | t=11.9min | buf=52649 step=45050 nan=0 | 8.0s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:90% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  3/60 (G0183) | pol=0.89 (8/9) | fb=0.11 | R= +249.0 | t=12.1min | buf=52940 step=45341 nan=0 | 6.1s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:85% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  4/60 (G0184) | pol=0.89 (8/9) | fb=0.11 | R= +249.6 | t=11.7min | buf=53197 step=45598 nan=0 | 5.2s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:80% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  5/60 (G0185) | pol=1.00 (9/9) | fb=0.00 | R= +252.8 | t=11.9min | buf=53504 step=45905 nan=0 | 8.2s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:80% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  6/60 (G0186) | pol=0.89 (8/9) | fb=0.11 | R= +248.0 | t=12.2min | buf=53793 step=46194 nan=0 | 7.8s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:75% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  7/60 (G0187) | pol=0.89 (8/9) | fb=0.11 | R= +248.0 | t=12.2min | buf=54082 step=46483 nan=0 | 7.1s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:70% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  8/60 (G0188) | pol=0.89 (8/9) | fb=0.11 | R= +248.0 | t=12.2min | buf=54371 step=46772 nan=0 | 8.3s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:65% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  9/60 (G0189) | pol=1.00 (9/9) | fb=0.00 | R= +260.7 | t=11.6min | buf=54673 step=47074 nan=0 | 7.8s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:65% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 10/60 (G0190) | pol=1.00 (9/9) | fb=0.00 | R= +260.7 | t=11.6min | buf=54974 step=47375 nan=0 | 10.5s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:65% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 11/60 (G0191) | pol=1.00 (9/9) | fb=0.00 | R= +260.7 | t=11.6min | buf=55275 step=47676 nan=0 | 13.0s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:65% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 12/60 (G0192) | pol=1.00 (9/9) | fb=0.00 | R= +259.9 | t=11.7min | buf=55583 step=47984 nan=0 | 8.4s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:65% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 13/60 (G0193) | pol=1.00 (9/9) | fb=0.00 | R= +260.1 | t=11.7min | buf=55890 step=48291 nan=0 | 6.4s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:65% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 14/60 (G0194) | pol=1.00 (9/9) | fb=0.00 | R= +260.1 | t=11.7min | buf=56197 step=48598 nan=0 | 6.4s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:65% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 15/60 (G0195) | pol=0.89 (8/9) | fb=0.11 | R= +261.2 | t=12.0min | buf=56520 step=48921 nan=0 | 7.3s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:65% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 16/60 (G0196) | pol=0.89 (8/9) | fb=0.11 | R= +264.6 | t=11.8min | buf=56832 step=49233 nan=0 | 7.7s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:65% ag4:100% ag5:100% ag6:100% ag7:100% ag8:90%
+  Ep 17/60 (G0197) | pol=0.89 (8/9) | fb=0.11 | R= +263.5 | t=11.8min | buf=57143 step=49544 nan=0 | 7.2s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:65% ag4:100% ag5:100% ag6:100% ag7:100% ag8:85%
+  Ep 18/60 (G0198) | pol=1.00 (9/9) | fb=0.00 | R= +260.2 | t=11.7min | buf=57452 step=49853 nan=0 | 7.5s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:65% ag4:100% ag5:100% ag6:100% ag7:100% ag8:85%
+  Ep 19/60 (G0199) | pol=1.00 (9/9) | fb=0.00 | R= +260.2 | t=11.7min | buf=57761 step=50162 nan=0 | 8.5s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:65% ag4:100% ag5:100% ag6:100% ag7:100% ag8:85%
+  Ep 20/60 (G0200) | pol=1.00 (9/9) | fb=0.00 | R= +260.2 | t=11.7min | buf=58070 step=50471 nan=0 | 7.8s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:65% ag4:100% ag5:100% ag6:100% ag7:100% ag8:85%
+  Ep 21/60 (G0201) | pol=1.00 (9/9) | fb=0.00 | R= +260.2 | t=11.7min | buf=58379 step=50780 nan=0 | 10.0s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:70% ag4:100% ag5:100% ag6:100% ag7:100% ag8:85%
+  Ep 22/60 (G0202) | pol=1.00 (9/9) | fb=0.00 | R= +266.5 | t=11.5min | buf=58676 step=51077 nan=0 | 8.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:75% ag4:100% ag5:100% ag6:100% ag7:100% ag8:85%
+  Ep 23/60 (G0203) | pol=1.00 (9/9) | fb=0.00 | R= +266.5 | t=11.5min | buf=58973 step=51374 nan=0 | 8.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:80% ag4:100% ag5:100% ag6:100% ag7:100% ag8:85%
+  Ep 24/60 (G0204) | pol=1.00 (9/9) | fb=0.00 | R= +266.5 | t=11.5min | buf=59270 step=51671 nan=0 | 8.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:85% ag4:100% ag5:100% ag6:100% ag7:100% ag8:85%
+  Ep 25/60 (G0205) | pol=1.00 (9/9) | fb=0.00 | R= +266.5 | t=11.5min | buf=59567 step=51968 nan=0 | 8.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:85% ag4:100% ag5:100% ag6:100% ag7:100% ag8:85%
+  Ep 26/60 (G0206) | pol=1.00 (9/9) | fb=0.00 | R= +266.5 | t=11.5min | buf=59864 step=52265 nan=0 | 6.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:100% ag5:100% ag6:100% ag7:100% ag8:85%
+  Ep 27/60 (G0207) | pol=1.00 (9/9) | fb=0.00 | R= +266.9 | t=11.5min | buf=60158 step=52559 nan=0 | 9.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:85%
+  Ep 28/60 (G0208) | pol=1.00 (9/9) | fb=0.00 | R= +264.6 | t=11.5min | buf=60449 step=52850 nan=0 | 14.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:85%
+  Ep 29/60 (G0209) | pol=0.89 (8/9) | fb=0.11 | R= +258.8 | t=11.6min | buf=60743 step=53144 nan=0 | 8.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:80%
+  Ep 30/60 (G0210) | pol=1.00 (9/9) | fb=0.00 | R= +262.9 | t=11.6min | buf=61044 step=53445 nan=0 | 12.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:80%
+  Ep 31/60 (G0211) | pol=1.00 (9/9) | fb=0.00 | R= +263.3 | t=11.5min | buf=61345 step=53746 nan=0 | 6.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:80%
+  Ep 32/60 (G0212) | pol=1.00 (9/9) | fb=0.00 | R= +264.3 | t=11.5min | buf=61640 step=54041 nan=0 | 6.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:80%
+  Ep 33/60 (G0213) | pol=1.00 (9/9) | fb=0.00 | R= +262.9 | t=11.6min | buf=61946 step=54347 nan=0 | 7.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:80%
+  Ep 34/60 (G0214) | pol=1.00 (9/9) | fb=0.00 | R= +263.2 | t=11.5min | buf=62250 step=54651 nan=0 | 6.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:80%
+  Ep 35/60 (G0215) | pol=1.00 (9/9) | fb=0.00 | R= +264.7 | t=11.1min | buf=62513 step=54914 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:85%
+  Ep 36/60 (G0216) | pol=0.89 (8/9) | fb=0.11 | R= +256.8 | t=11.3min | buf=62768 step=55169 nan=0 | 5.3s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:90%
+  Ep 37/60 (G0217) | pol=0.89 (8/9) | fb=0.11 | R= +256.7 | t=11.3min | buf=63026 step=55427 nan=0 | 5.6s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 38/60 (G0218) | pol=1.00 (9/9) | fb=0.00 | R= +267.3 | t=11.0min | buf=63288 step=55689 nan=0 | 5.7s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 39/60 (G0219) | pol=0.89 (8/9) | fb=0.11 | R= +264.6 | t=11.1min | buf=63518 step=55919 nan=0 | 5.4s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:90%
+  Ep 40/60 (G0220) | pol=1.00 (9/9) | fb=0.00 | R= +267.3 | t=11.0min | buf=63780 step=56181 nan=0 | 6.5s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:90%
+  Ep 41/60 (G0221) | pol=1.00 (9/9) | fb=0.00 | R= +265.7 | t=11.0min | buf=64037 step=56438 nan=0 | 5.3s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:90%
+  Ep 42/60 (G0222) | pol=1.00 (9/9) | fb=0.00 | R= +268.3 | t=11.0min | buf=64293 step=56694 nan=0 | 5.2s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:90%
+  Ep 43/60 (G0223) | pol=1.00 (9/9) | fb=0.00 | R= +264.7 | t=11.1min | buf=64556 step=56957 nan=0 | 7.1s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:90%
+  Ep 44/60 (G0224) | pol=1.00 (9/9) | fb=0.00 | R= +264.7 | t=11.1min | buf=64819 step=57220 nan=0 | 7.9s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:90%
+  Ep 45/60 (G0225) | pol=1.00 (9/9) | fb=0.00 | R= +265.7 | t=11.0min | buf=65076 step=57477 nan=0 | 5.9s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:90%
+  Ep 46/60 (G0226) | pol=0.89 (8/9) | fb=0.11 | R= +260.5 | t=11.2min | buf=65324 step=57725 nan=0 | 10.2s
+         reach(last20): ag0:85% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:90%
+  Ep 47/60 (G0227) | pol=0.89 (8/9) | fb=0.11 | R= +256.8 | t=11.4min | buf=65585 step=57986 nan=0 | 8.4s
+         reach(last20): ag0:80% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:90%
+  Ep 48/60 (G0228) | pol=1.00 (9/9) | fb=0.00 | R= +265.1 | t=11.1min | buf=65853 step=58254 nan=0 | 7.3s
+         reach(last20): ag0:80% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:90%
+  Ep 49/60 (G0229) | pol=1.00 (9/9) | fb=0.00 | R= +265.1 | t=11.1min | buf=66121 step=58522 nan=0 | 7.5s
+         reach(last20): ag0:80% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 50/60 (G0230) | pol=1.00 (9/9) | fb=0.00 | R= +265.1 | t=11.1min | buf=66389 step=58790 nan=0 | 7.7s
+         reach(last20): ag0:80% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 51/60 (G0231) | pol=1.00 (9/9) | fb=0.00 | R= +265.1 | t=11.1min | buf=66657 step=59058 nan=0 | 16.4s
+         reach(last20): ag0:80% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 52/60 (G0232) | pol=1.00 (9/9) | fb=0.00 | R= +265.1 | t=11.1min | buf=66925 step=59326 nan=0 | 6.1s
+         reach(last20): ag0:80% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 53/60 (G0233) | pol=1.00 (9/9) | fb=0.00 | R= +265.1 | t=11.1min | buf=67193 step=59594 nan=0 | 6.5s
+         reach(last20): ag0:80% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 54/60 (G0234) | pol=1.00 (9/9) | fb=0.00 | R= +268.3 | t=11.0min | buf=67449 step=59850 nan=0 | 5.5s
+         reach(last20): ag0:80% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 55/60 (G0235) | pol=1.00 (9/9) | fb=0.00 | R= +268.3 | t=11.0min | buf=67705 step=60106 nan=0 | 5.9s
+         reach(last20): ag0:80% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 56/60 (G0236) | pol=1.00 (9/9) | fb=0.00 | R= +268.3 | t=11.0min | buf=67961 step=60362 nan=0 | 6.4s
+         reach(last20): ag0:85% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 57/60 (G0237) | pol=1.00 (9/9) | fb=0.00 | R= +268.3 | t=11.0min | buf=68217 step=60618 nan=0 | 5.8s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 58/60 (G0238) | pol=1.00 (9/9) | fb=0.00 | R= +268.3 | t=11.0min | buf=68473 step=60874 nan=0 | 7.9s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:95%
+  Ep 59/60 (G0239) | pol=1.00 (9/9) | fb=0.00 | R= +268.3 | t=11.0min | buf=68729 step=61130 nan=0 | 6.6s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 60/60 (G0240) | pol=1.00 (9/9) | fb=0.00 | R= +268.3 | t=11.0min | buf=68985 step=61386 nan=0 | 5.8s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+
+  -> Epoch 4/50 done | epoch_reach=0.97 | rolling40_reach=0.98 | global_eps=240 | buf=68985
+
+-- Epoch 5/50 --------------------------------------
+  ag0: Oberoi Mall -> Goregaon Railway Station  (1.42 km)  floodA*=10.5min
+  ag1: Film City -> St Xaviers High School  (5.04 km)  floodA*=30.4min
+  ag2: Goregaon West -> Nesco IT Park  (1.82 km)  floodA*=7.1min
+  ag3: Motilal Nagar -> Royal Palms Estate  (4.77 km)  floodA*=20.2min
+  ag4: Aarey Colony -> Pandurang Wadi  (1.33 km)  floodA*=7.7min
+  ag5: Bangur Nagar -> Unnat Nagar  (0.43 km)  floodA*=4.9min
+  ag6: Pandurang Wadi -> Goregaon West  (1.42 km)  floodA*=10.7min
+  ag7: Goregaon Railway Station -> Jawahar Nagar  (0.70 km)  floodA*=5.7min
+  ag8: Dindoshi -> Oberoi Mall  (0.70 km)  floodA*=2.8min
+  Ep  1/60 (G0241) | pol=1.00 (9/9) | fb=0.00 | R= +269.6 | t=10.8min | buf=70849 step=61603 nan=0 | 6.6s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  2/60 (G0242) | pol=0.89 (8/9) | fb=0.11 | R= +257.9 | t=11.8min | buf=71088 step=61842 nan=0 | 5.7s
+         reach(last20): ag0:90% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  3/60 (G0243) | pol=1.00 (9/9) | fb=0.00 | R= +271.9 | t=10.8min | buf=71311 step=62065 nan=0 | 5.7s
+         reach(last20): ag0:90% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  4/60 (G0244) | pol=1.00 (9/9) | fb=0.00 | R= +271.7 | t=10.9min | buf=71548 step=62302 nan=0 | 6.1s
+         reach(last20): ag0:90% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  5/60 (G0245) | pol=0.89 (8/9) | fb=0.11 | R= +272.4 | t=10.8min | buf=71782 step=62536 nan=0 | 5.5s
+         reach(last20): ag0:90% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep  6/60 (G0246) | pol=0.89 (8/9) | fb=0.11 | R= +272.9 | t=10.6min | buf=71999 step=62753 nan=0 | 5.0s
+         reach(last20): ag0:95% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:90% ag7:100% ag8:100%
+  Ep  7/60 (G0247) | pol=0.89 (8/9) | fb=0.11 | R= +272.4 | t=10.8min | buf=72234 step=62988 nan=0 | 6.7s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:85% ag7:100% ag8:100%
+  Ep  8/60 (G0248) | pol=0.89 (8/9) | fb=0.11 | R= +272.7 | t=10.6min | buf=72449 step=63203 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:80% ag7:100% ag8:100%
+  Ep  9/60 (G0249) | pol=1.00 (9/9) | fb=0.00 | R= +279.6 | t=10.5min | buf=72663 step=63417 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:80% ag7:100% ag8:100%
+  Ep 10/60 (G0250) | pol=0.89 (8/9) | fb=0.11 | R= +272.7 | t=10.6min | buf=72878 step=63632 nan=0 | 6.3s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep 11/60 (G0251) | pol=1.00 (9/9) | fb=0.00 | R= +272.3 | t=10.8min | buf=73109 step=63863 nan=0 | 6.5s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep 12/60 (G0252) | pol=0.89 (8/9) | fb=0.11 | R= +264.6 | t=11.0min | buf=73348 step=64102 nan=0 | 6.9s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:70% ag7:100% ag8:100%
+  Ep 13/60 (G0253) | pol=0.89 (8/9) | fb=0.11 | R= +269.3 | t=10.8min | buf=73575 step=64329 nan=0 | 5.1s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:65% ag7:100% ag8:100%
+  Ep 14/60 (G0254) | pol=0.89 (8/9) | fb=0.11 | R= +269.2 | t=10.8min | buf=73799 step=64553 nan=0 | 5.2s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:60% ag7:100% ag8:100%
+  Ep 15/60 (G0255) | pol=0.89 (8/9) | fb=0.11 | R= +272.7 | t=10.6min | buf=74014 step=64768 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:55% ag7:100% ag8:100%
+  Ep 16/60 (G0256) | pol=0.89 (8/9) | fb=0.11 | R= +272.7 | t=10.6min | buf=74229 step=64983 nan=0 | 4.9s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:50% ag7:100% ag8:100%
+  Ep 17/60 (G0257) | pol=0.89 (8/9) | fb=0.11 | R= +272.7 | t=10.6min | buf=74443 step=65197 nan=0 | 4.5s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:45% ag7:100% ag8:100%
+  Ep 18/60 (G0258) | pol=0.89 (8/9) | fb=0.11 | R= +272.7 | t=10.6min | buf=74657 step=65411 nan=0 | 4.3s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:40% ag7:100% ag8:100%
+  Ep 19/60 (G0259) | pol=0.89 (8/9) | fb=0.11 | R= +272.7 | t=10.6min | buf=74871 step=65625 nan=0 | 5.4s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:35% ag7:100% ag8:100%
+  Ep 20/60 (G0260) | pol=1.00 (9/9) | fb=0.00 | R= +276.4 | t=10.5min | buf=75087 step=65841 nan=0 | 4.6s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:35% ag7:100% ag8:100%
+  Ep 21/60 (G0261) | pol=1.00 (9/9) | fb=0.00 | R= +276.4 | t=10.5min | buf=75303 step=66057 nan=0 | 6.2s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:35% ag7:100% ag8:100%
+  Ep 22/60 (G0262) | pol=1.00 (9/9) | fb=0.00 | R= +276.6 | t=10.5min | buf=75517 step=66271 nan=0 | 4.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:35% ag7:100% ag8:100%
+  Ep 23/60 (G0263) | pol=1.00 (9/9) | fb=0.00 | R= +276.4 | t=10.5min | buf=75733 step=66487 nan=0 | 4.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:35% ag7:100% ag8:100%
+  Ep 24/60 (G0264) | pol=1.00 (9/9) | fb=0.00 | R= +276.0 | t=10.6min | buf=75948 step=66702 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:35% ag7:100% ag8:100%
+  Ep 25/60 (G0265) | pol=1.00 (9/9) | fb=0.00 | R= +276.0 | t=10.6min | buf=76163 step=66917 nan=0 | 4.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:40% ag7:100% ag8:100%
+  Ep 26/60 (G0266) | pol=1.00 (9/9) | fb=0.00 | R= +276.0 | t=10.6min | buf=76378 step=67132 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:45% ag7:100% ag8:100%
+  Ep 27/60 (G0267) | pol=1.00 (9/9) | fb=0.00 | R= +276.0 | t=10.6min | buf=76593 step=67347 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:50% ag7:100% ag8:100%
+  Ep 28/60 (G0268) | pol=1.00 (9/9) | fb=0.00 | R= +274.9 | t=10.6min | buf=76809 step=67563 nan=0 | 5.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:55% ag7:100% ag8:100%
+  Ep 29/60 (G0269) | pol=1.00 (9/9) | fb=0.00 | R= +275.3 | t=10.6min | buf=77026 step=67780 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:55% ag7:100% ag8:100%
+  Ep 30/60 (G0270) | pol=1.00 (9/9) | fb=0.00 | R= +274.9 | t=10.6min | buf=77242 step=67996 nan=0 | 5.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:60% ag7:100% ag8:100%
+  Ep 31/60 (G0271) | pol=1.00 (9/9) | fb=0.00 | R= +274.9 | t=10.6min | buf=77458 step=68212 nan=0 | 5.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:60% ag7:100% ag8:100%
+  Ep 32/60 (G0272) | pol=1.00 (9/9) | fb=0.00 | R= +274.9 | t=10.6min | buf=77674 step=68428 nan=0 | 5.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:65% ag7:100% ag8:100%
+  Ep 33/60 (G0273) | pol=1.00 (9/9) | fb=0.00 | R= +275.3 | t=10.6min | buf=77891 step=68645 nan=0 | 5.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:70% ag7:100% ag8:100%
+  Ep 34/60 (G0274) | pol=1.00 (9/9) | fb=0.00 | R= +274.9 | t=10.6min | buf=78107 step=68861 nan=0 | 5.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep 35/60 (G0275) | pol=1.00 (9/9) | fb=0.00 | R= +275.1 | t=10.6min | buf=78321 step=69075 nan=0 | 4.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:80% ag7:100% ag8:100%
+  Ep 36/60 (G0276) | pol=1.00 (9/9) | fb=0.00 | R= +276.2 | t=10.5min | buf=78534 step=69288 nan=0 | 4.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:85% ag7:100% ag8:100%
+  Ep 37/60 (G0277) | pol=1.00 (9/9) | fb=0.00 | R= +276.6 | t=10.5min | buf=78748 step=69502 nan=0 | 4.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:90% ag7:100% ag8:100%
+  Ep 38/60 (G0278) | pol=1.00 (9/9) | fb=0.00 | R= +276.2 | t=10.5min | buf=78961 step=69715 nan=0 | 5.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 39/60 (G0279) | pol=1.00 (9/9) | fb=0.00 | R= +275.9 | t=10.5min | buf=79173 step=69927 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 40/60 (G0280) | pol=1.00 (9/9) | fb=0.00 | R= +274.0 | t=10.6min | buf=79387 step=70141 nan=0 | 5.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 41/60 (G0281) | pol=1.00 (9/9) | fb=0.00 | R= +275.0 | t=10.6min | buf=79598 step=70352 nan=0 | 4.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 42/60 (G0282) | pol=1.00 (9/9) | fb=0.00 | R= +275.0 | t=10.6min | buf=79809 step=70563 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 43/60 (G0283) | pol=1.00 (9/9) | fb=0.00 | R= +278.5 | t=10.5min | buf=80015 step=70769 nan=0 | 4.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 44/60 (G0284) | pol=1.00 (9/9) | fb=0.00 | R= +278.2 | t=10.5min | buf=80220 step=70974 nan=0 | 4.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 45/60 (G0285) | pol=1.00 (9/9) | fb=0.00 | R= +278.2 | t=10.5min | buf=80425 step=71179 nan=0 | 4.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 46/60 (G0286) | pol=1.00 (9/9) | fb=0.00 | R= +275.3 | t=10.6min | buf=80637 step=71391 nan=0 | 4.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 47/60 (G0287) | pol=1.00 (9/9) | fb=0.00 | R= +278.5 | t=10.5min | buf=80843 step=71597 nan=0 | 4.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 48/60 (G0288) | pol=1.00 (9/9) | fb=0.00 | R= +275.0 | t=10.6min | buf=81054 step=71808 nan=0 | 5.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 49/60 (G0289) | pol=1.00 (9/9) | fb=0.00 | R= +278.2 | t=10.5min | buf=81259 step=72013 nan=0 | 4.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 50/60 (G0290) | pol=1.00 (9/9) | fb=0.00 | R= +278.2 | t=10.5min | buf=81464 step=72218 nan=0 | 4.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 51/60 (G0291) | pol=1.00 (9/9) | fb=0.00 | R= +278.2 | t=10.5min | buf=81669 step=72423 nan=0 | 5.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 52/60 (G0292) | pol=1.00 (9/9) | fb=0.00 | R= +278.2 | t=10.5min | buf=81874 step=72628 nan=0 | 4.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 53/60 (G0293) | pol=1.00 (9/9) | fb=0.00 | R= +275.5 | t=10.6min | buf=82088 step=72842 nan=0 | 4.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 54/60 (G0294) | pol=1.00 (9/9) | fb=0.00 | R= +278.2 | t=10.5min | buf=82293 step=73047 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 55/60 (G0295) | pol=1.00 (9/9) | fb=0.00 | R= +277.2 | t=10.5min | buf=82501 step=73255 nan=0 | 4.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 56/60 (G0296) | pol=1.00 (9/9) | fb=0.00 | R= +278.2 | t=10.5min | buf=82706 step=73460 nan=0 | 4.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 57/60 (G0297) | pol=1.00 (9/9) | fb=0.00 | R= +278.2 | t=10.5min | buf=82911 step=73665 nan=0 | 4.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 58/60 (G0298) | pol=1.00 (9/9) | fb=0.00 | R= +279.4 | t=10.4min | buf=83118 step=73872 nan=0 | 4.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 59/60 (G0299) | pol=1.00 (9/9) | fb=0.00 | R= +279.4 | t=10.4min | buf=83325 step=74079 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 60/60 (G0300) | pol=1.00 (9/9) | fb=0.00 | R= +278.2 | t=10.5min | buf=83530 step=74284 nan=0 | 4.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+
+  -> Epoch 5/50 done | epoch_reach=0.97 | rolling40_reach=1.00 | global_eps=300 | buf=83530
+
+-- Epoch 6/50 --------------------------------------
+  ag0: Unnat Nagar -> Royal Palms Estate  (5.71 km)  floodA*=19.3min
+  ag1: Film City -> Vibgyor High School  (5.37 km)  floodA*=36.6min
+  ag2: Royal Palms Estate -> Nirlon Knowledge Park  (3.11 km)  floodA*=15.4min
+  ag3: Nesco IT Park -> Film City  (3.32 km)  floodA*=16.6min
+  ag4: Goregaon East -> Jawahar Nagar  (1.42 km)  floodA*=11.5min
+  ag5: Oberoi Mall -> St Johns High School  (1.62 km)  floodA*=9.0min
+  ag6: Jawahar Nagar -> Goregaon Railway Station  (0.70 km)  floodA*=3.6min
+  ag7: Nirlon Knowledge Park -> Oberoi Mall  (2.31 km)  floodA*=8.9min
+  ag8: Pandurang Wadi -> SRV Hospital Goregaon  (0.69 km)  floodA*=6.2min
+  Ep  1/60 (G0301) | pol=0.44 (4/9) | fb=0.56 | R= +215.8 | t=17.3min | buf=85754 step=74581 nan=0 | 10.4s
+         reach(last20): ag0:95% ag1:95% ag2:100% ag3:100% ag4:95% ag5:95% ag6:95% ag7:100% ag8:100%
+  Ep  2/60 (G0302) | pol=0.56 (5/9) | fb=0.44 | R= +224.0 | t=16.7min | buf=86044 step=74871 nan=0 | 7.3s
+         reach(last20): ag0:90% ag1:95% ag2:100% ag3:100% ag4:90% ag5:90% ag6:90% ag7:100% ag8:100%
+  Ep  3/60 (G0303) | pol=0.67 (6/9) | fb=0.33 | R= +238.1 | t=15.6min | buf=86326 step=75153 nan=0 | 7.3s
+         reach(last20): ag0:85% ag1:95% ag2:100% ag3:100% ag4:90% ag5:85% ag6:85% ag7:100% ag8:100%
+  Ep  4/60 (G0304) | pol=0.78 (7/9) | fb=0.22 | R= +237.7 | t=15.5min | buf=86619 step=75446 nan=0 | 6.3s
+         reach(last20): ag0:80% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep  5/60 (G0305) | pol=0.89 (8/9) | fb=0.11 | R= +248.9 | t=14.2min | buf=86881 step=75708 nan=0 | 7.0s
+         reach(last20): ag0:75% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep  6/60 (G0306) | pol=0.89 (8/9) | fb=0.11 | R= +246.8 | t=14.3min | buf=87151 step=75978 nan=0 | 6.5s
+         reach(last20): ag0:70% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep  7/60 (G0307) | pol=0.89 (8/9) | fb=0.11 | R= +248.6 | t=14.2min | buf=87412 step=76239 nan=0 | 5.1s
+         reach(last20): ag0:65% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep  8/60 (G0308) | pol=0.89 (8/9) | fb=0.11 | R= +246.6 | t=14.4min | buf=87683 step=76510 nan=0 | 5.9s
+         reach(last20): ag0:60% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep  9/60 (G0309) | pol=0.89 (8/9) | fb=0.11 | R= +247.6 | t=14.3min | buf=87958 step=76785 nan=0 | 6.2s
+         reach(last20): ag0:55% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep 10/60 (G0310) | pol=0.89 (8/9) | fb=0.11 | R= +256.2 | t=14.3min | buf=88201 step=77028 nan=0 | 5.1s
+         reach(last20): ag0:50% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep 11/60 (G0311) | pol=0.89 (8/9) | fb=0.11 | R= +253.3 | t=14.3min | buf=88442 step=77269 nan=0 | 4.8s
+         reach(last20): ag0:45% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep 12/60 (G0312) | pol=0.89 (8/9) | fb=0.11 | R= +251.8 | t=14.5min | buf=88700 step=77527 nan=0 | 5.1s
+         reach(last20): ag0:40% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep 13/60 (G0313) | pol=0.89 (8/9) | fb=0.11 | R= +253.3 | t=14.3min | buf=88941 step=77768 nan=0 | 5.1s
+         reach(last20): ag0:35% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep 14/60 (G0314) | pol=0.89 (8/9) | fb=0.11 | R= +253.3 | t=14.3min | buf=89182 step=78009 nan=0 | 4.9s
+         reach(last20): ag0:30% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep 15/60 (G0315) | pol=0.89 (8/9) | fb=0.11 | R= +251.3 | t=14.3min | buf=89432 step=78259 nan=0 | 5.2s
+         reach(last20): ag0:25% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep 16/60 (G0316) | pol=0.89 (8/9) | fb=0.11 | R= +255.1 | t=14.3min | buf=89681 step=78508 nan=0 | 6.4s
+         reach(last20): ag0:20% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep 17/60 (G0317) | pol=0.89 (8/9) | fb=0.11 | R= +248.0 | t=14.4min | buf=89939 step=78766 nan=0 | 6.4s
+         reach(last20): ag0:15% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep 18/60 (G0318) | pol=0.89 (8/9) | fb=0.11 | R= +255.7 | t=14.3min | buf=90185 step=79012 nan=0 | 5.8s
+         reach(last20): ag0:10% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep 19/60 (G0319) | pol=0.89 (8/9) | fb=0.11 | R= +253.0 | t=14.4min | buf=90438 step=79265 nan=0 | 5.1s
+         reach(last20): ag0:5% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep 20/60 (G0320) | pol=0.89 (8/9) | fb=0.11 | R= +254.9 | t=14.4min | buf=90699 step=79526 nan=0 | 5.6s
+         reach(last20): ag0:0% ag1:95% ag2:100% ag3:100% ag4:90% ag5:80% ag6:85% ag7:100% ag8:100%
+  Ep 21/60 (G0321) | pol=0.89 (8/9) | fb=0.11 | R= +250.1 | t=14.5min | buf=90950 step=79777 nan=0 | 6.1s
+         reach(last20): ag0:0% ag1:100% ag2:100% ag3:100% ag4:95% ag5:85% ag6:90% ag7:100% ag8:100%
+  Ep 22/60 (G0322) | pol=0.89 (8/9) | fb=0.11 | R= +253.0 | t=14.4min | buf=91203 step=80030 nan=0 | 6.7s
+         reach(last20): ag0:0% ag1:100% ag2:100% ag3:100% ag4:100% ag5:90% ag6:95% ag7:100% ag8:100%
+  Ep 23/60 (G0323) | pol=0.89 (8/9) | fb=0.11 | R= +254.0 | t=14.4min | buf=91454 step=80281 nan=0 | 6.8s
+         reach(last20): ag0:0% ag1:100% ag2:100% ag3:100% ag4:100% ag5:95% ag6:100% ag7:100% ag8:100%
+  Ep 24/60 (G0324) | pol=0.89 (8/9) | fb=0.11 | R= +254.0 | t=14.4min | buf=91705 step=80532 nan=0 | 6.8s
+         reach(last20): ag0:0% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 25/60 (G0325) | pol=0.89 (8/9) | fb=0.11 | R= +254.0 | t=14.4min | buf=91956 step=80783 nan=0 | 5.4s
+         reach(last20): ag0:0% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 26/60 (G0326) | pol=0.89 (8/9) | fb=0.11 | R= +255.8 | t=14.3min | buf=92214 step=81041 nan=0 | 5.4s
+         reach(last20): ag0:0% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 27/60 (G0327) | pol=0.89 (8/9) | fb=0.11 | R= +255.8 | t=14.3min | buf=92472 step=81299 nan=0 | 5.0s
+         reach(last20): ag0:0% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 28/60 (G0328) | pol=1.00 (9/9) | fb=0.00 | R= +262.3 | t=13.9min | buf=92734 step=81561 nan=0 | 5.2s
+         reach(last20): ag0:5% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 29/60 (G0329) | pol=1.00 (9/9) | fb=0.00 | R= +262.3 | t=13.9min | buf=92996 step=81823 nan=0 | 5.1s
+         reach(last20): ag0:10% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 30/60 (G0330) | pol=1.00 (9/9) | fb=0.00 | R= +262.3 | t=13.9min | buf=93258 step=82085 nan=0 | 6.5s
+         reach(last20): ag0:15% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 31/60 (G0331) | pol=1.00 (9/9) | fb=0.00 | R= +262.3 | t=13.9min | buf=93520 step=82347 nan=0 | 6.6s
+         reach(last20): ag0:20% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 32/60 (G0332) | pol=1.00 (9/9) | fb=0.00 | R= +262.3 | t=13.9min | buf=93782 step=82609 nan=0 | 6.4s
+         reach(last20): ag0:25% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 33/60 (G0333) | pol=1.00 (9/9) | fb=0.00 | R= +262.3 | t=13.9min | buf=94044 step=82871 nan=0 | 6.9s
+         reach(last20): ag0:30% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 34/60 (G0334) | pol=1.00 (9/9) | fb=0.00 | R= +262.3 | t=13.9min | buf=94306 step=83133 nan=0 | 7.3s
+         reach(last20): ag0:35% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 35/60 (G0335) | pol=1.00 (9/9) | fb=0.00 | R= +262.3 | t=13.9min | buf=94568 step=83395 nan=0 | 7.4s
+         reach(last20): ag0:40% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 36/60 (G0336) | pol=0.89 (8/9) | fb=0.11 | R= +259.9 | t=14.1min | buf=94847 step=83674 nan=0 | 9.2s
+         reach(last20): ag0:45% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 37/60 (G0337) | pol=0.89 (8/9) | fb=0.11 | R= +260.5 | t=13.9min | buf=95114 step=83941 nan=0 | 9.7s
+         reach(last20): ag0:50% ag1:90% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 38/60 (G0338) | pol=1.00 (9/9) | fb=0.00 | R= +262.3 | t=13.9min | buf=95376 step=84203 nan=0 | 9.6s
+         reach(last20): ag0:55% ag1:90% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 39/60 (G0339) | pol=0.89 (8/9) | fb=0.11 | R= +255.4 | t=14.2min | buf=95653 step=84480 nan=0 | 7.4s
+         reach(last20): ag0:60% ag1:85% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 40/60 (G0340) | pol=0.89 (8/9) | fb=0.11 | R= +259.2 | t=14.0min | buf=95930 step=84757 nan=0 | 6.4s
+         reach(last20): ag0:65% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 41/60 (G0341) | pol=1.00 (9/9) | fb=0.00 | R= +261.3 | t=13.9min | buf=96194 step=85021 nan=0 | 5.4s
+         reach(last20): ag0:70% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 42/60 (G0342) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=96454 step=85281 nan=0 | 5.5s
+         reach(last20): ag0:75% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 43/60 (G0343) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=96714 step=85541 nan=0 | 6.9s
+         reach(last20): ag0:80% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 44/60 (G0344) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=96974 step=85801 nan=0 | 9.7s
+         reach(last20): ag0:85% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 45/60 (G0345) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=97234 step=86061 nan=0 | 8.2s
+         reach(last20): ag0:90% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 46/60 (G0346) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=97494 step=86321 nan=0 | 5.8s
+         reach(last20): ag0:95% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 47/60 (G0347) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=97754 step=86581 nan=0 | 5.6s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 48/60 (G0348) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=98014 step=86841 nan=0 | 6.1s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 49/60 (G0349) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=98274 step=87101 nan=0 | 7.0s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 50/60 (G0350) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=98534 step=87361 nan=0 | 6.1s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 51/60 (G0351) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=98794 step=87621 nan=0 | 5.9s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 52/60 (G0352) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=99054 step=87881 nan=0 | 6.1s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 53/60 (G0353) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=99314 step=88141 nan=0 | 8.9s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 54/60 (G0354) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=99574 step=88401 nan=0 | 8.4s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 55/60 (G0355) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=99834 step=88661 nan=0 | 6.2s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 56/60 (G0356) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=100094 step=88921 nan=0 | 5.1s
+         reach(last20): ag0:100% ag1:85% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 57/60 (G0357) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=100354 step=89181 nan=0 | 5.9s
+         reach(last20): ag0:100% ag1:90% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 58/60 (G0358) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=100614 step=89441 nan=0 | 5.2s
+         reach(last20): ag0:100% ag1:90% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 59/60 (G0359) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=100874 step=89701 nan=0 | 5.0s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 60/60 (G0360) | pol=1.00 (9/9) | fb=0.00 | R= +262.5 | t=13.9min | buf=101134 step=89961 nan=0 | 5.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+
+  -> Epoch 6/50 done | epoch_reach=0.92 | rolling40_reach=0.97 | global_eps=360 | buf=101134
+
+-- Epoch 7/50 --------------------------------------
+  ag0: Vibgyor High School -> Royal Palms Estate  (5.17 km)  floodA*=15.3min
+  ag1: Bangur Nagar -> Jawahar Nagar  (1.27 km)  floodA*=8.7min
+  ag2: Inorbit Mall Goregaon -> Nesco IT Park  (3.02 km)  floodA*=12.0min
+  ag3: Film City -> Bangur Nagar  (5.94 km)  floodA*=35.4min
+  ag4: Oberoi Mall -> Dindoshi  (0.70 km)  floodA*=1.5min
+  ag5: Goregaon East -> Nirlon Knowledge Park  (1.81 km)  floodA*=5.0min
+  ag6: Nesco IT Park -> SRV Hospital Goregaon  (1.93 km)  floodA*=10.5min
+  ag7: Unnat Nagar -> Film City  (5.64 km)  floodA*=19.7min
+  ag8: Motilal Nagar -> Vibgyor High School  (0.40 km)  floodA*=1.4min
+  Ep  1/60 (G0361) | pol=0.89 (8/9) | fb=0.11 | R= +269.4 | t=12.3min | buf=103541 step=90240 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep  2/60 (G0362) | pol=0.89 (8/9) | fb=0.11 | R= +265.6 | t=13.0min | buf=103842 step=90541 nan=0 | 6.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:90% ag7:100% ag8:100%
+  Ep  3/60 (G0363) | pol=0.89 (8/9) | fb=0.11 | R= +269.4 | t=12.3min | buf=104121 step=90820 nan=0 | 7.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:85% ag7:100% ag8:100%
+  Ep  4/60 (G0364) | pol=0.89 (8/9) | fb=0.11 | R= +269.4 | t=12.3min | buf=104400 step=91099 nan=0 | 6.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:80% ag7:100% ag8:100%
+  Ep  5/60 (G0365) | pol=0.89 (8/9) | fb=0.11 | R= +269.4 | t=12.3min | buf=104679 step=91378 nan=0 | 6.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep  6/60 (G0366) | pol=1.00 (9/9) | fb=0.00 | R= +274.5 | t=12.2min | buf=104973 step=91672 nan=0 | 6.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep  7/60 (G0367) | pol=0.89 (8/9) | fb=0.11 | R= +267.7 | t=12.3min | buf=105246 step=91945 nan=0 | 5.2s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep  8/60 (G0368) | pol=0.89 (8/9) | fb=0.11 | R= +267.7 | t=12.3min | buf=105519 step=92218 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:90% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep  9/60 (G0369) | pol=0.89 (8/9) | fb=0.11 | R= +267.7 | t=12.3min | buf=105792 step=92491 nan=0 | 5.2s
+         reach(last20): ag0:100% ag1:85% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep 10/60 (G0370) | pol=0.89 (8/9) | fb=0.11 | R= +267.7 | t=12.3min | buf=106065 step=92764 nan=0 | 5.5s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep 11/60 (G0371) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=106364 step=93063 nan=0 | 5.9s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep 12/60 (G0372) | pol=1.00 (9/9) | fb=0.00 | R= +272.9 | t=12.4min | buf=106670 step=93369 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep 13/60 (G0373) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=106969 step=93668 nan=0 | 7.5s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep 14/60 (G0374) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=107268 step=93967 nan=0 | 7.3s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep 15/60 (G0375) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=107567 step=94266 nan=0 | 5.6s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep 16/60 (G0376) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=107866 step=94565 nan=0 | 5.6s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep 17/60 (G0377) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=108165 step=94864 nan=0 | 5.7s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep 18/60 (G0378) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=108464 step=95163 nan=0 | 6.1s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep 19/60 (G0379) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=108763 step=95462 nan=0 | 6.3s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep 20/60 (G0380) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=109062 step=95761 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:75% ag7:100% ag8:100%
+  Ep 21/60 (G0381) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=109361 step=96060 nan=0 | 6.1s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:80% ag7:100% ag8:100%
+  Ep 22/60 (G0382) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=109660 step=96359 nan=0 | 5.9s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:85% ag7:100% ag8:100%
+  Ep 23/60 (G0383) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=109959 step=96658 nan=0 | 5.9s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:90% ag7:100% ag8:100%
+  Ep 24/60 (G0384) | pol=0.89 (8/9) | fb=0.11 | R= +267.7 | t=12.3min | buf=110232 step=96931 nan=0 | 5.4s
+         reach(last20): ag0:100% ag1:75% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 25/60 (G0385) | pol=0.89 (8/9) | fb=0.11 | R= +267.7 | t=12.3min | buf=110505 step=97204 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:70% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 26/60 (G0386) | pol=0.89 (8/9) | fb=0.11 | R= +267.7 | t=12.3min | buf=110778 step=97477 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:65% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 27/60 (G0387) | pol=0.89 (8/9) | fb=0.11 | R= +267.7 | t=12.3min | buf=111051 step=97750 nan=0 | 5.7s
+         reach(last20): ag0:100% ag1:65% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 28/60 (G0388) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=111350 step=98049 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:70% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 29/60 (G0389) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=111649 step=98348 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:75% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 30/60 (G0390) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=111948 step=98647 nan=0 | 5.6s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 31/60 (G0391) | pol=1.00 (9/9) | fb=0.00 | R= +274.3 | t=12.3min | buf=112247 step=98946 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 32/60 (G0392) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=112533 step=99232 nan=0 | 7.2s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 33/60 (G0393) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=112819 step=99518 nan=0 | 7.4s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 34/60 (G0394) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=113105 step=99804 nan=0 | 11.9s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 35/60 (G0395) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=113391 step=100090 nan=0 | 9.5s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 36/60 (G0396) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=113677 step=100376 nan=0 | 7.3s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 37/60 (G0397) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=113963 step=100662 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 38/60 (G0398) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=114249 step=100948 nan=0 | 6.5s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 39/60 (G0399) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=114535 step=101234 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 40/60 (G0400) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=114821 step=101520 nan=0 | 7.7s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 41/60 (G0401) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=115107 step=101806 nan=0 | 7.4s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 42/60 (G0402) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=115393 step=102092 nan=0 | 6.2s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 43/60 (G0403) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=115679 step=102378 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:80% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 44/60 (G0404) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=115965 step=102664 nan=0 | 10.8s
+         reach(last20): ag0:100% ag1:85% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 45/60 (G0405) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=116251 step=102950 nan=0 | 7.8s
+         reach(last20): ag0:100% ag1:90% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 46/60 (G0406) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=116537 step=103236 nan=0 | 6.1s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 47/60 (G0407) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=116823 step=103522 nan=0 | 5.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 48/60 (G0408) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=117109 step=103808 nan=0 | 5.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 49/60 (G0409) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=117395 step=104094 nan=0 | 6.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 50/60 (G0410) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=117681 step=104380 nan=0 | 8.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 51/60 (G0411) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=117967 step=104666 nan=0 | 5.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 52/60 (G0412) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=118253 step=104952 nan=0 | 6.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 53/60 (G0413) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=118539 step=105238 nan=0 | 6.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 54/60 (G0414) | pol=1.00 (9/9) | fb=0.00 | R= +269.0 | t=12.0min | buf=118825 step=105524 nan=0 | 5.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 55/60 (G0415) | pol=1.00 (9/9) | fb=0.00 | R= +269.2 | t=11.9min | buf=119106 step=105805 nan=0 | 5.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 56/60 (G0416) | pol=1.00 (9/9) | fb=0.00 | R= +269.2 | t=11.9min | buf=119387 step=106086 nan=0 | 7.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 57/60 (G0417) | pol=1.00 (9/9) | fb=0.00 | R= +269.2 | t=11.9min | buf=119668 step=106367 nan=0 | 5.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 58/60 (G0418) | pol=1.00 (9/9) | fb=0.00 | R= +269.2 | t=11.9min | buf=119949 step=106648 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 59/60 (G0419) | pol=1.00 (9/9) | fb=0.00 | R= +269.2 | t=11.9min | buf=120230 step=106929 nan=0 | 5.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 60/60 (G0420) | pol=1.00 (9/9) | fb=0.00 | R= +269.2 | t=11.9min | buf=120511 step=107210 nan=0 | 5.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+
+  -> Epoch 7/50 done | epoch_reach=0.98 | rolling40_reach=0.99 | global_eps=420 | buf=120511
+
+-- Epoch 8/50 --------------------------------------
+  ag0: Motilal Nagar -> Nesco IT Park  (1.71 km)  floodA*=7.7min
+  ag1: Pandurang Wadi -> Film City  (4.39 km)  floodA*=12.1min
+  ag2: Vibgyor High School -> Bangur Nagar  (1.06 km)  floodA*=5.7min
+  ag3: Nirlon Knowledge Park -> Pandurang Wadi  (2.11 km)  floodA*=12.8min
+  ag4: St Xaviers High School -> Dindoshi  (2.43 km)  floodA*=8.4min
+  ag5: Royal Palms Estate -> Jawahar Nagar  (4.65 km)  floodA*=32.7min
+  ag6: Goregaon Railway Station -> Aarey Colony  (1.34 km)  floodA*=12.1min
+  ag7: Inorbit Mall Goregaon -> Goregaon East  (1.96 km)  floodA*=9.6min
+  ag8: Bangur Nagar -> SRV Hospital Goregaon  (1.32 km)  floodA*=8.4min
+  Ep  1/60 (G0421) | pol=0.78 (7/9) | fb=0.22 | R= +248.3 | t=12.8min | buf=122660 step=107475 nan=0 | 7.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:95% ag6:100% ag7:95% ag8:100%
+  Ep  2/60 (G0422) | pol=0.67 (6/9) | fb=0.33 | R= +239.5 | t=12.7min | buf=122916 step=107731 nan=0 | 7.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:90% ag6:100% ag7:90% ag8:100%
+  Ep  3/60 (G0423) | pol=0.67 (6/9) | fb=0.33 | R= +235.4 | t=13.4min | buf=123172 step=107987 nan=0 | 10.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:85% ag6:95% ag7:85% ag8:100%
+  Ep  4/60 (G0424) | pol=0.78 (7/9) | fb=0.22 | R= +246.9 | t=13.0min | buf=123435 step=108250 nan=0 | 10.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:80% ag6:95% ag7:85% ag8:95%
+  Ep  5/60 (G0425) | pol=0.67 (6/9) | fb=0.33 | R= +239.1 | t=13.1min | buf=123718 step=108533 nan=0 | 8.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:75% ag6:95% ag7:80% ag8:90%
+  Ep  6/60 (G0426) | pol=0.89 (8/9) | fb=0.11 | R= +248.8 | t=13.1min | buf=124006 step=108821 nan=0 | 6.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:70% ag6:95% ag7:80% ag8:90%
+  Ep  7/60 (G0427) | pol=0.89 (8/9) | fb=0.11 | R= +257.7 | t=12.0min | buf=124224 step=109039 nan=0 | 4.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:65% ag6:95% ag7:80% ag8:90%
+  Ep  8/60 (G0428) | pol=0.89 (8/9) | fb=0.11 | R= +257.7 | t=12.0min | buf=124443 step=109258 nan=0 | 5.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:60% ag6:95% ag7:80% ag8:90%
+  Ep  9/60 (G0429) | pol=0.89 (8/9) | fb=0.11 | R= +257.7 | t=12.0min | buf=124662 step=109477 nan=0 | 4.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:55% ag6:95% ag7:80% ag8:90%
+  Ep 10/60 (G0430) | pol=0.89 (8/9) | fb=0.11 | R= +257.7 | t=12.0min | buf=124881 step=109696 nan=0 | 5.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:50% ag6:95% ag7:80% ag8:90%
+  Ep 11/60 (G0431) | pol=0.89 (8/9) | fb=0.11 | R= +258.0 | t=12.0min | buf=125100 step=109915 nan=0 | 4.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:45% ag6:95% ag7:80% ag8:90%
+  Ep 12/60 (G0432) | pol=1.00 (9/9) | fb=0.00 | R= +264.9 | t=11.8min | buf=125344 step=110159 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:45% ag6:95% ag7:80% ag8:90%
+  Ep 13/60 (G0433) | pol=1.00 (9/9) | fb=0.00 | R= +264.9 | t=11.8min | buf=125588 step=110403 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:45% ag6:95% ag7:80% ag8:90%
+  Ep 14/60 (G0434) | pol=1.00 (9/9) | fb=0.00 | R= +262.3 | t=11.9min | buf=125838 step=110653 nan=0 | 6.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:45% ag6:95% ag7:80% ag8:90%
+  Ep 15/60 (G0435) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=126080 step=110895 nan=0 | 5.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:45% ag6:95% ag7:80% ag8:90%
+  Ep 16/60 (G0436) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=126322 step=111137 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:45% ag6:95% ag7:80% ag8:90%
+  Ep 17/60 (G0437) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=126565 step=111380 nan=0 | 4.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:45% ag6:95% ag7:80% ag8:90%
+  Ep 18/60 (G0438) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=126808 step=111623 nan=0 | 4.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:45% ag6:95% ag7:80% ag8:90%
+  Ep 19/60 (G0439) | pol=1.00 (9/9) | fb=0.00 | R= +263.2 | t=11.8min | buf=127050 step=111865 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:45% ag6:95% ag7:80% ag8:90%
+  Ep 20/60 (G0440) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=127292 step=112107 nan=0 | 5.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:45% ag6:95% ag7:80% ag8:90%
+  Ep 21/60 (G0441) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=127534 step=112349 nan=0 | 6.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:50% ag6:95% ag7:85% ag8:90%
+  Ep 22/60 (G0442) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=127777 step=112592 nan=0 | 7.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:55% ag6:95% ag7:90% ag8:90%
+  Ep 23/60 (G0443) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=128019 step=112834 nan=0 | 4.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:60% ag6:100% ag7:95% ag8:90%
+  Ep 24/60 (G0444) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=128262 step=113077 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:65% ag6:100% ag7:95% ag8:95%
+  Ep 25/60 (G0445) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=128505 step=113320 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:70% ag6:100% ag7:100% ag8:100%
+  Ep 26/60 (G0446) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=128748 step=113563 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:75% ag6:100% ag7:100% ag8:100%
+  Ep 27/60 (G0447) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=128990 step=113805 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:80% ag6:100% ag7:100% ag8:100%
+  Ep 28/60 (G0448) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=129233 step=114048 nan=0 | 5.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:85% ag6:100% ag7:100% ag8:100%
+  Ep 29/60 (G0449) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=129476 step=114291 nan=0 | 5.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:90% ag6:100% ag7:100% ag8:100%
+  Ep 30/60 (G0450) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=129719 step=114534 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:95% ag6:100% ag7:100% ag8:100%
+  Ep 31/60 (G0451) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=129961 step=114776 nan=0 | 5.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 32/60 (G0452) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=130203 step=115018 nan=0 | 5.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 33/60 (G0453) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=130445 step=115260 nan=0 | 5.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 34/60 (G0454) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=130687 step=115502 nan=0 | 5.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 35/60 (G0455) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=130929 step=115744 nan=0 | 5.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 36/60 (G0456) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=131171 step=115986 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 37/60 (G0457) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=131413 step=116228 nan=0 | 5.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 38/60 (G0458) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=131655 step=116470 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 39/60 (G0459) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=131897 step=116712 nan=0 | 5.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 40/60 (G0460) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=132139 step=116954 nan=0 | 5.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 41/60 (G0461) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=132381 step=117196 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 42/60 (G0462) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=132624 step=117439 nan=0 | 5.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 43/60 (G0463) | pol=1.00 (9/9) | fb=0.00 | R= +264.4 | t=11.8min | buf=132865 step=117680 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 44/60 (G0464) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=133107 step=117922 nan=0 | 4.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 45/60 (G0465) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=133349 step=118164 nan=0 | 4.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 46/60 (G0466) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=133591 step=118406 nan=0 | 6.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 47/60 (G0467) | pol=1.00 (9/9) | fb=0.00 | R= +265.0 | t=11.7min | buf=133833 step=118648 nan=0 | 6.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 48/60 (G0468) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=134076 step=118891 nan=0 | 7.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 49/60 (G0469) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=134319 step=119134 nan=0 | 6.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 50/60 (G0470) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=134562 step=119377 nan=0 | 5.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 51/60 (G0471) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=134805 step=119620 nan=0 | 5.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 52/60 (G0472) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=135048 step=119863 nan=0 | 5.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 53/60 (G0473) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=135291 step=120106 nan=0 | 6.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 54/60 (G0474) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=135534 step=120349 nan=0 | 6.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 55/60 (G0475) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=135777 step=120592 nan=0 | 5.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 56/60 (G0476) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=136020 step=120835 nan=0 | 4.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 57/60 (G0477) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=136263 step=121078 nan=0 | 4.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 58/60 (G0478) | pol=0.89 (8/9) | fb=0.11 | R= +259.5 | t=11.9min | buf=136488 step=121303 nan=0 | 4.9s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 59/60 (G0479) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=136731 step=121546 nan=0 | 4.9s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 60/60 (G0480) | pol=1.00 (9/9) | fb=0.00 | R= +265.3 | t=11.7min | buf=136974 step=121789 nan=0 | 4.9s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+
+  -> Epoch 8/50 done | epoch_reach=0.96 | rolling40_reach=1.00 | global_eps=480 | buf=136974
+
+-- Epoch 9/50 --------------------------------------
+  ag0: Nirlon Knowledge Park -> Lifeline Medicare Hospital  (1.01 km)  floodA*=9.6min
+  ag1: Unnat Nagar -> Oberoi Mall  (2.41 km)  floodA*=10.8min
+  ag2: Dindoshi -> Inorbit Mall Goregaon  (3.11 km)  floodA*=12.8min
+  ag3: Lifeline Medicare Hospital -> SRV Hospital Goregaon  (0.91 km)  floodA*=5.7min
+  ag4: SRV Hospital Goregaon -> Royal Palms Estate  (4.80 km)  floodA*=15.6min
+  ag5: Bangur Nagar -> Pandurang Wadi  (1.89 km)  floodA*=10.6min
+  ag6: Royal Palms Estate -> Goregaon East  (4.25 km)  floodA*=21.8min
+  ag7: Goregaon Railway Station -> Film City  (4.23 km)  floodA*=19.3min
+  ag8: Jawahar Nagar -> Nesco IT Park  (1.61 km)  floodA*=7.7min
+  Ep  1/60 (G0481) | pol=1.00 (9/9) | fb=0.00 | R= +261.6 | t=12.6min | buf=139167 step=122048 nan=0 | 5.2s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  2/60 (G0482) | pol=1.00 (9/9) | fb=0.00 | R= +261.6 | t=12.6min | buf=139426 step=122307 nan=0 | 5.0s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  3/60 (G0483) | pol=1.00 (9/9) | fb=0.00 | R= +261.6 | t=12.6min | buf=139685 step=122566 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  4/60 (G0484) | pol=1.00 (9/9) | fb=0.00 | R= +261.6 | t=12.6min | buf=139944 step=122825 nan=0 | 6.2s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  5/60 (G0485) | pol=1.00 (9/9) | fb=0.00 | R= +261.9 | t=12.5min | buf=140201 step=123082 nan=0 | 4.9s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  6/60 (G0486) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=140459 step=123340 nan=0 | 4.8s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  7/60 (G0487) | pol=1.00 (9/9) | fb=0.00 | R= +263.3 | t=12.3min | buf=140730 step=123611 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  8/60 (G0488) | pol=1.00 (9/9) | fb=0.00 | R= +263.5 | t=12.3min | buf=140999 step=123880 nan=0 | 5.1s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  9/60 (G0489) | pol=1.00 (9/9) | fb=0.00 | R= +263.2 | t=12.3min | buf=141272 step=124153 nan=0 | 5.2s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 10/60 (G0490) | pol=1.00 (9/9) | fb=0.00 | R= +263.2 | t=12.3min | buf=141545 step=124426 nan=0 | 5.2s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 11/60 (G0491) | pol=1.00 (9/9) | fb=0.00 | R= +262.9 | t=12.4min | buf=141801 step=124682 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 12/60 (G0492) | pol=1.00 (9/9) | fb=0.00 | R= +262.9 | t=12.4min | buf=142057 step=124938 nan=0 | 6.5s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 13/60 (G0493) | pol=1.00 (9/9) | fb=0.00 | R= +262.9 | t=12.4min | buf=142313 step=125194 nan=0 | 7.0s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 14/60 (G0494) | pol=0.89 (8/9) | fb=0.11 | R= +252.9 | t=13.2min | buf=142569 step=125450 nan=0 | 7.2s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 15/60 (G0495) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=142827 step=125708 nan=0 | 6.4s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 16/60 (G0496) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=143085 step=125966 nan=0 | 7.1s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 17/60 (G0497) | pol=1.00 (9/9) | fb=0.00 | R= +262.9 | t=12.4min | buf=143341 step=126222 nan=0 | 10.1s
+         reach(last20): ag0:100% ag1:95% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 18/60 (G0498) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=143599 step=126480 nan=0 | 8.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 19/60 (G0499) | pol=1.00 (9/9) | fb=0.00 | R= +262.8 | t=12.5min | buf=143861 step=126742 nan=0 | 7.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 20/60 (G0500) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=144119 step=127000 nan=0 | 5.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 21/60 (G0501) | pol=1.00 (9/9) | fb=0.00 | R= +262.6 | t=12.6min | buf=144379 step=127260 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 22/60 (G0502) | pol=1.00 (9/9) | fb=0.00 | R= +262.6 | t=12.6min | buf=144639 step=127520 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 23/60 (G0503) | pol=1.00 (9/9) | fb=0.00 | R= +262.6 | t=12.6min | buf=144899 step=127780 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 24/60 (G0504) | pol=1.00 (9/9) | fb=0.00 | R= +262.6 | t=12.6min | buf=145159 step=128040 nan=0 | 7.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 25/60 (G0505) | pol=1.00 (9/9) | fb=0.00 | R= +262.6 | t=12.6min | buf=145419 step=128300 nan=0 | 6.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 26/60 (G0506) | pol=1.00 (9/9) | fb=0.00 | R= +262.6 | t=12.6min | buf=145679 step=128560 nan=0 | 6.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 27/60 (G0507) | pol=1.00 (9/9) | fb=0.00 | R= +262.8 | t=12.5min | buf=145937 step=128818 nan=0 | 6.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 28/60 (G0508) | pol=1.00 (9/9) | fb=0.00 | R= +262.6 | t=12.6min | buf=146197 step=129078 nan=0 | 5.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 29/60 (G0509) | pol=1.00 (9/9) | fb=0.00 | R= +262.6 | t=12.6min | buf=146457 step=129338 nan=0 | 6.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 30/60 (G0510) | pol=1.00 (9/9) | fb=0.00 | R= +262.6 | t=12.6min | buf=146717 step=129598 nan=0 | 6.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 31/60 (G0511) | pol=1.00 (9/9) | fb=0.00 | R= +262.6 | t=12.6min | buf=146977 step=129858 nan=0 | 6.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 32/60 (G0512) | pol=1.00 (9/9) | fb=0.00 | R= +262.6 | t=12.6min | buf=147237 step=130118 nan=0 | 9.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 33/60 (G0513) | pol=1.00 (9/9) | fb=0.00 | R= +262.6 | t=12.6min | buf=147497 step=130378 nan=0 | 10.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:95% ag7:100% ag8:100%
+  Ep 34/60 (G0514) | pol=1.00 (9/9) | fb=0.00 | R= +262.6 | t=12.6min | buf=147757 step=130638 nan=0 | 6.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 35/60 (G0515) | pol=1.00 (9/9) | fb=0.00 | R= +262.8 | t=12.5min | buf=148015 step=130896 nan=0 | 6.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 36/60 (G0516) | pol=0.89 (8/9) | fb=0.11 | R= +253.6 | t=13.1min | buf=148284 step=131165 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 37/60 (G0517) | pol=0.89 (8/9) | fb=0.11 | R= +252.9 | t=13.3min | buf=148561 step=131442 nan=0 | 5.2s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 38/60 (G0518) | pol=1.00 (9/9) | fb=0.00 | R= +262.6 | t=12.6min | buf=148821 step=131702 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 39/60 (G0519) | pol=1.00 (9/9) | fb=0.00 | R= +262.6 | t=12.6min | buf=149081 step=131962 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 40/60 (G0520) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=149339 step=132220 nan=0 | 5.7s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 41/60 (G0521) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=149597 step=132478 nan=0 | 5.4s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 42/60 (G0522) | pol=1.00 (9/9) | fb=0.00 | R= +262.9 | t=12.4min | buf=149853 step=132734 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 43/60 (G0523) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=150111 step=132992 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 44/60 (G0524) | pol=1.00 (9/9) | fb=0.00 | R= +260.6 | t=12.6min | buf=150373 step=133254 nan=0 | 6.0s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 45/60 (G0525) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=150631 step=133512 nan=0 | 5.9s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 46/60 (G0526) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=150889 step=133770 nan=0 | 5.7s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 47/60 (G0527) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=151147 step=134028 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 48/60 (G0528) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=151405 step=134286 nan=0 | 6.1s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 49/60 (G0529) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=151663 step=134544 nan=0 | 5.7s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 50/60 (G0530) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=151921 step=134802 nan=0 | 6.1s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 51/60 (G0531) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=152179 step=135060 nan=0 | 7.1s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 52/60 (G0532) | pol=1.00 (9/9) | fb=0.00 | R= +262.9 | t=12.4min | buf=152435 step=135316 nan=0 | 7.7s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 53/60 (G0533) | pol=1.00 (9/9) | fb=0.00 | R= +262.9 | t=12.4min | buf=152691 step=135572 nan=0 | 6.3s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 54/60 (G0534) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=152949 step=135830 nan=0 | 6.9s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 55/60 (G0535) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=153207 step=136088 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:90% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 56/60 (G0536) | pol=1.00 (9/9) | fb=0.00 | R= +262.8 | t=12.4min | buf=153463 step=136344 nan=0 | 6.5s
+         reach(last20): ag0:100% ag1:100% ag2:95% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 57/60 (G0537) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=153721 step=136602 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 58/60 (G0538) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=153979 step=136860 nan=0 | 5.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 59/60 (G0539) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=154237 step=137118 nan=0 | 5.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 60/60 (G0540) | pol=1.00 (9/9) | fb=0.00 | R= +262.7 | t=12.5min | buf=154495 step=137376 nan=0 | 5.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+
+  -> Epoch 9/50 done | epoch_reach=0.99 | rolling40_reach=0.99 | global_eps=540 | buf=154495
+
+-- Epoch 10/50 --------------------------------------
+  ag0: Royal Palms Estate -> Oberoi Mall  (4.27 km)  floodA*=20.2min
+  ag1: Vibgyor High School -> Motilal Nagar  (0.40 km)  floodA*=1.8min
+  ag2: Nirlon Knowledge Park -> St Johns High School  (1.77 km)  floodA*=11.5min
+  ag3: St Johns High School -> Vibgyor High School  (1.28 km)  floodA*=6.7min
+  ag4: Jawahar Nagar -> Nirlon Knowledge Park  (1.57 km)  floodA*=6.2min
+  ag5: Inorbit Mall Goregaon -> Pandurang Wadi  (1.55 km)  floodA*=7.4min
+  ag6: SRV Hospital Goregaon -> Jawahar Nagar  (0.69 km)  floodA*=4.0min
+  ag7: Pandurang Wadi -> Unnat Nagar  (1.49 km)  floodA*=9.1min
+  ag8: Unnat Nagar -> SRV Hospital Goregaon  (0.97 km)  floodA*=2.2min
+  Ep  1/60 (G0541) | pol=1.00 (9/9) | fb=0.00 | R= +302.9 | t=7.5min | buf=155937 step=137535 nan=0 | 7.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  2/60 (G0542) | pol=1.00 (9/9) | fb=0.00 | R= +302.9 | t=7.5min | buf=156096 step=137694 nan=0 | 5.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  3/60 (G0543) | pol=1.00 (9/9) | fb=0.00 | R= +302.9 | t=7.5min | buf=156255 step=137853 nan=0 | 5.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  4/60 (G0544) | pol=1.00 (9/9) | fb=0.00 | R= +301.1 | t=7.6min | buf=156419 step=138017 nan=0 | 6.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  5/60 (G0545) | pol=1.00 (9/9) | fb=0.00 | R= +301.2 | t=7.6min | buf=156582 step=138180 nan=0 | 8.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  6/60 (G0546) | pol=1.00 (9/9) | fb=0.00 | R= +301.2 | t=7.6min | buf=156745 step=138343 nan=0 | 4.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  7/60 (G0547) | pol=1.00 (9/9) | fb=0.00 | R= +301.1 | t=7.6min | buf=156909 step=138507 nan=0 | 4.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  8/60 (G0548) | pol=1.00 (9/9) | fb=0.00 | R= +301.1 | t=7.6min | buf=157073 step=138671 nan=0 | 4.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  9/60 (G0549) | pol=1.00 (9/9) | fb=0.00 | R= +301.1 | t=7.6min | buf=157237 step=138835 nan=0 | 3.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 10/60 (G0550) | pol=1.00 (9/9) | fb=0.00 | R= +301.1 | t=7.6min | buf=157401 step=138999 nan=0 | 4.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 11/60 (G0551) | pol=1.00 (9/9) | fb=0.00 | R= +301.1 | t=7.6min | buf=157565 step=139163 nan=0 | 4.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 12/60 (G0552) | pol=0.89 (8/9) | fb=0.11 | R= +293.1 | t=7.9min | buf=157704 step=139302 nan=0 | 3.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 13/60 (G0553) | pol=0.89 (8/9) | fb=0.11 | R= +291.8 | t=8.2min | buf=157887 step=139485 nan=0 | 4.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:95% ag5:100% ag6:100% ag7:95% ag8:100%
+  Ep 14/60 (G0554) | pol=0.78 (7/9) | fb=0.22 | R= +283.4 | t=8.4min | buf=158042 step=139640 nan=0 | 3.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:90% ag5:100% ag6:100% ag7:90% ag8:100%
+  Ep 15/60 (G0555) | pol=0.78 (7/9) | fb=0.22 | R= +283.4 | t=8.4min | buf=158197 step=139795 nan=0 | 4.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:85% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 16/60 (G0556) | pol=0.89 (8/9) | fb=0.11 | R= +292.8 | t=7.8min | buf=158332 step=139930 nan=0 | 3.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:80% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 17/60 (G0557) | pol=0.89 (8/9) | fb=0.11 | R= +292.8 | t=7.8min | buf=158467 step=140065 nan=0 | 3.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:75% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 18/60 (G0558) | pol=1.00 (9/9) | fb=0.00 | R= +300.8 | t=7.5min | buf=158627 step=140225 nan=0 | 4.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:75% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 19/60 (G0559) | pol=0.89 (8/9) | fb=0.11 | R= +294.7 | t=7.7min | buf=158779 step=140377 nan=0 | 3.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:95% ag4:75% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 20/60 (G0560) | pol=0.89 (8/9) | fb=0.11 | R= +294.7 | t=7.7min | buf=158931 step=140529 nan=0 | 3.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:75% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 21/60 (G0561) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=159093 step=140691 nan=0 | 4.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:75% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 22/60 (G0562) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=159255 step=140853 nan=0 | 4.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:75% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 23/60 (G0563) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=159417 step=141015 nan=0 | 4.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:75% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 24/60 (G0564) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=159579 step=141177 nan=0 | 4.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:75% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 25/60 (G0565) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=159741 step=141339 nan=0 | 3.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:75% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 26/60 (G0566) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=159903 step=141501 nan=0 | 3.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:75% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 27/60 (G0567) | pol=1.00 (9/9) | fb=0.00 | R= +299.4 | t=7.6min | buf=160064 step=141662 nan=0 | 3.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:75% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 28/60 (G0568) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=160226 step=141824 nan=0 | 3.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:75% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 29/60 (G0569) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=160388 step=141986 nan=0 | 3.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:75% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 30/60 (G0570) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=160550 step=142148 nan=0 | 4.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:75% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 31/60 (G0571) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=160712 step=142310 nan=0 | 4.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:75% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 32/60 (G0572) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=160874 step=142472 nan=0 | 4.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:80% ag5:100% ag6:100% ag7:85% ag8:100%
+  Ep 33/60 (G0573) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=161036 step=142634 nan=0 | 4.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:80% ag5:100% ag6:100% ag7:90% ag8:100%
+  Ep 34/60 (G0574) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=161198 step=142796 nan=0 | 4.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:85% ag5:100% ag6:100% ag7:95% ag8:100%
+  Ep 35/60 (G0575) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=161360 step=142958 nan=0 | 3.9s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:90% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 36/60 (G0576) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=161522 step=143120 nan=0 | 4.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:95% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 37/60 (G0577) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=161684 step=143282 nan=0 | 4.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 38/60 (G0578) | pol=1.00 (9/9) | fb=0.00 | R= +299.4 | t=7.6min | buf=161845 step=143443 nan=0 | 4.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:90% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 39/60 (G0579) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=162007 step=143605 nan=0 | 4.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 40/60 (G0580) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=162169 step=143767 nan=0 | 3.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 41/60 (G0581) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=162331 step=143929 nan=0 | 3.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 42/60 (G0582) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=162493 step=144091 nan=0 | 3.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 43/60 (G0583) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=162655 step=144253 nan=0 | 3.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 44/60 (G0584) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=162817 step=144415 nan=0 | 3.2s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 45/60 (G0585) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=162979 step=144577 nan=0 | 3.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 46/60 (G0586) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=163141 step=144739 nan=0 | 3.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 47/60 (G0587) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=163303 step=144901 nan=0 | 3.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 48/60 (G0588) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=163465 step=145063 nan=0 | 3.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 49/60 (G0589) | pol=1.00 (9/9) | fb=0.00 | R= +300.6 | t=7.5min | buf=163627 step=145225 nan=0 | 3.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 50/60 (G0590) | pol=1.00 (9/9) | fb=0.00 | R= +302.3 | t=7.4min | buf=163784 step=145382 nan=0 | 3.4s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 51/60 (G0591) | pol=1.00 (9/9) | fb=0.00 | R= +302.3 | t=7.4min | buf=163941 step=145539 nan=0 | 3.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 52/60 (G0592) | pol=1.00 (9/9) | fb=0.00 | R= +302.3 | t=7.4min | buf=164098 step=145696 nan=0 | 3.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 53/60 (G0593) | pol=1.00 (9/9) | fb=0.00 | R= +302.3 | t=7.4min | buf=164255 step=145853 nan=0 | 4.0s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 54/60 (G0594) | pol=1.00 (9/9) | fb=0.00 | R= +302.3 | t=7.4min | buf=164412 step=146010 nan=0 | 3.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 55/60 (G0595) | pol=1.00 (9/9) | fb=0.00 | R= +303.5 | t=7.4min | buf=164568 step=146166 nan=0 | 3.7s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 56/60 (G0596) | pol=1.00 (9/9) | fb=0.00 | R= +303.5 | t=7.4min | buf=164724 step=146322 nan=0 | 3.3s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 57/60 (G0597) | pol=1.00 (9/9) | fb=0.00 | R= +303.5 | t=7.4min | buf=164880 step=146478 nan=0 | 3.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 58/60 (G0598) | pol=1.00 (9/9) | fb=0.00 | R= +303.5 | t=7.4min | buf=165036 step=146634 nan=0 | 3.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 59/60 (G0599) | pol=1.00 (9/9) | fb=0.00 | R= +303.5 | t=7.4min | buf=165192 step=146790 nan=0 | 3.6s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 60/60 (G0600) | pol=0.89 (8/9) | fb=0.11 | R= +296.4 | t=7.6min | buf=165339 step=146937 nan=0 | 3.5s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+
+  -> Epoch 10/50 done | epoch_reach=0.98 | rolling40_reach=1.00 | global_eps=600 | buf=165339
+
+-- Epoch 11/50 --------------------------------------
+  ag0: Vibgyor High School -> Pandurang Wadi  (2.05 km)  floodA*=13.2min
+  ag1: St Johns High School -> Motilal Nagar  (1.07 km)  floodA*=3.4min
+  ag2: Dindoshi -> SRV Hospital Goregaon  (2.28 km)  floodA*=11.1min
+  ag3: Bangur Nagar -> St Xaviers High School  (1.08 km)  floodA*=8.5min
+  ag4: SRV Hospital Goregaon -> Unnat Nagar  (0.97 km)  floodA*=5.7min
+  ag5: Goregaon West -> Nirlon Knowledge Park  (1.78 km)  floodA*=5.6min
+  ag6: Inorbit Mall Goregaon -> Film City  (5.84 km)  floodA*=17.8min
+  ag7: Pandurang Wadi -> Dindoshi  (1.62 km)  floodA*=4.1min
+  ag8: St Xaviers High School -> Vibgyor High School  (1.44 km)  floodA*=10.1min
+  Ep  1/60 (G0601) | pol=1.00 (9/9) | fb=0.00 | R= +285.3 | t=9.0min | buf=167256 step=147176 nan=0 | 4.8s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  2/60 (G0602) | pol=1.00 (9/9) | fb=0.00 | R= +287.0 | t=8.9min | buf=167490 step=147410 nan=0 | 6.1s
+         reach(last20): ag0:100% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  3/60 (G0603) | pol=0.89 (8/9) | fb=0.11 | R= +288.9 | t=8.4min | buf=167709 step=147629 nan=0 | 4.7s
+         reach(last20): ag0:95% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  4/60 (G0604) | pol=0.89 (8/9) | fb=0.11 | R= +286.4 | t=8.5min | buf=167925 step=147845 nan=0 | 4.8s
+         reach(last20): ag0:90% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  5/60 (G0605) | pol=0.89 (8/9) | fb=0.11 | R= +285.7 | t=8.6min | buf=168145 step=148065 nan=0 | 4.9s
+         reach(last20): ag0:85% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  6/60 (G0606) | pol=0.89 (8/9) | fb=0.11 | R= +288.3 | t=8.4min | buf=168354 step=148274 nan=0 | 4.4s
+         reach(last20): ag0:80% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  7/60 (G0607) | pol=0.89 (8/9) | fb=0.11 | R= +288.3 | t=8.4min | buf=168563 step=148483 nan=0 | 4.8s
+         reach(last20): ag0:75% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  8/60 (G0608) | pol=0.89 (8/9) | fb=0.11 | R= +288.9 | t=8.3min | buf=168779 step=148699 nan=0 | 5.0s
+         reach(last20): ag0:70% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep  9/60 (G0609) | pol=0.89 (8/9) | fb=0.11 | R= +288.2 | t=8.4min | buf=168991 step=148911 nan=0 | 4.2s
+         reach(last20): ag0:65% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 10/60 (G0610) | pol=0.89 (8/9) | fb=0.11 | R= +287.2 | t=8.4min | buf=169204 step=149124 nan=0 | 4.4s
+         reach(last20): ag0:60% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 11/60 (G0611) | pol=0.89 (8/9) | fb=0.11 | R= +284.0 | t=8.6min | buf=169439 step=149359 nan=0 | 4.8s
+         reach(last20): ag0:55% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 12/60 (G0612) | pol=0.89 (8/9) | fb=0.11 | R= +281.1 | t=8.6min | buf=169690 step=149610 nan=0 | 4.8s
+         reach(last20): ag0:50% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 13/60 (G0613) | pol=0.89 (8/9) | fb=0.11 | R= +283.5 | t=8.6min | buf=169952 step=149872 nan=0 | 5.5s
+         reach(last20): ag0:45% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 14/60 (G0614) | pol=1.00 (9/9) | fb=0.00 | R= +284.0 | t=9.0min | buf=170189 step=150109 nan=0 | 5.9s
+         reach(last20): ag0:45% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 15/60 (G0615) | pol=1.00 (9/9) | fb=0.00 | R= +284.4 | t=8.9min | buf=170422 step=150342 nan=0 | 5.4s
+         reach(last20): ag0:45% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 16/60 (G0616) | pol=0.89 (8/9) | fb=0.11 | R= +277.5 | t=8.8min | buf=170713 step=150633 nan=0 | 7.1s
+         reach(last20): ag0:40% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 17/60 (G0617) | pol=0.89 (8/9) | fb=0.11 | R= +284.6 | t=8.6min | buf=170974 step=150894 nan=0 | 5.3s
+         reach(last20): ag0:35% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 18/60 (G0618) | pol=0.89 (8/9) | fb=0.11 | R= +278.6 | t=8.7min | buf=171262 step=151182 nan=0 | 5.6s
+         reach(last20): ag0:30% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 19/60 (G0619) | pol=0.89 (8/9) | fb=0.11 | R= +278.2 | t=8.8min | buf=171551 step=151471 nan=0 | 6.3s
+         reach(last20): ag0:25% ag1:100% ag2:100% ag3:95% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%
+  Ep 20/60 (G0620) | pol=0.89 (8/9) | fb=0.11 | R= +287.9 | t=8.3min | buf=171791 step=151711 nan=0 | 5.6s
+         reach(last20): ag0:20% ag1:100% ag2:100% ag3:100% ag4:100% ag5:100% ag6:100% ag7:100% ag8:100%

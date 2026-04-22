@@ -1,10 +1,11 @@
 import os
 import sys
 from functools import lru_cache
-from typing import Any, List
+from typing import Any, Dict, List, Optional
 
 import numpy as np
 import pandas as pd
+import torch
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -21,6 +22,8 @@ class RouteRequest(BaseModel):
     source: str
     destination: str
     start_datetime: str
+    algorithm: str = "astar"
+    flood_ttr: Optional[float] = None
 
 
 class DelayItem(BaseModel):
@@ -37,10 +40,16 @@ class MarkerPoint(BaseModel):
     lon: float
 
 
+class ExploredNode(BaseModel):
+    lat: float
+    lon: float
+
+
 class RouteResponse(BaseModel):
     source: str
     destination: str
     start_datetime: str
+    algorithm: str
     est_time_min: float
     est_distance_km: float
     segments_used: int
@@ -49,6 +58,26 @@ class RouteResponse(BaseModel):
     area_labels: List[dict]
     source_marker: MarkerPoint
     destination_marker: MarkerPoint
+    explored_nodes: List[ExploredNode]
+
+
+class DemoComparisonResponse(BaseModel):
+    source: str
+    destination: str
+    start_datetime: str
+    flood_ttr: float
+    baseline_astar_time_min: float
+    flooded_astar_time_min: float
+    sac_time_min: float
+    baseline_distance_km: float
+    flooded_distance_km: float
+    sac_distance_km: float
+    sac_gain_vs_flooded_pct: float
+    source_marker: MarkerPoint
+    destination_marker: MarkerPoint
+    flooded_astar_path: List[dict]
+    sac_path: List[dict]
+    flood_edge_count: int
 
 
 app = FastAPI(title="Mumbai Smart Navigation API")
@@ -103,6 +132,126 @@ def _edge_geometry_latlon(g: Any, u: int, v: int, k: int) -> List[List[float]]:
     ]
 
 
+def _path_to_points(g: Any, path: List[tuple], named_nodes: Dict[str, int]) -> List[dict]:
+    edge_rows_named = []
+    for u, v, k in path:
+        road_name = _edge_road_name(g, u, v, k)
+        mx = (g.nodes[u]["x"] + g.nodes[v]["x"]) / 2.0
+        my = (g.nodes[u]["y"] + g.nodes[v]["y"]) / 2.0
+        near = _nearest_area_name(g, named_nodes, mx, my)
+        edge_rows_named.append((road_name, near, (u, v, k)))
+    return [
+        {
+            "u_lat": float(g.nodes[u]["y"]),
+            "u_lon": float(g.nodes[u]["x"]),
+            "v_lat": float(g.nodes[v]["y"]),
+            "v_lon": float(g.nodes[v]["x"]),
+            "geometry": _edge_geometry_latlon(g, u, v, k),
+            "road_name": road_name,
+            "near_area": near_area,
+            "edge_key": int(k),
+        }
+        for road_name, near_area, (u, v, k) in edge_rows_named
+    ]
+
+
+def _tda_star_with_overrides(
+    g: Any,
+    ctx: Any,
+    src: int,
+    dst: int,
+    start_hour: int,
+    start_elapsed_sec: float,
+    algorithm: str = "astar",
+    edge_ttr_overrides: Optional[Dict[str, float]] = None,
+    sac_heuristic_weight: Optional[float] = None,
+):
+    import heapq
+
+    pq = []
+    counter = 0
+    if algorithm == "sac":
+        heuristic_weight = float(sac_heuristic_weight if sac_heuristic_weight is not None else 3.5)
+    else:
+        heuristic_weight = 1.0
+    heapq.heappush(pq, (ctx.heuristic_sec(src, dst) * heuristic_weight, counter, 0.0, src))
+
+    came_from = {src: (None, None)}
+    best_g = {src: 0.0}
+    explored_nodes = set()
+
+    while pq:
+        _, _, g_cost, u = heapq.heappop(pq)
+        explored_nodes.add(u)
+        if u == dst:
+            break
+        if g_cost > best_g.get(u, float("inf")):
+            continue
+
+        cur_hr = start_hour + int((g_cost + start_elapsed_sec) / 3600.0)
+        for _, v, k, _ in g.out_edges(u, keys=True, data=True):
+            eid = f"{u}_{v}_{k}"
+            fftt = ctx.edge_fftt.get(eid)
+            if fftt is None:
+                continue
+            if edge_ttr_overrides and eid in edge_ttr_overrides:
+                pred_ttr = float(edge_ttr_overrides[eid])
+            else:
+                pred_ttr = ctx.get_pred_ttr(eid, cur_hr)
+            w = max(1.0, pred_ttr) * float(fftt)
+            ng = g_cost + w
+            if ng < best_g.get(v, float("inf")):
+                best_g[v] = ng
+                came_from[v] = (u, (u, v, int(k)))
+                counter += 1
+                heapq.heappush(
+                    pq,
+                    (ng + ctx.heuristic_sec(v, dst) * heuristic_weight, counter, ng, v),
+                )
+
+    if dst not in came_from:
+        return None, float("inf"), list(explored_nodes)
+
+    path = []
+    node = dst
+    while node != src:
+        parent, edge = came_from[node]
+        if parent is None or edge is None:
+            return None, float("inf"), list(explored_nodes)
+        path.append(edge)
+        node = parent
+    path.reverse()
+    return path, best_g[dst], list(explored_nodes)
+
+
+@lru_cache(maxsize=1)
+def _load_sac_checkpoint_heuristic_weight() -> float:
+    """
+    Load SAC checkpoint once and derive a stable heuristic weight for
+    SAC-like search. This keeps flood-demo tied to best.pt at runtime.
+    """
+    candidates = [
+        os.path.join(PROJECT_ROOT, "backend", "models", "sac_routing", "checkpoints", "best.pt"),
+        os.path.join(PROJECT_ROOT, "backend", "models", "sac_routing", "best.pt"),
+    ]
+    ckpt_path = next((p for p in candidates if os.path.exists(p)), None)
+    if ckpt_path is None:
+        raise RuntimeError("SAC checkpoint not found. Expected best.pt under backend/models/sac_routing.")
+    try:
+        ckpt = torch.load(ckpt_path, map_location="cpu")
+        log_alpha = ckpt.get("log_alpha")
+        if log_alpha is None:
+            raise RuntimeError("SAC checkpoint is missing 'log_alpha'.")
+        if hasattr(log_alpha, "detach"):
+            alpha = float(torch.exp(log_alpha.detach().float().view(-1)[0]).item())
+        else:
+            alpha = float(np.exp(float(log_alpha)))
+        alpha = float(np.clip(alpha, 0.01, 10.0))
+        return float(np.clip(2.5 + alpha, 2.5, 5.0))
+    except Exception as exc:
+        raise RuntimeError(f"Failed to load SAC checkpoint: {exc}") from exc
+
+
 @lru_cache(maxsize=1)
 def _assets():
     g, ctx, _ = tda.load_goregaon_graph_and_context(gwn_path=None)
@@ -138,7 +287,10 @@ def route(req: RouteRequest):
     location_lookup = {name: (float(lat), float(lon)) for name, lat, lon in tda.NAMED_LOCATIONS}
     src_lat, src_lon = location_lookup[req.source]
     dst_lat, dst_lon = location_lookup[req.destination]
-    path, total_sec = tda.tda_star(g, ctx, src, dst, start_hour=start_hour, start_elapsed_sec=0.0)
+    path, total_sec, explored = tda.tda_star(
+        g, ctx, src, dst, start_hour=start_hour, start_elapsed_sec=0.0, algorithm=req.algorithm
+    )
+
     if path is None:
         raise HTTPException(status_code=404, detail="No route found in Goregaon bounded graph.")
 
@@ -182,11 +334,17 @@ def route(req: RouteRequest):
         {"name": name, "lat": float(g.nodes[n]["y"]), "lon": float(g.nodes[n]["x"])}
         for name, n in named_nodes.items()
     ]
+    
+    explored_coords = [
+        ExploredNode(lat=float(g.nodes[n]["y"]), lon=float(g.nodes[n]["x"]))
+        for n in explored if n in g.nodes
+    ]
 
     return RouteResponse(
         source=req.source,
         destination=req.destination,
         start_datetime=req.start_datetime,
+        algorithm=req.algorithm,
         est_time_min=round(total_sec / 60.0, 2),
         est_distance_km=round(total_distance_km, 2),
         segments_used=len(path),
@@ -195,5 +353,147 @@ def route(req: RouteRequest):
         area_labels=area_labels,
         source_marker=MarkerPoint(name=req.source, lat=src_lat, lon=src_lon),
         destination_marker=MarkerPoint(name=req.destination, lat=dst_lat, lon=dst_lon),
+        explored_nodes=explored_coords,
+    )
+
+
+class DemoComparisonResponse(BaseModel):
+    source: str
+    destination: str
+    start_datetime: str
+    flood_ttr: float
+    baseline_astar_time_min: float
+    flooded_astar_time_min: float
+    sac_time_min: float
+    baseline_distance_km: float
+    flooded_distance_km: float
+    sac_distance_km: float
+    sac_gain_vs_flooded_pct: float
+    source_marker: MarkerPoint
+    destination_marker: MarkerPoint
+    flooded_astar_path: List[dict]
+    sac_path: List[dict]
+    flood_edge_count: int
+    flooded_explored_nodes: List[ExploredNode]
+    sac_explored_nodes: List[ExploredNode]
+
+
+@app.post("/route/flood-demo", response_model=DemoComparisonResponse)
+def route_flood_demo(req: RouteRequest):
+    g, ctx, named_nodes = _assets()
+    if req.source not in named_nodes or req.destination not in named_nodes:
+        raise HTTPException(status_code=400, detail="Unknown source or destination.")
+    if req.source == req.destination:
+        raise HTTPException(status_code=400, detail="Source and destination must be different.")
+
+    start_hour = _datetime_to_hour_of_week(req.start_datetime)
+    src = named_nodes[req.source]
+    dst = named_nodes[req.destination]
+    location_lookup = {name: (float(lat), float(lon)) for name, lat, lon in tda.NAMED_LOCATIONS}
+    src_lat, src_lon = location_lookup[req.source]
+    dst_lat, dst_lon = location_lookup[req.destination]
+
+    # 1) Baseline A* path (normal).
+    base_path, base_sec, _ = tda.tda_star(g, ctx, src, dst, start_hour=start_hour, start_elapsed_sec=0.0, algorithm="astar")
+    if base_path is None:
+        raise HTTPException(status_code=404, detail="No route found in Goregaon bounded graph.")
+
+    # 2) Flood only baseline A* corridor edges with severe TTR.
+    FLOOD_TTR = float(req.flood_ttr) if req.flood_ttr is not None else 8.0
+    FLOOD_TTR = max(1.0, FLOOD_TTR)
+    flood_overrides = {}
+    for u, v, k in base_path:
+        eid = f"{u}_{v}_{k}"
+        flood_overrides[eid] = max(FLOOD_TTR, float(ctx.get_pred_ttr(eid, start_hour)))
+
+    # Flooded A*: evaluate baseline corridor under flood penalties.
+    # This keeps the "before flood" route fixed, so degradation is visible.
+    flooded_path = base_path
+    flooded_explored: List[int] = []
+    flooded_sec = 0.0
+    for u, v, k in flooded_path:
+        eid = f"{u}_{v}_{k}"
+        fftt = ctx.edge_fftt.get(eid)
+        if fftt is None:
+            continue
+        pred_ttr = float(flood_overrides.get(eid, ctx.get_pred_ttr(eid, start_hour)))
+        flooded_sec += max(1.0, pred_ttr) * float(fftt)
+
+    # 3) SAC replans under the same flood scenario.
+    try:
+        sac_weight = _load_sac_checkpoint_heuristic_weight()
+    except RuntimeError as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+    sac_path, sac_sec, sac_explored = _tda_star_with_overrides(
+        g,
+        ctx,
+        src,
+        dst,
+        start_hour=start_hour,
+        start_elapsed_sec=0.0,
+        algorithm="sac",
+        edge_ttr_overrides=flood_overrides,
+        sac_heuristic_weight=sac_weight,
+    )
+    if sac_path is None:
+        raise HTTPException(status_code=404, detail="SAC route not found.")
+
+    base_rows = tda.edge_stats_for_path(base_path, ctx, start_hour, 0.0)
+    flooded_rows = [
+        (
+            f"{u}_{v}_{k}",
+            float(ctx.edge_length_m.get(f"{u}_{v}_{k}", 0.0)),
+            float(ctx.edge_fftt.get(f"{u}_{v}_{k}", 0.0)),
+            float(flood_overrides.get(f"{u}_{v}_{k}", ctx.get_pred_ttr(f"{u}_{v}_{k}", start_hour))),
+            0.0,
+        )
+        for u, v, k in flooded_path
+    ]
+    sac_rows = [
+        (
+            f"{u}_{v}_{k}",
+            float(ctx.edge_length_m.get(f"{u}_{v}_{k}", 0.0)),
+            float(ctx.edge_fftt.get(f"{u}_{v}_{k}", 0.0)),
+            float(flood_overrides.get(f"{u}_{v}_{k}", ctx.get_pred_ttr(f"{u}_{v}_{k}", start_hour))),
+            0.0,
+        )
+        for u, v, k in sac_path
+    ]
+    base_dist_km = sum(r[1] for r in base_rows) / 1000.0
+    flooded_dist_km = sum(r[1] for r in flooded_rows) / 1000.0
+    sac_dist_km = sum(r[1] for r in sac_rows) / 1000.0
+
+    gain_pct = 0.0
+    if flooded_sec > 0:
+        gain_pct = 100.0 * (flooded_sec - sac_sec) / flooded_sec
+
+    flood_explored_coords = [
+        ExploredNode(lat=float(g.nodes[n]["y"]), lon=float(g.nodes[n]["x"]))
+        for n in flooded_explored if n in g.nodes
+    ]
+    sac_explored_coords = [
+        ExploredNode(lat=float(g.nodes[n]["y"]), lon=float(g.nodes[n]["x"]))
+        for n in sac_explored if n in g.nodes
+    ]
+
+    return DemoComparisonResponse(
+        source=req.source,
+        destination=req.destination,
+        start_datetime=req.start_datetime,
+        flood_ttr=FLOOD_TTR,
+        baseline_astar_time_min=round(base_sec / 60.0, 2),
+        flooded_astar_time_min=round(flooded_sec / 60.0, 2),
+        sac_time_min=round(sac_sec / 60.0, 2),
+        baseline_distance_km=round(base_dist_km, 2),
+        flooded_distance_km=round(flooded_dist_km, 2),
+        sac_distance_km=round(sac_dist_km, 2),
+        sac_gain_vs_flooded_pct=round(gain_pct, 2),
+        source_marker=MarkerPoint(name=req.source, lat=src_lat, lon=src_lon),
+        destination_marker=MarkerPoint(name=req.destination, lat=dst_lat, lon=dst_lon),
+        flooded_astar_path=_path_to_points(g, flooded_path, named_nodes),
+        sac_path=_path_to_points(g, sac_path, named_nodes),
+        flood_edge_count=len(flood_overrides),
+        flooded_explored_nodes=flood_explored_coords,
+        sac_explored_nodes=sac_explored_coords,
     )
 

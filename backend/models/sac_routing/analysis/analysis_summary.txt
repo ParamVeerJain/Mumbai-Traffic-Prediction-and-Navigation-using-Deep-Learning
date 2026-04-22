@@ -1,0 +1,6 @@
+Total rows: 261
+Epochs: 1 | Agents: 9
+Overall mean times (min): A* orig=5.59, A* flood=11.32, SAC=12.82
+Overall improvement vs flooded A* (mean): -16.40%
+Best epoch by improvement vs flooded A*: epoch 1 (-16.40%)
+Distance note: this CSV has no explicit distance columns for A*/flooded A*/SAC paths; mean_total_steps is provided as path-length proxy.
