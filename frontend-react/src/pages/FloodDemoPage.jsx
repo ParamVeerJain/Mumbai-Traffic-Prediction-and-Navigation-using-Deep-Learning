@@ -1,12 +1,17 @@
 import { useEffect, useMemo, useState } from "react";
 import axios from "axios";
-import { CircleMarker, MapContainer, Polyline, TileLayer, useMap } from "react-leaflet";
+import { CircleMarker, MapContainer, Polyline, TileLayer, Tooltip, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import CustomSelect from "../components/CustomSelect";
 import { Activity, MapPinned, Waves, BrainCircuit, Zap, Compass, Map as MapIcon } from "lucide-react";
 import { motion } from "framer-motion";
 
 const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
+
+function getLocalDatetimeValue(date = new Date()) {
+  const local = new Date(date.getTime() - date.getTimezoneOffset() * 60000);
+  return local.toISOString().slice(0, 16);
+}
 
 function FitMapToRoute({ bounds }) {
   const map = useMap();
@@ -64,7 +69,7 @@ function FloodDemoMap({
               key={`flood-explored-${i}`}
               center={[n.lat, n.lon]}
               radius={2}
-              pathOptions={{ color: "#ef4444", fillColor: "#ef4444", fillOpacity: 0.15, weight: 0 }}
+              pathOptions={{ color: "#7f1d1d", fillColor: "#7f1d1d", fillOpacity: 0.18, weight: 0 }}
             />
           ))}
 
@@ -73,19 +78,31 @@ function FloodDemoMap({
               key={`sac-explored-${i}`}
               center={[n.lat, n.lon]}
               radius={2}
-              pathOptions={{ color: "#22c55e", fillColor: "#22c55e", fillOpacity: 0.5, weight: 0 }}
+              pathOptions={{ color: "#1e3a8a", fillColor: "#1e3a8a", fillOpacity: 0.5, weight: 0 }}
             />
           ))}
 
           {floodedLines.map((positions, i) => (
-            <Polyline key={`flood-${i}`} positions={positions} pathOptions={{ color: "#ef4444", weight: 6, opacity: 0.9, dashArray: "8,8" }} />
+            <Polyline key={`flood-${i}`} positions={positions} pathOptions={{ color: "#7f1d1d", weight: 6, opacity: 0.9, dashArray: "8,8" }} />
           ))}
           {sacLines.map((positions, i) => (
-            <Polyline key={`sac-${i}`} positions={positions} pathOptions={{ color: "#22c55e", weight: 6, opacity: 0.95 }} />
+            <Polyline key={`sac-${i}`} positions={positions} pathOptions={{ color: "#1e3a8a", weight: 6, opacity: 0.95 }} />
           ))}
           
-          {sourcePoint && <CircleMarker center={sourcePoint} radius={7} pathOptions={{ color: "#f59e0b", fillColor: "#f59e0b", fillOpacity: 1, weight: 2 }} />}
-          {destinationPoint && <CircleMarker center={destinationPoint} radius={7} pathOptions={{ color: "#eab308", fillColor: "#eab308", fillOpacity: 1, weight: 2 }} />}
+          {sourcePoint ? (
+            <CircleMarker center={sourcePoint} radius={7} pathOptions={{ color: "#f59e0b", fillColor: "#f59e0b", fillOpacity: 1, weight: 2 }}>
+              <Tooltip permanent direction="top" offset={[0, -8]} className="poiTooltip">
+                {sourceMarker?.name || "Source"}
+              </Tooltip>
+            </CircleMarker>
+          ) : null}
+          {destinationPoint ? (
+            <CircleMarker center={destinationPoint} radius={7} pathOptions={{ color: "#eab308", fillColor: "#eab308", fillOpacity: 1, weight: 2 }}>
+              <Tooltip permanent direction="top" offset={[0, -8]} className="poiTooltip">
+                {destinationMarker?.name || "Destination"}
+              </Tooltip>
+            </CircleMarker>
+          ) : null}
         </MapContainer>
       ) : (
         <div className="mapEmpty">
@@ -101,7 +118,6 @@ export default function FloodDemoPage() {
   const [locations, setLocations] = useState([]);
   const [source, setSource] = useState("");
   const [destination, setDestination] = useState("");
-  const [startDatetime, setStartDatetime] = useState("2024-07-01T08:00");
   const [floodFactor, setFloodFactor] = useState(1.5);
   const [demoResult, setDemoResult] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -122,6 +138,7 @@ export default function FloodDemoPage() {
     setLoading(true);
     setError("");
     try {
+      const startDatetime = getLocalDatetimeValue();
       const res = await axios.post(`${API_BASE}/route/flood-demo`, {
         source,
         destination,
@@ -171,11 +188,6 @@ export default function FloodDemoPage() {
              <CustomSelect value={destination} onChange={setDestination} options={locationOptions} placeholder="Select destination" icon={MapIcon} />
           </div>
 
-          <div className="input-group">
-             <label>Start Date & Time</label>
-             <input type="datetime-local" value={startDatetime} onChange={(e) => setStartDatetime(e.target.value)} />
-          </div>
-
           <div className="input-group" style={{ marginTop: '30px' }}>
              <label style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}><Waves size={16} className="text-accent" /> Flood Severity Factor</span>
@@ -213,21 +225,21 @@ export default function FloodDemoPage() {
           {demoResult ? (
             <>
               <div className="demo-kpis" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px', marginBottom: '20px', marginTop: 0 }}>
-                <div className="kpi" style={{ borderLeft: '4px solid #ef4444', alignItems: 'flex-start' }}>
+                <div className="kpi" style={{ borderLeft: '4px solid #7f1d1d', alignItems: 'flex-start' }}>
                   <div style={{ width: '100%' }}>
                     <span>Flooded A*</span>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginTop: '4px' }}>
                       <strong style={{ fontSize: '1.5rem' }}>{demoResult.flooded_astar_time_min} min</strong>
-                      <strong style={{ fontSize: '1.1rem', color: '#ef4444' }}>{demoResult.flooded_distance_km} km</strong>
+                      <strong style={{ fontSize: '1.1rem', color: '#7f1d1d' }}>{demoResult.flooded_distance_km} km</strong>
                     </div>
                   </div>
                 </div>
-                <div className="kpi" style={{ borderLeft: '4px solid #22c55e', alignItems: 'flex-start' }}>
+                <div className="kpi" style={{ borderLeft: '4px solid #1e3a8a', alignItems: 'flex-start' }}>
                   <div style={{ width: '100%' }}>
                     <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}><BrainCircuit size={12} /> SAC Agent</span>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginTop: '4px' }}>
                       <strong style={{ fontSize: '1.5rem' }}>{demoResult.sac_time_min} min</strong>
-                      <strong style={{ fontSize: '1.1rem', color: '#22c55e' }}>{demoResult.sac_distance_km} km</strong>
+                      <strong style={{ fontSize: '1.1rem', color: '#1e3a8a' }}>{demoResult.sac_distance_km} km</strong>
                     </div>
                   </div>
                 </div>
@@ -241,8 +253,8 @@ export default function FloodDemoPage() {
 
               <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', marginBottom: '12px', padding: '0 8px' }}>
                 <div className="demo-distances" style={{ margin: 0, display: 'flex', gap: '16px' }}>
-                  <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}><span style={{ width: '12px', height: '3px', background: '#ef4444', display: 'inline-block' }}></span> Flooded Route</span>
-                  <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}><span style={{ width: '12px', height: '3px', background: '#22c55e', display: 'inline-block' }}></span> SAC Route</span>
+                  <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}><span style={{ width: '12px', height: '3px', background: '#7f1d1d', display: 'inline-block' }}></span> Flooded Route</span>
+                  <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}><span style={{ width: '12px', height: '3px', background: '#1e3a8a', display: 'inline-block' }}></span> SAC Route</span>
                 </div>
               </div>
 

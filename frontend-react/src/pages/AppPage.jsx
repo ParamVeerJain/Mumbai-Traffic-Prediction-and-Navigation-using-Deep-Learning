@@ -15,6 +15,11 @@ import { motion } from "framer-motion";
 
 const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 
+function getLocalDatetimeValue(date = new Date()) {
+  const local = new Date(date.getTime() - date.getTimezoneOffset() * 60000);
+  return local.toISOString().slice(0, 16);
+}
+
 function FitMapToRoute({ bounds }) {
   const map = useMap();
 
@@ -120,7 +125,7 @@ export default function AppPage() {
   const [locations, setLocations] = useState([]);
   const [source, setSource] = useState("");
   const [destination, setDestination] = useState("");
-  const [startDatetime, setStartDatetime] = useState("2024-07-01T08:00");
+  const [startDatetime, setStartDatetime] = useState(() => getLocalDatetimeValue());
   const [algorithm, setAlgorithm] = useState("astar");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -142,6 +147,11 @@ export default function AppPage() {
     setLoading(true);
     setError("");
     try {
+      const selected = new Date(startDatetime);
+      if (Number.isNaN(selected.getTime())) {
+        throw new Error("Please select a valid date and time.");
+      }
+
       const res = await axios.post(`${API_BASE}/route`, {
         source,
         destination,
@@ -209,6 +219,7 @@ export default function AppPage() {
           <div className="input-group">
              <label>Start Date & Time</label>
              <input type="datetime-local" value={startDatetime} onChange={(e) => setStartDatetime(e.target.value)} />
+             <small className="muted">Horizon is auto-detected; out-of-range times use MLP-pattern fallback.</small>
           </div>
 
 

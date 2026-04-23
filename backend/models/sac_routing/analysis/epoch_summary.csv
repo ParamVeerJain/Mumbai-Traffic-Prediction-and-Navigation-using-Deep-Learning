@@ -1,0 +1,2 @@
+epoch,mean_astar_nom_min,mean_astar_flood_min,mean_sac_time_min,mean_imp_vs_flood_min,mean_imp_vs_flood_pct,policy_reach_rate,fallback_rate,mean_total_steps,mean_reward
+1,5.590523000354108,11.321438280300988,12.823364442541468,-1.5019261622404783,-16.401025436820262,0.578544061302682,0.421455938697318,41.02681992337165,236.5601810114257

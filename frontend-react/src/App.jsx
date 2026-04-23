@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Landing from "./pages/Landing";
 import AppPage from "./pages/AppPage";
 import FloodDemoPage from "./pages/FloodDemoPage";
+import SimulationPage from "./pages/SimulationPage";
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -15,6 +16,7 @@ function AnimatedRoutes() {
         <Route path="/" element={<Landing />} />
         <Route path="/app" element={<AppPage />} />
         <Route path="/flood-demo" element={<FloodDemoPage />} />
+        <Route path="/simulation" element={<SimulationPage />} />
       </Routes>
     </AnimatePresence>
   );

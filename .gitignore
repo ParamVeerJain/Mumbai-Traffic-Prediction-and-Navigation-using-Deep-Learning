@@ -181,7 +181,7 @@ Thumbs.db
 # Large datasets
 # data/
 datasets/
-*.csv
+# *.csv
 # *.parquet
 *.h5
 

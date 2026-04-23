@@ -118,8 +118,8 @@ export default function Landing() {
             <div className="stat-divider"></div>
             <div className="stat">
                <div className="stat-icon-wrap"><ShieldCheck size={28} className="text-accent" /></div>
-               <h4>98% Accuracy</h4>
-               <p>In traffic delay predictions</p>
+               <h4>Model-Driven Insights</h4>
+               <p>Adaptive traffic delay predictions</p>
             </div>
          </motion.div>
       </section>
