@@ -578,7 +578,7 @@ def route(req: RouteRequest):
         )
 
     if path is None:
-        raise HTTPException(status_code=404, detail="No route found in Goregaon bounded graph.")
+        raise HTTPException(status_code=404, detail="No route found in Mumbai bounded graph.")
 
     if edge_ttr_overrides:
         edge_rows = _edge_stats_for_path_with_overrides(path, ctx, start_hour, 0.0, edge_ttr_overrides)
@@ -725,7 +725,7 @@ def route_flood_demo(req: RouteRequest):
     # 1) Baseline A* path (normal).
     base_path, base_sec, _ = tda.tda_star(g, ctx, src, dst, start_hour=start_hour, start_elapsed_sec=0.0, algorithm="astar")
     if base_path is None:
-        raise HTTPException(status_code=404, detail="No route found in Goregaon bounded graph.")
+        raise HTTPException(status_code=404, detail="No route found in Mumbai bounded graph.")
 
     # 2) Flood only baseline A* corridor edges with severe TTR.
     FLOOD_TTR = float(req.flood_ttr) if req.flood_ttr is not None else 8.0
@@ -873,7 +873,7 @@ def route_sac_simulation(req: RouteRequest):
     # Baseline A*: get a corridor to flood.
     base_path, _, _ = tda.tda_star(g, ctx, src, dst, start_hour=start_hour, start_elapsed_sec=0.0, algorithm="astar")
     if base_path is None:
-        raise HTTPException(status_code=404, detail="No route found in Goregaon bounded graph.")
+        raise HTTPException(status_code=404, detail="No route found in Mumbai bounded graph.")
 
     # Flood that corridor
     FLOOD_TTR = float(req.flood_ttr) if req.flood_ttr is not None else 8.0

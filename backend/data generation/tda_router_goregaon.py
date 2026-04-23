@@ -21,10 +21,45 @@ STATIC_PATH = os.path.join(DATA_ROOT, "static", "edges_static.parquet")
 TS_GLOB = os.path.join(DATA_ROOT, "timeseries", "batch_*.parquet")
 RAW_WEEK_START = pd.Timestamp("2024-07-01 00:00:00")
 
-LAT_MIN, LAT_MAX = 19.1400, 19.1800
-LON_MIN, LON_MAX = 72.8300, 72.8900
+#
+# Bounding box used to extract a subgraph from `mumbai.graphml`.
+# Expanded from the original Goregaon-only window to cover as much of Mumbai
+# as is actually present inside `data/graph/mumbai.graphml`.
+#
+# Note: if your static/timeseries data was generated for a smaller window,
+# re-generate it after changing these bounds.
+# These are set to the observed graph bounds (approx).
+LAT_MIN, LAT_MAX = 18.9460, 19.4540
+LON_MIN, LON_MAX = 72.7480, 73.1072
 
 NAMED_LOCATIONS = [
+    # Note: South Mumbai (e.g., Colaba/Churchgate/CSMT) is outside the current
+    # graph coverage (graph lat_min ~18.946). Keep only locations that are
+    # inside the graph so routes snap correctly.
+    ("Byculla", 18.9766, 72.8328),
+    ("Mazgaon", 18.9678, 72.8424),
+    ("Wadala", 19.0150, 72.8570),
+
+    # Central Mumbai
+    ("Dadar", 19.0176, 72.8562),
+    ("Matunga", 19.0272, 72.8553),
+    ("Sion", 19.0454, 72.8616),
+    ("Kurla", 19.0728, 72.8826),
+    ("Chembur", 19.0626, 72.9009),
+    ("Ghatkopar", 19.0863, 72.9081),
+    ("Powai", 19.1187, 72.9050),
+    ("Vikhroli", 19.1107, 72.9350),
+    ("BKC (Bandra Kurla Complex)", 19.0677, 72.8691),
+
+    # Western Suburbs
+    ("Bandra", 19.0607, 72.8362),
+    ("Khar", 19.0726, 72.8337),
+    ("Santacruz", 19.0825, 72.8417),
+    ("Vile Parle", 19.1000, 72.8440),
+    ("Andheri", 19.1136, 72.8697),
+    ("DN Nagar", 19.1240, 72.8320),
+    ("Versova", 19.1356, 72.8147),
+    ("Jogeshwari", 19.1357, 72.8485),
     ("Goregaon East", 19.1550, 72.8690),
     ("Goregaon West", 19.1650, 72.8470),
     ("Aarey Colony", 19.1480, 72.8800),
@@ -35,17 +70,29 @@ NAMED_LOCATIONS = [
     ("Nesco IT Park", 19.1702, 72.8553),
     ("Nirlon Knowledge Park", 19.1678, 72.8572),
     ("Royal Palms Estate", 19.1425, 72.8830),
-    ("Bangur Nagar", 19.1685, 72.8320),
-    ("Jawahar Nagar", 19.1625, 72.8430),
-    ("Unnat Nagar", 19.1720, 72.8385),
-    ("Motilal Nagar", 19.1705, 72.8410),
-    ("Pandurang Wadi", 19.1590, 72.8625),
-    ("Dindoshi", 19.1760, 72.8650),
-    ("St Xavier's High School Goregaon", 19.1715, 72.8420),
-    ("Vibgyor High School Goregaon", 19.1752, 72.8583),
-    ("SRV Hospital Goregaon", 19.1680, 72.8465),
-    ("Lifeline Medicare Hospital", 19.1605, 72.8480),
-    ("St John's High School Goregaon", 19.1673, 72.8456),
+    ("Malad", 19.1860, 72.8485),
+    ("Kandivali", 19.2047, 72.8536),
+    ("Borivali", 19.2290, 72.8570),
+    ("Dahisar", 19.2514, 72.8596),
+
+    # Eastern / Harbour side
+    ("Mulund", 19.1726, 72.9563),
+    ("Bhandup", 19.1448, 72.9372),
+    ("Kanjurmarg", 19.1294, 72.9336),
+
+    # Airports / major POIs
+    ("Chhatrapati Shivaji Maharaj International Airport (T1)", 19.0974, 72.8533),
+    ("Juhu Beach", 19.0976, 72.8263),
+    ("Worli", 19.0090, 72.8150),
+    ("Lower Parel", 18.9940, 72.8290),
+    ("Parel", 19.0037, 72.8376),
+    ("Haji Ali", 18.9826, 72.8084),
+    ("Siddhivinayak Temple", 19.0170, 72.8302),
+
+    # Navi Mumbai (within the expanded bbox for completeness)
+    ("Vashi", 19.0771, 72.9986),
+    ("Nerul", 19.0352, 73.0196),
+    ("Belapur CBD", 19.0236, 73.0400),
 ]
 
 DEMO_ROUTES = [

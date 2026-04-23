@@ -1,10 +1,20 @@
-import { useState, useRef, useEffect } from "react";
+import { useMemo, useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, Check } from "lucide-react";
 
-export default function CustomSelect({ value, onChange, options, placeholder, icon: Icon }) {
+export default function CustomSelect({
+  value,
+  onChange,
+  options,
+  placeholder,
+  icon: Icon,
+  searchable = true,
+  searchPlaceholder = "Search...",
+}) {
   const [isOpen, setIsOpen] = useState(false);
+  const [query, setQuery] = useState("");
   const containerRef = useRef(null);
+  const searchRef = useRef(null);
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -17,7 +27,22 @@ export default function CustomSelect({ value, onChange, options, placeholder, ic
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  useEffect(() => {
+    if (!isOpen) return;
+    setQuery("");
+    if (searchable) {
+      setTimeout(() => searchRef.current?.focus?.(), 0);
+    }
+  }, [isOpen, searchable]);
+
   const selectedOption = options.find(opt => opt.value === value);
+
+  const filteredOptions = useMemo(() => {
+    if (!searchable) return options;
+    const q = query.trim().toLowerCase();
+    if (!q) return options;
+    return options.filter((opt) => String(opt?.label ?? opt?.value ?? "").toLowerCase().includes(q));
+  }, [options, query, searchable]);
 
   return (
     <div className="custom-select-container" ref={containerRef}>
@@ -47,8 +72,25 @@ export default function CustomSelect({ value, onChange, options, placeholder, ic
             exit={{ opacity: 0, y: -10, scale: 0.95 }}
             transition={{ duration: 0.15, ease: "easeOut" }}
           >
+            {searchable ? (
+              <div className="custom-select-search">
+                <input
+                  ref={searchRef}
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  placeholder={searchPlaceholder}
+                  aria-label={searchPlaceholder}
+                  onKeyDown={(e) => {
+                    if (e.key === "Escape") setIsOpen(false);
+                  }}
+                />
+              </div>
+            ) : null}
             <ul className="custom-select-list">
-              {options.map((option) => (
+              {!filteredOptions.length ? (
+                <li className="custom-select-empty">No matches</li>
+              ) : (
+                filteredOptions.map((option) => (
                 <motion.li
                   key={option.value}
                   className={`custom-select-item ${value === option.value ? 'selected' : ''}`}
@@ -61,7 +103,8 @@ export default function CustomSelect({ value, onChange, options, placeholder, ic
                   <span className="item-label">{option.label}</span>
                   {value === option.value && <Check size={16} className="text-accent" />}
                 </motion.li>
-              ))}
+                ))
+              )}
             </ul>
           </motion.div>
         )}

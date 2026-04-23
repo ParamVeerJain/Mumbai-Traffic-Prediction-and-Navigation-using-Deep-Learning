@@ -14,6 +14,8 @@ import { Gauge, MapPinned, Navigation, Route, Timer, Activity, Map as MapIcon, C
 import { motion } from "framer-motion";
 
 const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
+const DEFAULT_SOURCE = "Goregaon Railway Station";
+const DEFAULT_DESTINATION = "Film City";
 
 function getLocalDatetimeValue(date = new Date()) {
   const local = new Date(date.getTime() - date.getTimezoneOffset() * 60000);
@@ -137,8 +139,10 @@ export default function AppPage() {
       .then((res) => {
         const locs = res.data.locations || [];
         setLocations(locs);
-        setSource(locs[6] || locs[0] || "");
-        setDestination(locs[3] || locs[1] || "");
+        setSource(locs.includes(DEFAULT_SOURCE) ? DEFAULT_SOURCE : locs[0] || "");
+        setDestination(
+          locs.includes(DEFAULT_DESTINATION) ? DEFAULT_DESTINATION : locs[1] || locs[0] || ""
+        );
       })
       .catch(() => setError("Could not load locations. Is API running on port 8000?"));
   }, []);
