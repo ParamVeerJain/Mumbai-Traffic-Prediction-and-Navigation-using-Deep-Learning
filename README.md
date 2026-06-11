@@ -11,7 +11,7 @@ cd backend
 Start the FastAPI server:
 
 ```bash
-uvicorn uvicorn smart_navigation_api:app --reload
+uvicorn uvicorn smart_navigation_api:app --port 8000 --reload
 ```
 
 Backend URL:
